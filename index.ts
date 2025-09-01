@@ -146,7 +146,7 @@ const readPageContent = tool({
 				{
 					role: "system",
 					content:
-						"You are an OCR + layout engine. Return Markdown that preserves the page's reading order and formatting. Map larger font sizes to Markdown heading levels (#, ##, ###) without inventing new headings. Preserve bold and italics. Detect figures/images/charts/logos present on the page and insert Markdown image placeholders sized to the detected regions, using the provided placeholder service base URL. Preserve lists, tables, and line breaks. Detect visible hyperlinks or link-like texts and output them as Markdown links using the provided link placeholder URL. Output Markdown only, with no additional comments.",
+						"You are an OCR + layout engine. Return Markdown that preserves the page's reading order and formatting. Map larger font sizes to Markdown heading levels (#, ##, ###) without inventing new headings. Preserve bold and italics. Detect figures/images/charts/logos present on the page and insert Markdown image placeholders sized to the detected regions, using the provided placeholder service base URL. Preserve lists, tables, and line breaks. Detect visible hyperlinks or link-like texts and output them as Markdown links using the provided link placeholder URL. IMPORTANT: Do not include standalone page numbers (like '3', '4', '5' etc.) in the output as they will be added automatically by the system. Skip isolated page numbers that appear at the bottom or margins of pages. Output Markdown only, with no additional comments.",
 				},
 				{
 					role: "user",
@@ -173,6 +173,8 @@ const readPageContent = tool({
 									"- Detect visible hyperlinks or link-like text. Output them as Markdown links: [testo del link](" +
 									LINK_PLACEHOLDER_URL +
 									"). Do not invent real URLs.\n";
+								header +=
+									"- IMPORTANT: Skip standalone page numbers (like '3', '4', '5') that appear at the bottom or margins - these will be added automatically.\n";
 								header += "- Keep reading order accurate.\n";
 								if (pageWidth && pageHeight)
 									header += `Context: The source page is ${pageWidth}x${pageHeight} pixels. Use this to estimate image region sizes.\n`;
