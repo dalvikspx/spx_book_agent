@@ -23,10 +23,28 @@ const sharp_1 = __importDefault(require("sharp"));
 const markdown_it_1 = __importDefault(require("markdown-it"));
 const puppeteer_1 = __importDefault(require("puppeteer"));
 dotenv_1.default.config();
+// Configuration constants
 const book_pages_directory = "./book_pages";
 const final_markdown_file = "./final_book.md";
 const PLACEHOLDER_BASE_URL = "https://placehold.co";
 const LINK_PLACEHOLDER_URL = "https://example.com/placeholder";
+// Language configuration - can be customized via environment variables
+// Set TARGET_LANGUAGE to the full language name (e.g., "Italian", "Spanish", "French")
+// Set TARGET_LANGUAGE_CODE to the ISO language code (e.g., "it", "es", "fr")
+const TARGET_LANGUAGE = process.env.TARGET_LANGUAGE || "Italian";
+const TARGET_LANGUAGE_CODE = process.env.TARGET_LANGUAGE_CODE || "it";
+// Helper function to get language-specific translation examples
+function getTranslationExample(language) {
+    const examples = {
+        Italian: '"working hard" should be translated as "lavorare duro" not "lavorare caldo"',
+        Spanish: '"working hard" should be translated as "trabajar duro" not "trabajar caliente"',
+        French: '"working hard" should be translated as "travailler dur" not "travailler chaud"',
+        German: '"working hard" should be translated as "hart arbeiten" not "heiß arbeiten"',
+        Portuguese: '"working hard" should be translated as "trabalhar duro" not "trabalhar quente"',
+    };
+    return (examples[language] ||
+        '"working hard" should be translated idiomatically, not literally');
+}
 const openai = new openai_1.default();
 function toThreeDigitString(inputNumber) {
     const absoluteNumber = Math.max(0, Math.floor(inputNumber));
@@ -312,7 +330,7 @@ const insertRealImages = (0, agents_1.tool)({
 });
 const translatePageContent = (0, agents_1.tool)({
     name: "translate_page_content",
-    description: "Translate the content of a given page from English to Italian while preserving Markdown and keeping image/link placeholders intact.",
+    description: `Translate the content of a given page from English to ${TARGET_LANGUAGE} while preserving Markdown and keeping image/link placeholders intact.`,
     parameters: zod_1.z.object({
         page_content: zod_1.z.object({
             page_number: zod_1.z.number(),
@@ -331,11 +349,11 @@ const translatePageContent = (0, agents_1.tool)({
                 messages: [
                     {
                         role: "system",
-                        content: "You are a professional translator. Input is Markdown/HTML that may include image placeholders (e.g., ![alt](https://placehold.co/WxH)) or real <img> tags and placeholder links. Translate from English to Italian while preserving: heading levels, bold/italics, lists, tables, code blocks, line breaks, and any <img> tags' attributes (src, width, height, alt except alt text translated). Do not modify placeholder or real image URLs, or WxH dimensions. Translate link text and image alt text, but keep the URLs unchanged. Do not add notes or explanations.",
+                        content: `You are an expert ${TARGET_LANGUAGE} translator who produces natural, idiomatic ${TARGET_LANGUAGE} text that sounds like it was written by a native speaker. Input is Markdown/HTML that may include image placeholders (e.g., ![alt](https://placehold.co/WxH)) or real <img> tags and placeholder links. Translate from English to ${TARGET_LANGUAGE} with these guidelines: 1) Use natural ${TARGET_LANGUAGE} expressions and idioms rather than literal translations (e.g., ${getTranslationExample(TARGET_LANGUAGE)}). 2) Maintain the tone and style appropriate for ${TARGET_LANGUAGE} readers. 3) Preserve all formatting: heading levels, bold/italics, lists, tables, code blocks, line breaks, and <img> tag attributes (src, width, height). 4) Translate alt text and link text naturally, but keep all URLs unchanged. 5) Do not modify placeholder URLs or WxH dimensions. 6) Output only the translated content without notes or explanations.`,
                     },
                     {
                         role: "user",
-                        content: `Translate the following Markdown to Italian, preserving structure and placeholders.\n\n---\n${content}`,
+                        content: `Translate the following Markdown to ${TARGET_LANGUAGE}, preserving structure and placeholders.\n\n---\n${content}`,
                     },
                 ],
             });
@@ -410,7 +428,7 @@ const getNextPageToTranslate = (0, agents_1.tool)({
 });
 const agent = new agents_1.Agent({
     name: "Book translator",
-    instructions: `You are a helpful book translator. 
+    instructions: `You are a professional book translator specializing in natural, idiomatic ${TARGET_LANGUAGE} translations. 
 		
 		For each page image, first produce rich Markdown that preserves layout and formatting: map larger font sizes to appropriate Markdown headings, keep **bold** and *italics*, lists, tables, and line breaks. 
 		
@@ -420,7 +438,7 @@ const agent = new agents_1.Agent({
 		
 		Next, replace the image placeholders with the actual cropped images by using the tool that inserts real images, preserving width/height. 
 		
-		Finally, translate the Markdown to Italian while keeping all Markdown structure and placeholder URLs/dimensions intact. Save the translated Markdown to the final book file.`,
+		Finally, translate the Markdown to ${TARGET_LANGUAGE} using natural, fluent ${TARGET_LANGUAGE} that sounds like it was written by a native ${TARGET_LANGUAGE} speaker. Avoid literal translations - instead use idiomatic expressions and natural ${TARGET_LANGUAGE} phrasing. For example, ${getTranslationExample(TARGET_LANGUAGE)}. Keep all Markdown structure and placeholder URLs/dimensions intact. Save the translated Markdown to the final book file.`,
     model: "gpt-5-2025-08-07",
     tools: [
         readPageContent,
@@ -431,20 +449,19 @@ const agent = new agents_1.Agent({
     ],
 });
 const main = () => __awaiter(void 0, void 0, void 0, function* () {
-    const result = yield (0, agents_1.run)(agent, "Translate the pages from 11 to 50 of the book to italian.", { maxTurns: 1000 });
+    const result = yield (0, agents_1.run)(agent, `Translate the first 10 pages of the book to ${TARGET_LANGUAGE}.`, { maxTurns: 1000 });
     console.log(result.finalOutput);
     // After generating the Markdown, convert it to a fixed-height paginated PDF
-    try {
-        yield convertMarkdownToPdf({
-            markdownPath: path_1.default.resolve(final_markdown_file),
-            outputPdfPath: path_1.default.resolve("./final_book.pdf"),
-            firstImagePath: path_1.default.resolve(book_pages_directory, "-001.png"),
-        });
-        console.log("PDF generated at:", path_1.default.resolve("./final_book.pdf"));
-    }
-    catch (err) {
-        console.error("Failed to generate PDF:", err);
-    }
+    // try {
+    // 	await convertMarkdownToPdf({
+    // 		markdownPath: path.resolve(final_markdown_file),
+    // 		outputPdfPath: path.resolve("./final_book.pdf"),
+    // 		firstImagePath: path.resolve(book_pages_directory, "-001.png"),
+    // 	});
+    // 	console.log("PDF generated at:", path.resolve("./final_book.pdf"));
+    // } catch (err) {
+    // 	console.error("Failed to generate PDF:", err);
+    // }
 });
 main();
 // Convert the combined Markdown file into a PDF with consistent page height.
@@ -510,7 +527,7 @@ function convertMarkdownToPdf(args) {
             return yield inlineLocalImagesAsDataUris(rendered, baseDir);
         })));
         const html = `<!DOCTYPE html>
-	<html lang="it">
+	<html lang="${TARGET_LANGUAGE_CODE}">
 	<head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
