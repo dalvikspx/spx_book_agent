@@ -526,7 +526,7 @@ const agent = new Agent({
 const main = async () => {
 	const result = await run(
 		agent,
-		`Translate the first 10 pages of the book to ${TARGET_LANGUAGE}.`,
+		`Translate the first 50 pages of the book to ${TARGET_LANGUAGE}.`,
 		{ maxTurns: 1000 }
 	);
 	console.log(result.finalOutput);
