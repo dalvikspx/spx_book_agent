@@ -77,11 +77,24 @@ extracted_images/
 
 ## Contributing
 
-Native speakers of various languages are welcome to contribute by:
+Contributions from developers and native speakers are very welcome!
+
+**For Developers:**
+
+- Code improvements and optimizations
+- Bug fixes and error handling enhancements
+- New features for better translation accuracy
+- Better image extraction algorithms
+- UI/UX improvements
+- Documentation improvements
+
+**For Native Speakers:**
 
 - Reviewing translation quality
 - Suggesting improvements for context-dependent translations
 - Providing feedback on cultural adaptation of content
+
+Feel free to open issues, submit pull requests, or reach out with suggestions!
 
 ---
 
