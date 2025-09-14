@@ -20,8 +20,7 @@ const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
 const image_size_1 = __importDefault(require("image-size"));
 const sharp_1 = __importDefault(require("sharp"));
-const markdown_it_1 = __importDefault(require("markdown-it"));
-const puppeteer_1 = __importDefault(require("puppeteer"));
+// import { convertMarkdownToPdf } from "./utils/pdf";
 dotenv_1.default.config();
 // Configuration constants
 const book_pages_directory = "./book_pages";
@@ -50,45 +49,6 @@ function toThreeDigitString(inputNumber) {
     const absoluteNumber = Math.max(0, Math.floor(inputNumber));
     return absoluteNumber.toString().padStart(3, "0");
 }
-// Replace local <img src> paths with data URIs so the HTML is self-contained
-function inlineLocalImagesAsDataUris(html, baseDir) {
-    return __awaiter(this, void 0, void 0, function* () {
-        const srcRegex = /<img[^>]*\ssrc=["']([^"']+)["'][^>]*>/gi;
-        let match;
-        let result = html;
-        const processed = new Set();
-        while ((match = srcRegex.exec(html)) !== null) {
-            const src = match[1];
-            if (/^(?:https?:|data:|file:)/i.test(src))
-                continue;
-            if (processed.has(src))
-                continue;
-            processed.add(src);
-            try {
-                const abs = path_1.default.resolve(baseDir, src);
-                const buf = yield fs_1.default.promises.readFile(abs);
-                const ext = path_1.default.extname(abs).toLowerCase();
-                const mime = ext === ".png"
-                    ? "image/png"
-                    : ext === ".jpg" || ext === ".jpeg"
-                        ? "image/jpeg"
-                        : ext === ".gif"
-                            ? "image/gif"
-                            : ext === ".webp"
-                                ? "image/webp"
-                                : ext === ".svg"
-                                    ? "image/svg+xml"
-                                    : "application/octet-stream";
-                const dataUrl = `data:${mime};base64,${buf.toString("base64")}`;
-                const safeSrc = src.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-                const re = new RegExp(`src=["']${safeSrc}["']`, "g");
-                result = result.replace(re, `src=\"${dataUrl}\"`);
-            }
-            catch (_a) { }
-        }
-        return result;
-    });
-}
 function readImageAsDataUrl(imagePath) {
     return __awaiter(this, void 0, void 0, function* () {
         const fileBuffer = yield fs_1.default.promises.readFile(imagePath);
@@ -96,6 +56,49 @@ function readImageAsDataUrl(imagePath) {
         const extension = path_1.default.extname(imagePath).toLowerCase();
         const mimeType = extension === ".jpg" || extension === ".jpeg" ? "image/jpeg" : "image/png";
         return `data:${mimeType};base64,${base64Content}`;
+    });
+}
+function checkExistingImages(assetsDir, page_number) {
+    return __awaiter(this, void 0, void 0, function* () {
+        try {
+            // Check if the directory exists
+            yield fs_1.default.promises.access(assetsDir, fs_1.default.constants.R_OK);
+            // Read directory contents
+            const files = yield fs_1.default.promises.readdir(assetsDir);
+            // Filter for image files and sort them
+            const imageFiles = files
+                .filter((file) => file.toLowerCase().match(/\.(png|jpg|jpeg)$/))
+                .sort(); // Sort to ensure consistent order
+            if (imageFiles.length === 0) {
+                return [];
+            }
+            const existingImages = [];
+            for (const file of imageFiles) {
+                const fullPath = path_1.default.resolve(assetsDir, file);
+                try {
+                    // Get image dimensions
+                    const imageBuffer = yield fs_1.default.promises.readFile(fullPath);
+                    const sizeInfo = (0, image_size_1.default)(imageBuffer);
+                    if (sizeInfo.width && sizeInfo.height) {
+                        const relFromMd = path_1.default.relative(path_1.default.dirname(path_1.default.resolve(final_markdown_file)), fullPath);
+                        existingImages.push({
+                            relPath: relFromMd.split(path_1.default.sep).join("/"),
+                            width: sizeInfo.width,
+                            height: sizeInfo.height,
+                            alt: "Immagine",
+                        });
+                    }
+                }
+                catch (err) {
+                    console.warn(`[checkExistingImages] Failed to process ${file}:`, err);
+                }
+            }
+            return existingImages;
+        }
+        catch (_a) {
+            // Directory doesn't exist or can't be accessed
+            return [];
+        }
     });
 }
 const readPageContent = (0, agents_1.tool)({
@@ -258,6 +261,33 @@ const insertRealImages = (0, agents_1.tool)({
             }
             // Prepare output directory per page
             const assetsDir = path_1.default.resolve("./extracted_images", `page-${toThreeDigitString(page_number)}`);
+            // Check if images already exist for this page
+            const existingImages = yield checkExistingImages(assetsDir, page_number);
+            if (existingImages.length > 0) {
+                console.log(`[insert_real_images] Found ${existingImages.length} existing images for page ${page_number}, reusing them.`);
+                // Replace placeholders with existing images
+                const placeholderRegex = /!\[([^\]]*)\]\(https?:\/\/placehold\.co\/\d+x\d+\)/g;
+                let fileIndex = 0;
+                const replaced = content.replace(placeholderRegex, (_m, altFromMd) => {
+                    const file = existingImages[fileIndex++];
+                    if (!file)
+                        return _m;
+                    const altText = (file.alt && String(file.alt).trim()) ||
+                        (altFromMd && String(altFromMd).trim()) ||
+                        "Immagine";
+                    return `<img src="${file.relPath}" alt="${altText}" width="${file.width}" height="${file.height}" />`;
+                });
+                // If there are more existing files than placeholders, append them at the end
+                let finalContent = replaced;
+                if (fileIndex < existingImages.length) {
+                    const extras = existingImages
+                        .slice(fileIndex)
+                        .map((f) => `<img src="${f.relPath}" alt="Immagine" width="${f.width}" height="${f.height}" />`)
+                        .join("\n\n");
+                    finalContent += `\n\n${extras}`;
+                }
+                return { page_number, content: finalContent };
+            }
             yield fs_1.default.promises.mkdir(assetsDir, { recursive: true });
             // Load full image buffer once (Sharp crops from buffer)
             const fullImageBuffer = yield fs_1.default.promises.readFile(imagePath);
@@ -351,7 +381,18 @@ const translatePageContent = (0, agents_1.tool)({
                 messages: [
                     {
                         role: "system",
-                        content: `You are an expert ${TARGET_LANGUAGE} translator who produces natural, idiomatic ${TARGET_LANGUAGE} text that sounds like it was written by a native speaker. Input is Markdown/HTML that may include image placeholders (e.g., ![alt](https://placehold.co/WxH)) or real <img> tags and placeholder links. Translate from English to ${TARGET_LANGUAGE} with these guidelines: 1) Use natural ${TARGET_LANGUAGE} expressions and idioms rather than literal translations (e.g., ${getTranslationExample(TARGET_LANGUAGE)}). 2) Maintain the tone and style appropriate for ${TARGET_LANGUAGE} readers. 3) Preserve all formatting: heading levels, bold/italics, lists, tables, code blocks, line breaks, and <img> tag attributes (src, width, height). 4) Translate alt text and link text naturally, but keep all URLs unchanged. 5) Do not modify placeholder URLs or WxH dimensions. 6) Output only the translated content without notes or explanations.`,
+                        content: `You are an expert ${TARGET_LANGUAGE} translator who produces natural, idiomatic ${TARGET_LANGUAGE} text that sounds like it was written by a native speaker. Input is Markdown/HTML that may include image placeholders (e.g., ![alt](https://placehold.co/WxH)) or real <img> tags and placeholder links. 
+					
+					Translate from English to ${TARGET_LANGUAGE} with these guidelines: 
+					1) Use natural ${TARGET_LANGUAGE} expressions and idioms rather than literal translations (e.g., ${getTranslationExample(TARGET_LANGUAGE)}). 
+					2) Maintain the tone and style appropriate for ${TARGET_LANGUAGE} readers. 
+					3) Preserve all formatting: heading levels, bold/italics, lists, tables, code blocks, line breaks, and <img> tag attributes (src, width, height). 
+					4) Translate alt text and link text naturally, but keep all URLs unchanged. 
+					5) Do not modify placeholder URLs or WxH dimensions. 
+					6) SPECIAL SPX6900 TERMS - Do NOT translate these specific terms and slogans. Keep them in English and add explanatory translations in parentheses:
+					   - SPX6900 slogans: "believe in something", "persist forever", "flip the stock market", "stop trading and believe in something" - keep in English and add ${TARGET_LANGUAGE} explanation in parentheses
+					   - SPX6900 technical terms: "Aeon", "Cognisphere", "Pure Belief Asset (PBA)" - keep in English and add ${TARGET_LANGUAGE} explanation in parentheses when first mentioned
+					7) Output only the translated content without notes or explanations.`,
                     },
                     {
                         role: "user",
@@ -438,7 +479,7 @@ const agent = new agents_1.Agent({
 		
 		Detect visible hyperlinks and output them as Markdown links pointing to a placeholder URL only. 
 		
-		Next, replace the image placeholders with the actual cropped images by using the tool that inserts real images, preserving width/height. 
+		Next, replace the image placeholders with the actual cropped images by using the tool that inserts real images, preserving width/height. IMPORTANT: The system will automatically check if images for this page already exist in the 'extracted_images' directory. If existing images are found, they will be reused instead of extracting new ones, which improves efficiency and consistency. Multiple images per page are supported.
 		
 		Finally, translate the Markdown to ${TARGET_LANGUAGE} using natural, fluent ${TARGET_LANGUAGE} that sounds like it was written by a native ${TARGET_LANGUAGE} speaker. Avoid literal translations - instead use idiomatic expressions and natural ${TARGET_LANGUAGE} phrasing. For example, ${getTranslationExample(TARGET_LANGUAGE)}. Keep all Markdown structure and placeholder URLs/dimensions intact. Save the translated Markdown to the final book file.`,
     model: "gpt-5-2025-08-07",
@@ -459,6 +500,7 @@ const main = () => __awaiter(void 0, void 0, void 0, function* () {
     // 		markdownPath: path.resolve(final_markdown_file),
     // 		outputPdfPath: path.resolve("./final_book.pdf"),
     // 		firstImagePath: path.resolve(book_pages_directory, "-001.png"),
+    // 		target_language_code: TARGET_LANGUAGE_CODE,
     // 	});
     // 	console.log("PDF generated at:", path.resolve("./final_book.pdf"));
     // } catch (err) {
@@ -466,106 +508,4 @@ const main = () => __awaiter(void 0, void 0, void 0, function* () {
     // }
 });
 main();
-// Convert the combined Markdown file into a PDF with consistent page height.
-// Each logical page in the Markdown (separated by <!-- page: N -->) is rendered
-// into a fixed-height PDF page. Any unused space remains blank to mirror the
-// original layout spacing.
-function convertMarkdownToPdf(args) {
-    return __awaiter(this, void 0, void 0, function* () {
-        var _a, _b;
-        const { markdownPath, outputPdfPath, firstImagePath } = args;
-        const mdExists = yield fs_1.default.promises
-            .access(markdownPath, fs_1.default.constants.R_OK)
-            .then(() => true)
-            .catch(() => false);
-        if (!mdExists)
-            return;
-        const rawMd = yield fs_1.default.promises.readFile(markdownPath, "utf8");
-        if (!rawMd.trim())
-            return;
-        // Determine page aspect ratio from the first scanned page if available
-        let pageWidthIn = 7.0; // slightly smaller page to improve perceived font size
-        let pageHeightIn = 11; // default letter height
-        if (firstImagePath) {
-            try {
-                const buf = yield fs_1.default.promises.readFile(firstImagePath);
-                const dim = (0, image_size_1.default)(buf);
-                if ((dim === null || dim === void 0 ? void 0 : dim.width) && (dim === null || dim === void 0 ? void 0 : dim.height) && dim.width > 0) {
-                    const aspect = dim.height / dim.width;
-                    pageHeightIn = Math.round(pageWidthIn * aspect * 100) / 100;
-                }
-            }
-            catch (_c) { }
-        }
-        // Split the Markdown into logical pages using the page markers
-        const markerRegex = /<!--\s*page:\s*(\d+)\s*-->/g;
-        const matches = [...rawMd.matchAll(markerRegex)];
-        if (!matches.length)
-            return;
-        const pages = [];
-        for (let i = 0; i < matches.length; i++) {
-            const m = matches[i];
-            const n = parseInt(m[1], 10);
-            const start = ((_a = m.index) !== null && _a !== void 0 ? _a : 0) + m[0].length;
-            const end = i + 1 < matches.length
-                ? (_b = matches[i + 1].index) !== null && _b !== void 0 ? _b : rawMd.length
-                : rawMd.length;
-            let slice = rawMd.slice(start, end).trim();
-            // Remove any leading top headers like "### Pagina X"
-            slice = slice.replace(/^#+\s*Pagina\s+\d+\s*\n+/i, "");
-            // Normalize any pre-existing centered page number variants to avoid duplicates
-            slice = slice
-                .replace(/<p\s+align=\"center\"\s*>\s*\d+\s*<\/p>\s*$/i, "")
-                .replace(/<div\s+align=\"center\"\s*>[\s\S]*?<\/div>\s*$/i, "")
-                .replace(/<center>\s*(?:\*\*)?\s*\d+\s*(?:\*\*)?\s*<\/center>\s*$/i, "")
-                .replace(/\*\*\s*\d+\s*\*\*\s*$/i, "")
-                .replace(/\n+\s*\d+\s*$/i, "");
-            pages.push({ number: n, content: slice });
-        }
-        const md = new markdown_it_1.default({ html: true, linkify: true, breaks: false });
-        const baseDir = path_1.default.dirname(markdownPath);
-        const renderedPages = yield Promise.all(pages.map((p) => __awaiter(this, void 0, void 0, function* () {
-            const rendered = md.render(p.content);
-            return yield inlineLocalImagesAsDataUris(rendered, baseDir);
-        })));
-        const html = `<!DOCTYPE html>
-	<html lang="${TARGET_LANGUAGE_CODE}">
-	<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<style>
-	  @page { size: ${pageWidthIn}in ${pageHeightIn}in; margin: 0; }
-	  html, body { margin: 0; padding: 0; }
-	  body { background: white; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14pt; line-height: 1.35; }
-	  .page { position: relative; width: ${pageWidthIn}in; height: ${pageHeightIn}in; box-sizing: border-box; padding: 0.6in 0.6in 0.9in 0.6in; display: flex; flex-direction: column; justify-content: flex-start; page-break-after: always; }
-	  .page-footer { position: absolute; bottom: 0.4in; left: 0; right: 0; text-align: center; font-size: 12pt; }
-	  .page:last-child { page-break-after: auto; }
-	</style>
-	</head>
-	<body>
-	  ${pages
-            .map((p, i) => `<section class="page"><div class="page-content">${renderedPages[i]}</div><div class="page-footer">${p.number}</div></section>`)
-            .join("\n")}
-	</body>
-	</html>`;
-        const browser = yield puppeteer_1.default.launch({
-            headless: true,
-            args: ["--allow-file-access-from-files"],
-        });
-        try {
-            const page = yield browser.newPage();
-            yield page.setContent(html, { waitUntil: "networkidle0" });
-            yield page.pdf({
-                path: outputPdfPath,
-                printBackground: true,
-                width: `${pageWidthIn}in`,
-                height: `${pageHeightIn}in`,
-                margin: { top: "0in", right: "0in", bottom: "0in", left: "0in" },
-            });
-        }
-        finally {
-            yield browser.close();
-        }
-    });
-}
 //# sourceMappingURL=index.js.map
