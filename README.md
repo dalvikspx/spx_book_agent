@@ -50,6 +50,12 @@ Some words may be translated too literally, missing contextual meaning. For exam
 
 The AI agent attempts to identify and extract images from each page of the book, but since OpenAI models aren't specialized for precise image detection, accuracy can be limited.
 
+**Manual Image Solution:**
+
+- The AI agent is smart enough to detect if images already exist for a page in the `extracted_images` directory
+- If images are found, it will use the existing images instead of attempting to crop new ones
+- For better results, manually extract images by taking screenshots from the original PDF and placing them in the corresponding page directory within `extracted_images/`
+
 ### 3. Lost Hyperlinks
 
 During the translation process, **hyperlinks present in the original book are lost** and need to be manually re-added to the generated markdown file. This includes:
@@ -58,12 +64,6 @@ During the translation process, **hyperlinks present in the original book are lo
 - Internal cross-references
 - Email addresses
 - Social media links
-
-**Manual Image Solution:**
-
-- The AI agent is smart enough to detect if images already exist for a page in the `extracted_images` directory
-- If images are found, it will use the existing images instead of attempting to crop new ones
-- For better results, manually extract images by taking screenshots from the original PDF and placing them in the corresponding page directory within `extracted_images/`
 
 ### Directory Structure for Images
 
