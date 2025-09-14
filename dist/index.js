@@ -24,7 +24,8 @@ const sharp_1 = __importDefault(require("sharp"));
 dotenv_1.default.config();
 // Configuration constants
 const book_pages_directory = "./book_pages";
-const final_markdown_file = "./final_book.md";
+// Dynamic path for translations - will be set after language configuration
+let final_markdown_file;
 const PLACEHOLDER_BASE_URL = "https://placehold.co";
 const LINK_PLACEHOLDER_URL = "https://example.com/placeholder";
 // Language configuration - can be customized via environment variables
@@ -32,6 +33,24 @@ const LINK_PLACEHOLDER_URL = "https://example.com/placeholder";
 // Set TARGET_LANGUAGE_CODE to the ISO language code (e.g., "it", "es", "fr")
 const TARGET_LANGUAGE = process.env.TARGET_LANGUAGE || "Italian";
 const TARGET_LANGUAGE_CODE = process.env.TARGET_LANGUAGE_CODE || "it";
+// Initialize translations directory and final markdown file path
+function initializeTranslationPaths() {
+    return __awaiter(this, void 0, void 0, function* () {
+        const translationsDir = path_1.default.resolve("./translations", TARGET_LANGUAGE_CODE);
+        // Create translations directory if it doesn't exist
+        try {
+            yield fs_1.default.promises.mkdir(translationsDir, { recursive: true });
+        }
+        catch (error) {
+            console.error("Failed to create translations directory:", error);
+            throw error;
+        }
+        // Set the final markdown file path
+        final_markdown_file = path_1.default.join(translationsDir, "final_book.md");
+        console.log(`Translation will be saved to: ${final_markdown_file}`);
+        return translationsDir;
+    });
+}
 // Helper function to get language-specific translation examples
 function getTranslationExample(language) {
     const examples = {
@@ -390,7 +409,7 @@ const translatePageContent = (0, agents_1.tool)({
 					4) Translate alt text and link text naturally, but keep all URLs unchanged. 
 					5) Do not modify placeholder URLs or WxH dimensions. 
 					6) SPECIAL SPX6900 TERMS - Do NOT translate these specific terms and slogans. Keep them in English and add explanatory translations in parentheses:
-					   - SPX6900 slogans: "believe in something", "persist forever", "flip the stock market", "stop trading and believe in something" - keep in English and add ${TARGET_LANGUAGE} explanation in parentheses
+					   - SPX6900 slogans: "believe in something", "persist forever", "flip the stock market", "stop trading and believe in something", "there is no chart" - keep in English and add ${TARGET_LANGUAGE} explanation in parentheses
 					   - SPX6900 technical terms: "Aeon", "Cognisphere", "Pure Belief Asset (PBA)" - keep in English and add ${TARGET_LANGUAGE} explanation in parentheses when first mentioned
 					7) Output only the translated content without notes or explanations.`,
                     },
@@ -492,17 +511,20 @@ const agent = new agents_1.Agent({
     ],
 });
 const main = () => __awaiter(void 0, void 0, void 0, function* () {
-    const result = yield (0, agents_1.run)(agent, `Translate the first 50 pages of the book to ${TARGET_LANGUAGE}.`, { maxTurns: 1000 });
+    // Initialize translation paths before starting
+    yield initializeTranslationPaths();
+    const result = yield (0, agents_1.run)(agent, `what is the latest page number i've translated in ${TARGET_LANGUAGE}?`, { maxTurns: 1000 });
     console.log(result.finalOutput);
     // After generating the Markdown, convert it to a fixed-height paginated PDF
     // try {
+    // 	const pdfPath = path.join(path.dirname(final_markdown_file), "final_book.pdf");
     // 	await convertMarkdownToPdf({
     // 		markdownPath: path.resolve(final_markdown_file),
-    // 		outputPdfPath: path.resolve("./final_book.pdf"),
+    // 		outputPdfPath: path.resolve(pdfPath),
     // 		firstImagePath: path.resolve(book_pages_directory, "-001.png"),
     // 		target_language_code: TARGET_LANGUAGE_CODE,
     // 	});
-    // 	console.log("PDF generated at:", path.resolve("./final_book.pdf"));
+    // 	console.log("PDF generated at:", path.resolve(pdfPath));
     // } catch (err) {
     // 	console.error("Failed to generate PDF:", err);
     // }

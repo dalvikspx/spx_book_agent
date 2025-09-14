@@ -11,7 +11,8 @@ dotenv.config();
 
 // Configuration constants
 const book_pages_directory = "./book_pages";
-const final_markdown_file = "./final_book.md";
+// Dynamic path for translations - will be set after language configuration
+let final_markdown_file: string;
 const PLACEHOLDER_BASE_URL = "https://placehold.co";
 const LINK_PLACEHOLDER_URL = "https://example.com/placeholder";
 
@@ -20,6 +21,25 @@ const LINK_PLACEHOLDER_URL = "https://example.com/placeholder";
 // Set TARGET_LANGUAGE_CODE to the ISO language code (e.g., "it", "es", "fr")
 const TARGET_LANGUAGE = process.env.TARGET_LANGUAGE || "Italian";
 const TARGET_LANGUAGE_CODE = process.env.TARGET_LANGUAGE_CODE || "it";
+
+// Initialize translations directory and final markdown file path
+async function initializeTranslationPaths() {
+	const translationsDir = path.resolve("./translations", TARGET_LANGUAGE_CODE);
+
+	// Create translations directory if it doesn't exist
+	try {
+		await fs.promises.mkdir(translationsDir, { recursive: true });
+	} catch (error) {
+		console.error("Failed to create translations directory:", error);
+		throw error;
+	}
+
+	// Set the final markdown file path
+	final_markdown_file = path.join(translationsDir, "final_book.md");
+
+	console.log(`Translation will be saved to: ${final_markdown_file}`);
+	return translationsDir;
+}
 
 // Helper function to get language-specific translation examples
 function getTranslationExample(language: string): string {
@@ -605,22 +625,26 @@ const agent = new Agent({
 });
 
 const main = async () => {
+	// Initialize translation paths before starting
+	await initializeTranslationPaths();
+
 	const result = await run(
 		agent,
-		`Translate the first 50 pages of the book to ${TARGET_LANGUAGE}.`,
+		`what is the latest page number i've translated in ${TARGET_LANGUAGE}?`,
 		{ maxTurns: 1000 }
 	);
 	console.log(result.finalOutput);
 
 	// After generating the Markdown, convert it to a fixed-height paginated PDF
 	// try {
+	// 	const pdfPath = path.join(path.dirname(final_markdown_file), "final_book.pdf");
 	// 	await convertMarkdownToPdf({
 	// 		markdownPath: path.resolve(final_markdown_file),
-	// 		outputPdfPath: path.resolve("./final_book.pdf"),
+	// 		outputPdfPath: path.resolve(pdfPath),
 	// 		firstImagePath: path.resolve(book_pages_directory, "-001.png"),
 	// 		target_language_code: TARGET_LANGUAGE_CODE,
 	// 	});
-	// 	console.log("PDF generated at:", path.resolve("./final_book.pdf"));
+	// 	console.log("PDF generated at:", path.resolve(pdfPath));
 	// } catch (err) {
 	// 	console.error("Failed to generate PDF:", err);
 	// }
