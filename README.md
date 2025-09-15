@@ -11,6 +11,8 @@ The original book this translation is based on can be found here:
 
 This AI agent can translate the entire book into any language worldwide, maintaining the original structure and meaning while adapting the content for different linguistic contexts.
 
+**Existing translations can be found in the [`translations/`](./translations/) directory.**
+
 ## Author & Translation Quality
 
 The author of this AI agent is Italian, which means translation quality can only be verified for Italian translations. Currently, the book has been translated into:

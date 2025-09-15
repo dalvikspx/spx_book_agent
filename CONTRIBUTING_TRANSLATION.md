@@ -2,6 +2,8 @@
 
 This guide is specifically for **non-developers** who want to help improve the SPX6900 book translation project without needing programming skills.
 
+**Existing translations can be found in the [`translations/`](./translations/) directory.**
+
 ## Overview
 
 There are three main ways you can contribute to improve the translated book:
