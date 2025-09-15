@@ -1,19 +1,18 @@
-
-
 <!-- page: 1 -->
 
 ---
+
 # ALLA SCOPERTA DI SPX6900
 
 ## IL PRIMO PURE BELIEF ASSET (letteralmente: "asset di pura convinzione") AL MONDO
 
-*LA NASCITA DI UN TOKEN BASATO SU CONVINZIONE, CULTURA E COMUNITÀ*
+_LA NASCITA DI UN TOKEN BASATO SU CONVINZIONE, CULTURA E COMUNITÀ_
 
-<img src="extracted_images/page-001/page-001-img-01.png" alt="Immagine" width="503" height="352" />
+<img src="../../extracted_images/page-001/page-001-img-01.png" alt="Immagine" width="503" height="352" />
 
 **Una rivoluzione Pure Belief Asset (letteralmente: "asset di pura convinzione")**
 
-*A cura di Audacious*
+_A cura di Audacious_
 
 <div align="center">
 
@@ -21,13 +20,13 @@
 
 </div>
 
-
 <!-- page: 2 -->
 
 ---
+
 # Scoprendo SPX6900: Il primo Pure Belief Asset (PBA) al mondo
 
-*L'ascesa di un token fondato sulla convinzione, la cultura e la comunità*
+_L'ascesa di un token fondato sulla convinzione, la cultura e la comunità_
 
 **Una rivoluzione del Pure Belief Asset (PBA)**
 
@@ -37,10 +36,10 @@
 
 </div>
 
-
 <!-- page: 3 -->
 
 ---
+
 **Avviso sul Copyright**
 
 © 2025 Audacious. Tutti i diritti riservati.
@@ -63,10 +62,10 @@ Prima Edizione, luglio 2025
 
 </div>
 
-
 <!-- page: 4 -->
 
 ---
+
 **Disclaimer**
 
 Questo e-book è destinato **esclusivamente a scopi informativi ed educativi.** Il contenuto riflette le opinioni, le interpretazioni e le ricerche dell’autore e **non costituisce consulenza finanziaria, d’investimento o legale.**
@@ -85,10 +84,10 @@ Investi con saggezza. Credi con responsabilità.
 
 </div>
 
-
 <!-- page: 5 -->
 
 ---
+
 **SPX6900 Suggerimento**
 
 Questo e-book è completamente gratuito, ma se desideri inviarmi una mancia in SPX6900 per il tempo, l’impegno e la ricerca che ci sono voluti per realizzarlo, te ne sarei profondamente grato.
@@ -111,10 +110,10 @@ Condividi pure questo e-book con tutte le persone che vuoi aiutare a unirsi alla
 
 </div>
 
-
 <!-- page: 6 -->
 
 ---
+
 # Indice
 
 Prefazione .............................................................................................................8  
@@ -140,10 +139,10 @@ Il potere del DCA collettivo a lungo termine in SPX6900...103
 
 </div>
 
-
 <!-- page: 7 -->
 
 ---
+
 Parole finali ................................................................................. 110
 
 Domande frequenti ................................................... 111
@@ -178,10 +177,10 @@ Informazioni sull’autore .....................................................
 
 </div>
 
-
 <!-- page: 8 -->
 
 ---
+
 ## **Prefazione**
 
 Stiamo cercando di aiutarti.
@@ -198,17 +197,17 @@ Ecco perché lo condividiamo con chiunque sia disposto ad ascoltare.
 
 </div>
 
-
 <!-- page: 9 -->
 
 ---
+
 ## Tutto inizia con Bitcoin
 
 Potresti essere nuovo nel mondo delle criptovalute e saperne ancora poco — ma probabilmente hai già sentito parlare di Bitcoin.
 
 È difficile non aver sentito parlare di Bitcoin dopo la sua ascesa vertiginosa, da pochi centesimi nel 2009 a quasi 112.000 dollari nel maggio 2025.
 
-<img src="extracted_images/page-009/page-009-img-01.png" alt="Immagine" width="304" height="234" />
+<img src="../../extracted_images/page-009/page-009-img-01.png" alt="Immagine" width="304" height="234" />
 
 ### La Prima Criptovaluta
 
@@ -222,13 +221,13 @@ Era un modo per permettere alle persone di inviare pagamenti diretti, peer-to-pe
 
 </div>
 
-
 <!-- page: 10 -->
 
 ---
+
 (Fig 1.1) — senza l’intervento di terze parti (cioè banche) nella transazione.
 
-<img src="extracted_images/page-010/page-010-img-01.png" alt="Immagine" width="567" height="333" />
+<img src="../../extracted_images/page-010/page-010-img-01.png" alt="Immagine" width="567" height="333" />
 
 (Fig 1.1 – Rete Peer to Peer di Bitcoin)
 
@@ -240,10 +239,10 @@ Satoshi Nakamoto è stato il primo a risolvere il problema della doppia spesa (c
 
 </div>
 
-
 <!-- page: 11 -->
 
 ---
+
 **Evoluzione di Bitcoin**
 
 Bitcoin è nato come una visione di denaro digitale — libero dal controllo di governi e banche — che le persone potessero usare e spendere come alternativa alla valuta fiat. È proprio per questo che abbiamo la celebre storia della “[pizza di Bitcoin](https://example.com/placeholder)” risalente ai suoi primi giorni.
@@ -260,17 +259,17 @@ Se nessuno avesse riconosciuto valore nella creazione di Satoshi, oggi Bitcoin n
 
 </div>
 
-
 <!-- page: 12 -->
 
 ---
+
 una valuta che alla fine si è evoluta in una riserva di valore riconosciuta a livello globale — e che ancora oggi continua ad attirare nuovi sostenitori.
 
 Bitcoin, con la sua **fornitura fissa di 21 milioni di monete** (o meno, a causa della perdita dei token da parte degli utenti), è passata dal nulla a oltre mille miliardi di [capitalizzazione di mercato](https://example.com/placeholder) dalla sua nascita nel 2009 (Fig. 1.2) — tutto grazie alle persone.
 
-<img src="extracted_images/page-012/page-012-img-01.png" alt="Immagine" width="679" height="123" />
+<img src="../../extracted_images/page-012/page-012-img-01.png" alt="Immagine" width="679" height="123" />
 
-*(Fig. 1.2 – Capitalizzazione di mercato di Bitcoin all’8 luglio 2025)*
+_(Fig. 1.2 – Capitalizzazione di mercato di Bitcoin all’8 luglio 2025)_
 
 ## Quindi, perché investire nelle criptovalute?
 
@@ -284,13 +283,13 @@ Alcuni investono nelle crypto perché sono appassionati della tecnologia. Altri 
 
 </div>
 
-
 <!-- page: 13 -->
 
 ---
+
 Qualunque sia la tua motivazione, il mercato delle criptovalute è in continua espansione (Fig. 1.3), sta guadagnando forza, attira sempre più attenzione e potrebbe cambiare radicalmente la tua vita — se ti unisci alla comunità giusta nel momento giusto.
 
-<img src="extracted_images/page-013/page-013-img-01.png" alt="Immagine" width="718" height="320" />
+<img src="../../extracted_images/page-013/page-013-img-01.png" alt="Immagine" width="718" height="320" />
 
 (Fig. 1.3 – Crescita della capitalizzazione del mercato crypto nel tempo)
 
@@ -302,10 +301,10 @@ Qualunque sia la tua motivazione, il mercato delle criptovalute è in continua e
 
 </div>
 
-
 <!-- page: 14 -->
 
 ---
+
 La crypto è una classe di asset che persone comuni, lavoratori instancabili con un lavoro d’ufficio dalle 9 alle 5, possono usare per cambiare radicalmente la propria vita. Sì, c’è una piccola curva di apprendimento, ma il tempo speso per imparare a investire in crypto ne vale davvero la pena.
 
 Personalmente, credo che il modo migliore per imparare sia agire. È così che ho imparato io stesso quando ho iniziato con le crypto — ho semplicemente iniziato ad agire.
@@ -320,15 +319,15 @@ Fare piccoli passi oggi per entrare a far parte del mondo crypto in crescita pot
 
 </div>
 
-
 <!-- page: 15 -->
 
 ---
+
 # Che cos'è SPX6900?
 
 Dunque, sei nuovo nel mondo delle crypto e hai appena scoperto o sentito parlare di SPX6900 (SPX) — e probabilmente ti stai chiedendo: **Di cosa si tratta davvero SPX6900?**
 
-<img src="extracted_images/page-015/page-015-img-01.png" alt="Immagine" width="247" height="233" />
+<img src="../../extracted_images/page-015/page-015-img-01.png" alt="Immagine" width="247" height="233" />
 
 ## Un Pure Belief Asset
 
@@ -340,10 +339,10 @@ SPX6900 rappresenta cose diverse per persone diverse, ma alla base si può defin
 
 </div>
 
-
 <!-- page: 16 -->
 
 ---
+
 SPX6900 è una comunità in crescita di persone **unite da uno scopo condiviso e da una visione comune**: flip the stock market (ribaltare il mercato azionario tramite il potere della fede collettiva e pura).
 
 ## È Speranza Tokenizzata
@@ -358,10 +357,10 @@ SPX6900 è unica tra le decine di migliaia di criptovalute presenti sul mercato 
 
 </div>
 
-
 <!-- page: 17 -->
 
 ---
+
 ## Una Seconda Opportunità come Bitcoin
 
 Condivide molte somiglianze culturali e filosofiche con i primi tempi di Bitcoin, ma allo stesso tempo è qualcosa di molto diverso.
@@ -370,7 +369,7 @@ Per chi si è perso Bitcoin agli inizi, questa è una seconda occasione per far 
 
 Da un punto di vista finanziario, investire in SPX6900 oggi (all'8 luglio 2025) è come avere la rara opportunità di acquistare nuovamente Bitcoin — a 62,77 $ (Fig 1.4).
 
-<img src="extracted_images/page-017/page-017-img-01.png" alt="Immagine" width="650" height="285" />
+<img src="../../extracted_images/page-017/page-017-img-01.png" alt="Immagine" width="650" height="285" />
 
 (Fig 1.4 – BTC con la capitalizzazione di mercato di SPX6900)
 
@@ -380,31 +379,31 @@ Da un punto di vista finanziario, investire in SPX6900 oggi (all'8 luglio 2025) 
 
 </div>
 
-
 <!-- page: 18 -->
 
 ---
+
 Bitcoin è stata un'opportunità irripetibile per chi ha avuto il coraggio di credere in qualcosa di innovativo e fuori dal comune.
 
 SPX6900 è un'opportunità irripetibile per tutti coloro che si sono persi Bitcoin, per la giovane generazione in difficoltà economica e per chi cerca speranza — se ha abbastanza coraggio da abbracciare una nuova cultura fondata sulla pura fede.
 
-<img src="extracted_images/page-018/page-018-img-01.png" alt="Immagine" width="142" height="107" /> <img src="extracted_images/page-018/page-018-img-02.png" alt="Immagine" width="154" height="148" />
+<img src="../../extracted_images/page-018/page-018-img-01.png" alt="Immagine" width="142" height="107" /> <img src="../../extracted_images/page-018/page-018-img-02.png" alt="Immagine" width="154" height="148" />
 
-| **Normie Scettico**                                | **6900er**                                                                                                           |
-|----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Cos’è SPX6900?                                    | Un token missione/movimento.                                                                                         |
-| Qual è la missione/il movimento?                  | Flip The Stock Market (capovolgere il mercato azionario, slogan SPX6900).                                            |
-| Come pensate di riuscirci?                        | Stop Trading, Believe In Something, and Persist Forever (smetti di fare trading e credi in qualcosa, persisti per sempre – slogan SPX6900).                       |
-| Come funziona?                                    | DCA & HODL (Stop Trading); Shill & Chill (Believe In Something); Ripeti (Persist Forever).                           |
-| Deve esserci qualcosa di più!                     | Finché la community condivide lo stesso sistema di credenze, no; tutto qui.                                          |
-| Quando capovolgerà il mercato azionario?          | Quando raggiungeremo Cognisphere Singularity (Singolarità Cognisphere: la coscienza collettiva di SPX6900).          |
-| Cos’è la Cognisphere?                             | È la coscienza collettiva della fede degli Aeon (Aeon: vero credente di SPX6900).                                    |
-| Cos’è un Aeon?                                   | Un vero credente di SPX6900 (vero sostenitore del movimento SPX6900).                                                |
-| In cosa è diverso da Bitcoin?                      | Bitcoin è Oro Digitale. SPX6900 è Oro Spirituale.                                                                    |
-| Qual è la differenza?                            | Bitcoin è una riserva di valore monetaria basata sulla matematica. SPX6900 è una riserva di valore comunitaria fondata sulla fede. |
-| Come può la fede essere una riserva di valore?    | Qualunque cosa può essere una riserva di valore, se la community è d’accordo sul suo valore.                         |
-| Su quale blockchain si trova?                     | Ethereum, Solana, Sui e Base (Ethereum L2).                                                                         |
-| Sembra interessante. Da dove si comincia?         | Vai su SPX6900.COM e segui @SPX6900 su X.                                                                           |
+| **Normie Scettico**                            | **6900er**                                                                                                                                  |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Cos’è SPX6900?                                 | Un token missione/movimento.                                                                                                                |
+| Qual è la missione/il movimento?               | Flip The Stock Market (capovolgere il mercato azionario, slogan SPX6900).                                                                   |
+| Come pensate di riuscirci?                     | Stop Trading, Believe In Something, and Persist Forever (smetti di fare trading e credi in qualcosa, persisti per sempre – slogan SPX6900). |
+| Come funziona?                                 | DCA & HODL (Stop Trading); Shill & Chill (Believe In Something); Ripeti (Persist Forever).                                                  |
+| Deve esserci qualcosa di più!                  | Finché la community condivide lo stesso sistema di credenze, no; tutto qui.                                                                 |
+| Quando capovolgerà il mercato azionario?       | Quando raggiungeremo Cognisphere Singularity (Singolarità Cognisphere: la coscienza collettiva di SPX6900).                                 |
+| Cos’è la Cognisphere?                          | È la coscienza collettiva della fede degli Aeon (Aeon: vero credente di SPX6900).                                                           |
+| Cos’è un Aeon?                                 | Un vero credente di SPX6900 (vero sostenitore del movimento SPX6900).                                                                       |
+| In cosa è diverso da Bitcoin?                  | Bitcoin è Oro Digitale. SPX6900 è Oro Spirituale.                                                                                           |
+| Qual è la differenza?                          | Bitcoin è una riserva di valore monetaria basata sulla matematica. SPX6900 è una riserva di valore comunitaria fondata sulla fede.          |
+| Come può la fede essere una riserva di valore? | Qualunque cosa può essere una riserva di valore, se la community è d’accordo sul suo valore.                                                |
+| Su quale blockchain si trova?                  | Ethereum, Solana, Sui e Base (Ethereum L2).                                                                                                 |
+| Sembra interessante. Da dove si comincia?      | Vai su SPX6900.COM e segui @SPX6900 su X.                                                                                                   |
 
 <div align="center">
 
@@ -412,19 +411,19 @@ SPX6900 è un'opportunità irripetibile per tutti coloro che si sono persi Bitco
 
 </div>
 
-
 <!-- page: 19 -->
 
 ---
+
 ## Connessione Umana e Appartenenza
 
 Viviamo in un mondo digitale in cui le persone stringono legami e trovano un senso di appartenenza nelle comunità online più che nella vita reale.
 
 **SPX6900** è una forma tokenizzata della connessione e dell’appartenenza umana. È una community di persone che condividono lo stesso obiettivo e la stessa visione (Fig. 1.5): trovare un senso di appartenenza e creare legami significativi tra loro.
 
-<img src="extracted_images/page-019/page-019-img-01.png" alt="Immagine" width="704" height="293" />
+<img src="../../extracted_images/page-019/page-019-img-01.png" alt="Immagine" width="704" height="293" />
 
-*(Fig. 1.5 – Community SPX6900 su X)*
+_(Fig. 1.5 – Community SPX6900 su X)_
 
 <div align="center">
 
@@ -432,13 +431,13 @@ Viviamo in un mondo digitale in cui le persone stringono legami e trovano un sen
 
 </div>
 
-
 <!-- page: 20 -->
 
 ---
+
 Nel mondo di oggi, è spesso difficile trovare persone che tengano davvero alla libertà finanziaria, alla fuga dal sistema di schiavitù della Matrix del 9–5, o che siano preoccupate per il futuro con l’ascesa dell’IA e il depauperamento della nostra valuta, e che siano spinte a prendersi dei rischi in modo proattivo per migliorare la propria vita.
 
-<img src="extracted_images/page-020/page-020-img-01.png" alt="Immagine" width="346" height="403" />
+<img src="../../extracted_images/page-020/page-020-img-01.png" alt="Immagine" width="346" height="403" />
 
 Ma online puoi scoprire comunità come **SPX6900**, dove provi un vero senso di appartenenza — perché è una tribù di persone che condividono una visione nella quale ti riconosci: **flip the stock market (capovolgere il mercato azionario corrotto e vincere insieme).**
 
@@ -450,55 +449,55 @@ Non sottovalutare il valore dell’**appartenenza umana tokenizzata, della conne
 
 </div>
 
-
 <!-- page: 21 -->
 
 ---
+
 # Perché SPX6900 è Diverso?
 
-| <img src="extracted_images/page-021/page-021-img-01.png" alt="Immagine" width="54" height="52" /> | **Diamondhandedness**  |
-|---|---|
-|  | I possessori non vendono mai, punto e basta.  |
+| <img src="../../extracted_images/page-021/page-021-img-01.png" alt="Immagine" width="54" height="52" /> | **Diamondhandedness**                        |
+| ------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+|                                                                                                         | I possessori non vendono mai, punto e basta. |
 
-| <img src="extracted_images/page-021/page-021-img-02.png" alt="Immagine" width="54" height="52" /> | **Obiettivi di Prezzo Ambiziosi della Community**  |
-|---|---|
-|  | Più gli obiettivi di prezzo interni della community sono ambiziosi, più in alto si arriverà.  |
+| <img src="../../extracted_images/page-021/page-021-img-02.png" alt="Immagine" width="54" height="52" /> | **Obiettivi di Prezzo Ambiziosi della Community**                                            |
+| ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+|                                                                                                         | Più gli obiettivi di prezzo interni della community sono ambiziosi, più in alto si arriverà. |
 
-| <img src="extracted_images/page-021/page-021-img-03.png" alt="Immagine" width="54" height="51" /> | **Aumentare la Propria Posizione**  |
-|---|---|
-|  | I possessori *comprano di più* nei momenti di calo.  |
+| <img src="../../extracted_images/page-021/page-021-img-03.png" alt="Immagine" width="54" height="51" /> | **Aumentare la Propria Posizione**                  |
+| ------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+|                                                                                                         | I possessori _comprano di più_ nei momenti di calo. |
 
-| <img src="extracted_images/page-021/page-021-img-04.png" alt="Immagine" width="54" height="53" /> | **Fede**  |
-|---|---|
-|  | I possessori credono davvero e puntano con impegno a un rialzo di miliardi e decine di miliardi.  |
+| <img src="../../extracted_images/page-021/page-021-img-04.png" alt="Immagine" width="54" height="53" /> | **Fede**                                                                                         |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+|                                                                                                         | I possessori credono davvero e puntano con impegno a un rialzo di miliardi e decine di miliardi. |
 
-| <img src="extracted_images/page-021/page-021-img-05.png" alt="Immagine" width="54" height="53" /> | **Lavoro di Squadra Gratuito (Stile Culto)**  |
-|---|---|
-|  | I possessori si danno più da fare di qualunque dipendente pagato o KOL, su tutti i fronti. Gratis.  |
+| <img src="../../extracted_images/page-021/page-021-img-05.png" alt="Immagine" width="54" height="53" /> | **Lavoro di Squadra Gratuito (Stile Culto)**                                                       |
+| ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+|                                                                                                         | I possessori si danno più da fare di qualunque dipendente pagato o KOL, su tutti i fronti. Gratis. |
 
-| <img src="extracted_images/page-021/page-021-img-06.png" alt="Immagine" width="53" height="51" /> | **Identità**  |
-|---|---|
-|  | I possessori fanno del Memecoin la loro intera identità.  |
+| <img src="../../extracted_images/page-021/page-021-img-06.png" alt="Immagine" width="53" height="51" /> | **Identità**                                             |
+| ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+|                                                                                                         | I possessori fanno del Memecoin la loro intera identità. |
 
-| <img src="extracted_images/page-021/page-021-img-07.png" alt="Immagine" width="54" height="51" /> | **Massa Critica**  |
-|---|---|
-|  | Non restare indietro puntando su coin a bassa capitalizzazione che potrebbero non partire mai. Concentrati su coin consolidate che hanno già raggiunto la massa critica.  |
+| <img src="../../extracted_images/page-021/page-021-img-07.png" alt="Immagine" width="54" height="51" /> | **Massa Critica**                                                                                                                                                        |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|                                                                                                         | Non restare indietro puntando su coin a bassa capitalizzazione che potrebbero non partire mai. Concentrati su coin consolidate che hanno già raggiunto la massa critica. |
 
-| <img src="extracted_images/page-021/page-021-img-08.png" alt="Immagine" width="54" height="53" /> | **Reclutamento**  |
-|---|---|
-|  | I possessori fanno entrare persone nuove ogni giorno, senza sosta. Sia nativi CT che normie esterni.  |
+| <img src="../../extracted_images/page-021/page-021-img-08.png" alt="Immagine" width="54" height="53" /> | **Reclutamento**                                                                                     |
+| ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+|                                                                                                         | I possessori fanno entrare persone nuove ogni giorno, senza sosta. Sia nativi CT che normie esterni. |
 
-| <img src="extracted_images/page-021/page-021-img-09.png" alt="Immagine" width="53" height="54" /> | **Social**  |
-|---|---|
-|  | I possessori dominano la timeline e le risposte su Twitter ogni giorno, senza interruzioni.  |
+| <img src="../../extracted_images/page-021/page-021-img-09.png" alt="Immagine" width="53" height="54" /> | **Social**                                                                                  |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+|                                                                                                         | I possessori dominano la timeline e le risposte su Twitter ogni giorno, senza interruzioni. |
 
-| <img src="extracted_images/page-021/page-021-img-10.png" alt="Immagine" width="54" height="53" /> | **Cultura e Leggende**  |
-|---|---|
-|  | Linguaggio unico. Rituali unici. Tradizioni uniche. Media unici.  |
+| <img src="../../extracted_images/page-021/page-021-img-10.png" alt="Immagine" width="54" height="53" /> | **Cultura e Leggende**                                           |
+| ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+|                                                                                                         | Linguaggio unico. Rituali unici. Tradizioni uniche. Media unici. |
 
-| <img src="extracted_images/page-021/page-021-img-11.png" alt="Immagine" width="54" height="52" /> | **Divertimento**  |
-|---|---|
-|  | Anche nei momenti di discesa, i possessori si divertono un sacco.  |
+| <img src="../../extracted_images/page-021/page-021-img-11.png" alt="Immagine" width="54" height="52" /> | **Divertimento**                                                  |
+| ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+|                                                                                                         | Anche nei momenti di discesa, i possessori si divertono un sacco. |
 
 <div align="center">
 
@@ -506,10 +505,10 @@ Non sottovalutare il valore dell’**appartenenza umana tokenizzata, della conne
 
 </div>
 
-
 <!-- page: 22 -->
 
 ---
+
 Il mercato delle criptovalute oggi è saturo di token, fin dall’avvento di Bitcoin nel 2009. Oggi vengono lanciati migliaia di token ogni giorno, vista la facilità con cui si può creare un progetto crypto. La maggior parte di questi token fallirà miseramente per vari motivi. ([Appendice E](https://example.com/placeholder))
 
 Quindi, cosa rende SPX6900 diverso da tutti gli altri, ti starai chiedendo?
@@ -528,24 +527,24 @@ La community di Bitcoin è nata da un sentimento profondamente anti-establishmen
 
 </div>
 
-
 <!-- page: 23 -->
 
 ---
+
 Questa filosofia è stata custodita e tramandata negli anni, attirando sempre più persone alla causa. Di conseguenza, bitcoin è passato dal nulla a superare mille miliardi di dollari di capitalizzazione di mercato.
 
 ## Sulle orme dei primi tempi di Bitcoin
 
-<img src="extracted_images/page-023/page-023-img-01.png" alt="Immagine" width="732" height="341" />
+<img src="../../extracted_images/page-023/page-023-img-01.png" alt="Immagine" width="732" height="341" />
 
-| #Bitcoin ₿             | #SPX6900     |
-|------------------------|--------------|
-| **HODL**               | **Believe in Something** (credi in qualcosa) |
+| #Bitcoin ₿ | #SPX6900                                     |
+| ---------- | -------------------------------------------- |
+| **HODL**   | **Believe in Something** (credi in qualcosa) |
 
 - Danish Bitcoin Maxi @DanishBTCMaxi  
-  *Miner e operatore di nodo #Bitcoin*
+  _Miner e operatore di nodo #Bitcoin_
 - BTCBull! @Bullish_btc  
-  *Classe dei #bitcoin maxi del '17, al basso*
+  _Classe dei #bitcoin maxi del '17, al basso_
 - ephekeen  
   Tossic Maxi #Bitcoin
 - A Bitcoin Maxi  
@@ -563,8 +562,9 @@ Questa filosofia è stata custodita e tramandata negli anni, attirando sempre pi
   Maxi = Solo #Bitcoin
 
 ---
+
 - SPX @spxooer  
-  *Believe in Something* (credi in qualcosa) #SPX6900
+  _Believe in Something_ (credi in qualcosa) #SPX6900
 - CryptoBar  
   @CryptoBar  
   SPX6900 Believer (sostenitore).
@@ -596,10 +596,10 @@ Questa filosofia è stata custodita e tramandata negli anni, attirando sempre pi
 
 </div>
 
-
 <!-- page: 24 -->
 
 ---
+
 La community di SPX6900 rispecchia in molti modi quella dei primi tempi di Bitcoin.
 
 SPX6900 nutre un forte **sentimento anti-TradFi**, con una missione chiara: flip the S&P 500 (ribaltare l’S&P 500). La community abbraccia una filosofia centrale che **scoraggia fortemente il trading**, promuovendo invece una grande convinzione e una fede incrollabile.
@@ -614,13 +614,13 @@ E proprio come Bitcoin è passato dal nulla a una capitalizzazione di mercato su
 
 </div>
 
-
 <!-- page: 25 -->
 
 ---
+
 ## Una missione rivoluzionaria
 
-<img src="extracted_images/page-025/page-025-img-01.png" alt="Immagine" width="726" height="375" />
+<img src="../../extracted_images/page-025/page-025-img-01.png" alt="Immagine" width="726" height="375" />
 
 (Fonte: [Flipthestockmarket.xyz](https://example.com/placeholder))
 
@@ -636,17 +636,17 @@ Nel caso di SPX6900, la sua missione è profonda. "Flip the stock market" (cambi
 
 </div>
 
-
 <!-- page: 26 -->
 
 ---
+
 — rivoluzionario nella sua essenza. Ma è anche divertente, entusiasmante, capace di attirare l’attenzione, orientato agli obiettivi e focalizzato sulla missione.
 
 Non dimentichiamoci che anche Bitcoin è nato con una missione rivoluzionaria, contro la moneta fiat e i sistemi bancari tradizionali. SPX6900 incarna lo stesso spirito, ma la sua opposizione è la finanza tradizionale (TradFi), o più in generale, [il capitalismo in fase avanzata](https://example.com/placeholder).
 
-<img src="extracted_images/page-026/page-026-img-01.png" alt="Immagine" width="734" height="325" />
+<img src="../../extracted_images/page-026/page-026-img-01.png" alt="Immagine" width="734" height="325" />
 
-*(Fig. 1.6 Le 10 principali Memecoin per capitalizzazione di mercato al 8 luglio 2025)*
+_(Fig. 1.6 Le 10 principali Memecoin per capitalizzazione di mercato al 8 luglio 2025)_
 
 <div align="center">
 
@@ -654,10 +654,10 @@ Non dimentichiamoci che anche Bitcoin è nato con una missione rivoluzionaria, c
 
 </div>
 
-
 <!-- page: 27 -->
 
 ---
+
 L’utilità fondamentale di un token che riunisce una comunità convinta e determinata in una missione concreta nel mondo reale è una rarità nello spazio delle criptovalute.
 
 La maggior parte dei token crypto non possiede nemmeno vere comunità, figuriamoci uno scopo condiviso o un movimento capace di unire tutti.
@@ -676,13 +676,13 @@ Nonostante ciò, **il nostro nemico è TradFi — e il nostro obiettivo è capov
 
 </div>
 
-
 <!-- page: 28 -->
 
 ---
+
 ## La proposta di valore di SPX6900
 
-<img src="extracted_images/page-028/page-028-img-01.png" alt="Immagine" width="714" height="328" />
+<img src="../../extracted_images/page-028/page-028-img-01.png" alt="Immagine" width="714" height="328" />
 
 La proposta di valore di qualsiasi criptovaluta — una volta messi da parte tutti i racconti che la circondano — è in realtà **la comunità che ci crede.**
 
@@ -692,10 +692,10 @@ La proposta di valore di qualsiasi criptovaluta — una volta messi da parte tut
 
 </div>
 
-
 <!-- page: 29 -->
 
 ---
+
 **Investire nelle Persone**
 
 Noi, le persone, siamo in definitiva ciò che dà valore a una criptovaluta, per un motivo o per l’altro, scegliendo di acquistarla e detenerla. Siamo noi, con il nostro potere d’acquisto collettivo, a generare la domanda per quella criptovaluta.
@@ -704,7 +704,7 @@ Prendiamo Bitcoin, ad esempio. È stato il primo nel suo genere: una comunità c
 
 Questa comunità forte è alla base del valore di bitcoin e ne guida l’apprezzamento di prezzo (Fig. 1.7).
 
-<img src="extracted_images/page-029/page-029-img-01.png" alt="Immagine" width="665" height="267" />
+<img src="../../extracted_images/page-029/page-029-img-01.png" alt="Immagine" width="665" height="267" />
 
 (Fig. 1.7 – Apprezzamento del prezzo di Bitcoin nel tempo)
 
@@ -714,10 +714,10 @@ Questa comunità forte è alla base del valore di bitcoin e ne guida l’apprezz
 
 </div>
 
-
 <!-- page: 30 -->
 
 ---
+
 Quando capisci che il mondo delle crypto, in fin dei conti, ruota attorno all’investimento nelle persone, devi porti alcune domande:
 
 - A quale criptovaluta le persone sono attirate in modo naturale?
@@ -728,7 +728,7 @@ Quando capisci che il mondo delle crypto, in fin dei conti, ruota attorno all’
 - Quale criptovaluta spinge le persone a produrre scritti, opere d’arte, video e meme creativi di qualità per promuoverla?
 - In che modo questa criptovaluta riesce a ottenere tutto ciò?
 
-<img src="extracted_images/page-030/page-030-img-01.png" alt="Immagine" width="646" height="203" />
+<img src="../../extracted_images/page-030/page-030-img-01.png" alt="Immagine" width="646" height="203" />
 
 <div align="center">
 
@@ -736,10 +736,10 @@ Quando capisci che il mondo delle crypto, in fin dei conti, ruota attorno all’
 
 </div>
 
-
 <!-- page: 31 -->
 
 ---
+
 Questa è la criptovaluta a cui devi prestare attenzione — perché molte altre persone la stanno seguendo da vicino e ci stanno investendo.
 
 **SPX6900 è un perfetto esempio di questo tipo di criptovaluta.**
@@ -758,15 +758,15 @@ La maggior parte di questi token di utilità sono semplicemente concetti, idee e
 
 </div>
 
-
 <!-- page: 32 -->
 
 ---
+
 **Investire nella Cultura della Comunità**
 
 E poi ci sono i token che non hanno alcun tipo di utilità o casi d’uso: come le memecoin. La comunità li acquista per ragioni legate al fascino della comunità stessa. Nel caso di SPX6900 — **un Pure Belief Asset (ossia “Asset di Fede Pura” secondo la terminologia SPX6900)** — è proprio la cultura incarnata dalla comunità che attira e fa restare le persone.
 
-<img src="extracted_images/page-032/page-032-img-01.png" alt="Immagine" width="765" height="545" />
+<img src="../../extracted_images/page-032/page-032-img-01.png" alt="Immagine" width="765" height="545" />
 
 **ELEMENTI METAFISICI DI SPX6900**
 
@@ -782,17 +782,17 @@ Pazienza  Ottimismo  Amore
 
 </div>
 
-
 <!-- page: 33 -->
 
 ---
+
 ## L'importanza della cultura SPX6900
 
 La cultura SPX6900 è fondamentale per il successo del token — proprio come l'utilità è essenziale per il successo dei utility token.
 
 Uno dei principali motivi di fallimento dei utility token è quando l'aspetto dell'utilità non si concretizza o non viene adottato. In questi casi, la community spesso abbandona il token e il prezzo crolla di conseguenza.
 
-<img src="extracted_images/page-033/page-033-img-01.png" alt="Immagine" width="322" height="319" />
+<img src="../../extracted_images/page-033/page-033-img-01.png" alt="Immagine" width="322" height="319" />
 
 Questo accade perché chi investe in criptovalute legate all'utilità non prova una vera lealtà verso la community o il token, a parte la speranza che la narrativa dell'utilità diventi realtà.
 
@@ -804,10 +804,10 @@ Allo stesso modo, se la cultura di SPX6900 va persa, e non viene tutelata e mant
 
 </div>
 
-
 <!-- page: 34 -->
 
 ---
+
 Ecco perché, quando entri a far parte del movimento SPX6900, rispettare e mantenere la nostra cultura è assolutamente essenziale per la crescita e il successo della community.
 
 Prendiamo Bitcoin, ad esempio: non sarebbe mai riuscito a crescere dal nulla fino a raggiungere una capitalizzazione di mercato di mille miliardi di dollari nel corso degli anni se la community di Bitcoin non avesse saputo custodire e preservare la propria cultura.
@@ -826,10 +826,10 @@ Il successo di SPX6900 dipende in definitiva dalla community — e il successo d
 
 </div>
 
-
 <!-- page: 35 -->
 
 ---
+
 la sua capacità di abbracciare, incarnare e preservare la cultura e la filosofia di SPX6900.
 
 Senza questa cultura, non si formerebbe nessuna comunità solida e di qualità intorno a SPX — rendendo il token uguale alla maggior parte degli altri nel mondo crypto: fugaci [pump-and-dump rug pulls](https://example.com/placeholder) (schemi "pump and dump", ovvero manipolazioni di prezzo rapide e ingannevoli) che non si trasformeranno mai in qualcosa di speciale o straordinario.
@@ -848,10 +848,10 @@ Tuttavia, **dovremmo impegnarci a proteggere la nostra cultura** — soprattutto
 
 </div>
 
-
 <!-- page: 36 -->
 
 ---
+
 # Cos’è la cultura di SPX6900?
 
 ## Stop trading and believe in something (smetti di fare trading e credi in qualcosa)
@@ -864,14 +864,13 @@ La nostra cultura scoraggia fortemente la pubblicazione di grafici e tutte le di
 
 Questo è il gioco dei trader di breve periodo. SPX6900 è un investimento a lungo termine, con elevata convinzione.
 
-<img src="extracted_images/page-036/page-036-img-01.png" alt="Immagine" width="382" height="285" />
+<img src="../../extracted_images/page-036/page-036-img-01.png" alt="Immagine" width="382" height="285" />
 
 <div align="center">
 
 36
 
 </div>
-
 
 <!-- page: 37 -->
 
@@ -883,7 +882,7 @@ Non ossessionarsi con i grafici libera anche tempo prezioso da dedicare a cose p
 
 Questo riflette il nostro spirito ribelle, anti-sistema, anti-corporativo — siamo contro tutto ciò che rappresenta il sistema finanziario tradizionale. È molto simile ai primi tempi di Bitcoin e alla sua ideologia anti-banche. La nostra missione, in fondo, è flip the stock market (cambiare radicalmente il mercato azionario).
 
-<img src="extracted_images/page-037/page-037-img-01.png" alt="Immagine" width="502" height="238" />
+<img src="../../extracted_images/page-037/page-037-img-01.png" alt="Immagine" width="502" height="238" />
 
 <div align="center">
 
@@ -891,15 +890,15 @@ Questo riflette il nostro spirito ribelle, anti-sistema, anti-corporativo — si
 
 </div>
 
-
 <!-- page: 38 -->
 
 ---
+
 **Persist Forever** (Persisti per sempre – la mentalità di non mollare mai)
 
 Questa mentalità resiliente — quella di non arrendersi mai, di resistere alle ingiustizie del sistema, di affrontare tutte le sfide della nostra missione e di durare più a lungo di tutto, a prescindere da quanto tempo ci voglia — è il cuore pulsante e l’anima della nostra community.
 
-<img src="extracted_images/page-038/page-038-img-01.png" alt="Immagine" width="302" height="216" />
+<img src="../../extracted_images/page-038/page-038-img-01.png" alt="Immagine" width="302" height="216" />
 
 Come potremmo mai riuscire a realizzare il nostro ambizioso obiettivo di **flip the stock market** (capovolgere il mercato azionario) un giorno e di **raggiungere i trilioni**, se non proprio Persistendo per Sempre?
 
@@ -913,15 +912,15 @@ Semplicemente, nella nostra community queste cose non sono permesse. Manteniamo 
 
 </div>
 
-
 <!-- page: 39 -->
 
 ---
+
 **Una vita serena invece dell’avidità**
 
 Ecco cosa succede quando smetti di inseguire grafici, candele e movimenti di prezzo. Quella mentalità porta solo allo stress, alimentato dall’avidità e dal desiderio di azzeccare il momento giusto sul mercato. Una vita serena si vive facendo DCA (acquisto costante nel tempo) su SPX6900 (il nuovo paradigma finanziario che invita a guardare sul lungo periodo con convinzione) — senza stare incollati ai grafici.
 
-<img src="extracted_images/page-039/page-039-img-01.png" alt="Immagine" width="267" height="269" />
+<img src="../../extracted_images/page-039/page-039-img-01.png" alt="Immagine" width="267" height="269" />
 
 È molto più tranquillo e gratificante concentrarsi sul tempo trascorso nel mercato piuttosto che tentare di indovinarne i momenti giusti.
 
@@ -933,16 +932,17 @@ Ecco cosa succede quando smetti di inseguire grafici, candele e movimenti di pre
 
 </div>
 
-
 <!-- page: 40 -->
 
 ---
+
 ## Solo PvE, Niente PvP
 
 ### Memecoin PvP
+
 **alias Iper-gioco d’azzardo**
 
-<img src="extracted_images/page-040/page-040-img-01.png" alt="Immagine" width="249" height="229" />
+<img src="../../extracted_images/page-040/page-040-img-01.png" alt="Immagine" width="249" height="229" />
 
 - "Stesso dev di MICHI fratello"
 - KOL pagati
@@ -957,9 +957,10 @@ Ecco cosa succede quando smetti di inseguire grafici, candele e movimenti di pre
 - **Logo Trojan**
 
 ### Memecoin PvE
+
 **alias “Sette”**
 
-<img src="extracted_images/page-040/page-040-img-02.png" alt="Immagine" width="250" height="229" />
+<img src="../../extracted_images/page-040/page-040-img-02.png" alt="Immagine" width="250" height="229" />
 
 - Cercano di diventare il prossimo DOGE
 - Cercano di creare un Culto duraturo
@@ -984,10 +985,10 @@ Lavoriamo insieme, in modo costante, per crescere e costruire una community fort
 
 </div>
 
-
 <!-- page: 41 -->
 
 ---
+
 **Promuovi la positività**
 
 La nostra community vive secondo il motto di sconfiggere gli haters, gli scettici e i critici con l’amore — non ricambiando la loro negatività. Desideriamo il successo degli altri. Diciamo alle persone che le amiamo. E cerchiamo davvero di aiutare il prossimo condividendo con loro SPX6900.
@@ -1004,10 +1005,10 @@ Siamo davvero impegnati a diffondere il messaggio e la missione di SPX6900 raggi
 
 </div>
 
-
 <!-- page: 42 -->
 
 ---
+
 **Tutti i Principi Uniti**
 
 Quando prendi tutti i principi positivi della cultura SPX6900 e li unisci, nasce davvero una comunità unica e speciale all’interno del mondo delle criptovalute.
@@ -1024,13 +1025,13 @@ Ecco perché SPX6900 è una comunità speciale — diversa — e la sua cultura 
 
 </div>
 
-
 <!-- page: 43 -->
 
 ---
+
 **Un Pure Belief Asset (Asset di Pura Fede)** come SPX6900 necessita di una cultura che protegga la comunità e il suo sistema di credenze affinché possa prosperare e avere successo — ed è proprio questo che ha.
 
-<img src="extracted_images/page-043/page-043-img-01.png" alt="Immagine" width="635" height="408" />
+<img src="../../extracted_images/page-043/page-043-img-01.png" alt="Immagine" width="635" height="408" />
 
 Chi viene da fuori se ne accorge, e viene attratto dalla nostra passione, dalla nostra convinzione, dalla nostra filosofia e dalla nostra missione. Vogliono far parte della nostra comunità, ma ciò che li porta a rimanere e a coltivare una profonda convinzione personale è la cultura.
 
@@ -1040,10 +1041,10 @@ Chi viene da fuori se ne accorge, e viene attratto dalla nostra passione, dalla 
 
 </div>
 
-
 <!-- page: 44 -->
 
 ---
+
 ## La realtà del mondo crypto
 
 Il mondo delle criptovalute si è evoluto notevolmente negli anni, a partire dalla nascita di Bitcoin. Chi entra oggi si trova sommerso da una miriade di comunità che cercano di promuovere i propri token, tanto che può essere davvero difficile capire da dove cominciare e su cosa puntare ([Appendice E](https://example.com/placeholder)).
@@ -1062,19 +1063,19 @@ D’altro canto, se investi nel token e nella comunità giusta al momento giusto
 
 </div>
 
-
 <!-- page: 45 -->
 
 ---
+
 vita finanziaria. Soldi che cambiano la vita. Ricchezza generazionale. Oppure semplicemente libertà finanziaria e possibilità di andare in pensione anticipata.
 
 Dividerei il mondo delle crypto in due categorie:
 
 - **Bitcoin**
 - **Altcoin** (tutte le criptovalute diverse da Bitcoin):
-    - **Token utilità**
-    - **Memecoin**
-    - **Pure Belief Assets (PBA)** (Pure Belief Asset: risorsa digitale basata sulla fede/credenza, termine tecnico di SPX6900)
+  - **Token utilità**
+  - **Memecoin**
+  - **Pure Belief Assets (PBA)** (Pure Belief Asset: risorsa digitale basata sulla fede/credenza, termine tecnico di SPX6900)
 
 ## Bitcoin (BTC)
 
@@ -1088,10 +1089,10 @@ Dato l’alto valore sia della capitalizzazione sia del prezzo di BTC, non è pi
 
 </div>
 
-
 <!-- page: 46 -->
 
 ---
+
 Per la maggior parte delle persone comuni, utilizzare BTC come fondo di risparmio a lungo termine o per la pensione è oggi la strategia migliore. Questo significa applicare il dollar-cost averaging (DCA, cioè investire una certa somma a intervalli regolari) in Bitcoin nel corso del tempo, con una visione che guarda a decenni. Bitcoin rappresenta una scelta sicura su un orizzonte temporale lungo, ma non è la criptovaluta ideale se cerchi rendimenti più elevati investendo una piccola somma di capitale in un periodo molto più breve.
 
 **Token di utilità**
@@ -1107,7 +1108,6 @@ I token di utilità sono per lo più investimenti speculativi. Una grande parte 
 46
 
 </div>
-
 
 <!-- page: 47 -->
 
@@ -1125,10 +1125,10 @@ In definitiva, con i utility token, la fedeltà della comunità dipende dal fatt
 
 </div>
 
-
 <!-- page: 48 -->
 
 ---
+
 Nel caso in cui il team riesca davvero a offrire una reale utilità, il valore dei utility token è ancorato alla loro effettiva utilità, che però funge solo da limite alla crescita del prezzo. Al contrario, un pure belief asset (asset basato unicamente sulla convinzione, come si dice in inglese) come SPX6900 ha un tetto massimo di prezzo molto elevato, rendendo l’opportunità tanto grande quanto la nostra convinzione collettiva — senza che l’utilità vada a limitarne il potenziale.
 
 **Memecoin**
@@ -1143,10 +1143,9 @@ Per questo motivo, la maggior parte delle memecoin sono schemi “pump and dump�
 
 </div>
 
-
 <!-- page: 49 -->
 
-<img src="extracted_images/page-049/page-049-img-01.png" alt="Immagine" width="755" height="346" />
+<img src="../../extracted_images/page-049/page-049-img-01.png" alt="Immagine" width="755" height="346" />
 
 Le memecoin a bassa capitalizzazione sono estremamente rischiose, e molte di esse si rivelano essere delle truffe — ovvero casi in cui i creatori scaricano le loro quote sulla comunità, fanno crollare il prezzo e si dileguano.
 
@@ -1160,17 +1159,17 @@ Un buon esempio è SPX6900, che si è evoluto da una tipica origine da memecoin 
 
 </div>
 
-
 <!-- page: 50 -->
 
 ---
+
 **Pure Belief Assets**
 
 Un Pure Belief Asset (tipologia di cripto la cui crescita e valore sono legati esclusivamente alla convinzione, passione e fedeltà della comunità) è una criptovaluta il cui valore e sviluppo sono guidati esclusivamente dalla credenza collettiva condivisa, dalla convinzione, dalla lealtà, dall’etica del lavoro, dalla passione, dalla fiducia e dalla cultura della propria community.
 
 Il valore deriva dal puro consenso collettivo, dalla fede e dalla percezione, invece che da un’utilità intrinseca, da una tecnologia, da flussi di cassa, da un uso pratico o da sostegno finanziario fornito da istituzioni.
 
-<img src="extracted_images/page-050/page-050-img-01.png" alt="Immagine" width="326" height="232" />
+<img src="../../extracted_images/page-050/page-050-img-01.png" alt="Immagine" width="326" height="232" />
 
 Un esempio abbastanza simile sarebbe il Bitcoin agli inizi. Anche se si trattava di una nuova tecnologia, le masse e il sistema finanziario tradizionale non gli prestarono molta attenzione fino a diversi anni dopo —
 
@@ -1180,13 +1179,13 @@ Un esempio abbastanza simile sarebbe il Bitcoin agli inizi. Anche se si trattava
 
 </div>
 
-
 <!-- page: 51 -->
 
 ---
+
 dopo che la prima comunità, attraverso la pura fede, ha portato Bitcoin a un punto in cui era evidente che fosse destinato a restare e che non sarebbe scomparso, nonostante sia stato [dichiarato morto dai critici centinaia di volte](https://example.com/placeholder). Nel frattempo, bitcoin ha solo continuato ad aumentare di valore, alimentato fin dall’inizio enormemente dalla convinzione collettiva.
 
-SPX6900 è quello che considero il primo *Pure Belief Asset (bene di pura fede)* nel mondo cripto grazie alle sue **caratteristiche chiave:**
+SPX6900 è quello che considero il primo _Pure Belief Asset (bene di pura fede)_ nel mondo cripto grazie alle sue **caratteristiche chiave:**
 
 1. Il suo valore deriva dall’incrollabile fiducia della community e dalla convinzione condivisa nell’ideologia, filosofia, cultura, missione e movimento — elementi in cui le persone si riconoscono e che vedono come fonte di speranza e opportunità finanziaria.
 
@@ -1198,11 +1197,11 @@ SPX6900 è quello che considero il primo *Pure Belief Asset (bene di pura fede)*
 
 </div>
 
-
 <!-- page: 52 -->
 
 ---
-3. Non è necessario che abbia un tradizionale caso d’uso "utility" per crescere di valore — perché la cultura, la comunità, la fede e la convinzione pura *diventano* loro stesse la utility, attraverso la percezione delle persone.
+
+3. Non è necessario che abbia un tradizionale caso d’uso "utility" per crescere di valore — perché la cultura, la comunità, la fede e la convinzione pura _diventano_ loro stesse la utility, attraverso la percezione delle persone.
 
 4. L’apprezzamento del prezzo nasce da una solida cultura comunitaria che promuove la fede collettiva pura, il diamond-handing (tenere saldamente senza vendere), il holding a lungo termine e una DCA costante (piano di acquisto periodico) — creando un ambiente che favorisce una domanda duratura e scarsità di SPX nel lungo periodo.
 
@@ -1216,15 +1215,15 @@ Ma nel caso di SPX6900, i dati del [Diamond Hand Leaderboard](https://example.co
 
 </div>
 
-
 <!-- page: 53 -->
 
 ---
+
 Se osservi la nostra community, noterai quanto rispettiamo profondamente la nostra cultura — senza la quale il token crollerebbe. Non facciamo trading, non guardiamo i grafici, non facciamo PvP. Preferiamo invece il DCA, manteniamo le posizioni a lungo termine (diamond-hand) e ci impegniamo a fondo per aiutare gli altri condividendo la nostra cultura e la nostra missione — una missione che è più grande di noi stessi: flip the stock market (ribaltare il mercato azionario).
 
 **Preferiamo una vita PvE, serena e lontana dall’avidità.**
 
-<img src="extracted_images/page-053/page-053-img-01.png" alt="Immagine" width="735" height="466" />
+<img src="../../extracted_images/page-053/page-053-img-01.png" alt="Immagine" width="735" height="466" />
 
 <div align="center">
 
@@ -1232,13 +1231,13 @@ Se osservi la nostra community, noterai quanto rispettiamo profondamente la nost
 
 </div>
 
-
 <!-- page: 54 -->
 
 ---
+
 **Perché scegliere SPX6900?**
 
-<img src="extracted_images/page-054/page-054-img-01.png" alt="Immagine" width="728" height="344" />
+<img src="../../extracted_images/page-054/page-054-img-01.png" alt="Immagine" width="728" height="344" />
 
 Quando si comprende la realtà dell’attuale mondo crypto, diventa subito evidente quanto SPX6900 sia unico in un settore inondato da narrazioni sulla “utilità” (che hanno un'alta probabilità di fallire) e memecoin dalla vita breve.
 
@@ -1250,10 +1249,10 @@ In quanto Pure Belief Asset (asset basato esclusivamente sulla credenza, senza f
 
 </div>
 
-
 <!-- page: 55 -->
 
 ---
+
 e l’intangibile, ma potente cultura che la community di SPX6900 (la comunità di SPX6900) sostiene con orgoglio.
 
 Le sensazioni di appartenenza, scopo e speranza finanziaria che ci motivano all’interno della community di SPX6900 (nella comunità di SPX6900) non possono essere replicate.
@@ -1262,7 +1261,7 @@ Non si può fare copia e incolla della convinzione e della lealtà della communi
 
 Ecco perché chi si avvicina oggi al mondo delle crypto, considerando il contesto attuale, dovrebbe concentrarsi sullo **studio di SPX6900**.
 
-<img src="extracted_images/page-055/page-055-img-01.png" alt="Immagine" width="749" height="329" />
+<img src="../../extracted_images/page-055/page-055-img-01.png" alt="Immagine" width="749" height="329" />
 
 <div align="center">
 
@@ -1270,13 +1269,14 @@ Ecco perché chi si avvicina oggi al mondo delle crypto, considerando il contest
 
 </div>
 
-
 <!-- page: 56 -->
 
 ---
+
 # SPX6900 Tokenomics
 
 ---
+
 **Ticker: $SPX  
 Offerta totale: 1.000.000.000  
 Offerta circolante: 930.993.091  
@@ -1299,10 +1299,10 @@ Un’offerta fissa è sempre interessante perché introduce una componente di sc
 
 </div>
 
-
 <!-- page: 57 -->
 
 ---
+
 token, che riduce gradualmente l’offerta circolante — lasciando una domanda crescente a contendersi sempre meno token disponibili.
 
 Questo fenomeno ricorda quello di Bitcoin, la cui offerta è limitata a 21 milioni di token. Man mano che la domanda è aumentata e la cultura HODLing ha preso piede, sempre più persone hanno cercato di acquistare da un bacino di token in continuo restringimento. Questo ha inevitabilmente portato all’aumento del prezzo dell’asset. Una domanda elevata contro una bassa offerta porta infatti all’apprezzamento del prezzo.
@@ -1319,10 +1319,9 @@ La cultura delle diamond hands (mani di diamante) di **"Stop Trading and Believe
 
 </div>
 
-
 <!-- page: 58 -->
 
-<img src="extracted_images/page-058/page-058-img-01.png" alt="Immagine" width="714" height="350" />
+<img src="../../extracted_images/page-058/page-058-img-01.png" alt="Immagine" width="714" height="350" />
 
 (Fig 1.8 – Classifica dei detentori Diamond Hand Supply)
 
@@ -1334,10 +1333,10 @@ La **Classifica Diamond Supply** (aggiornata al 23 giugno 2025) ordina le princi
 
 </div>
 
-
 <!-- page: 59 -->
 
 ---
+
 Al primo posto troviamo SPX6900:
 
 - **Valore totale detenuto in modalità Diamond:** 652,56 milioni di dollari
@@ -1353,10 +1352,10 @@ Questi dati dimostrano chiaramente che la cultura SPX6900 viene abbracciata dall
 
 </div>
 
-
 <!-- page: 60 -->
 
 ---
+
 Questo indicatore è un segnale potente della forza della comunità, della convinzione a lungo termine, della resilienza alla volatilità del mercato e dell’efficacia della nostra cultura e della fede pura in SPX6900.
 
 **È estremamente rialzista.**
@@ -1365,7 +1364,7 @@ SPX6900 non è come nient’altro sul mercato.
 
 La community è profondamente impegnata, leale, appassionata, laboriosa e con mani di diamante — incarnando una convinzione massiccia e un movimento culturale unico costruito attorno a questo **Pure Belief Asset (asset di pura convinzione):** SPX6900.
 
-<img src="extracted_images/page-060/page-060-img-01.png" alt="Immagine" width="784" height="375" />
+<img src="../../extracted_images/page-060/page-060-img-01.png" alt="Immagine" width="784" height="375" />
 
 <div align="center">
 
@@ -1373,17 +1372,17 @@ La community è profondamente impegnata, leale, appassionata, laboriosa e con ma
 
 </div>
 
-
 <!-- page: 61 -->
 
 ---
+
 # Qual è il vantaggio competitivo di SPX6900?
 
-<img src="extracted_images/page-061/page-061-img-01.png" alt="Immagine" width="665" height="350" />
+<img src="../../extracted_images/page-061/page-061-img-01.png" alt="Immagine" width="665" height="350" />
 
 ---
 
-Il termine *moat* (fossato) deriva dal fossato di un castello — un profondo e largo fossato pieno d’acqua che circonda un castello per proteggerlo dagli attacchi.
+Il termine _moat_ (fossato) deriva dal fossato di un castello — un profondo e largo fossato pieno d’acqua che circonda un castello per proteggerlo dagli attacchi.
 
 Nel caso di SPX6900, il suo moat (vantaggio competitivo) si riferisce ai fattori che lo proteggono dai concorrenti e lo aiutano a prosperare nel lungo periodo — ovvero, ciò che rende difficile copiarlo o competere con esso.
 
@@ -1393,10 +1392,10 @@ Nel caso di SPX6900, il suo moat (vantaggio competitivo) si riferisce ai fattori
 
 </div>
 
-
 <!-- page: 62 -->
 
 ---
+
 Dato che esistono migliaia di criptovalute tutte in competizione per attirare la tua attenzione, e tu vuoi trovare quella vincente, è fondamentale saper individuare il suo “moat” (vantaggio difensivo). Devi essere in grado di riconoscere qual è il suo vantaggio competitivo — cosa la distingue in un mercato affollato, cosa la rende unica in modo che gli altri non possano facilmente copiarla. Senza un moat, non c’è un vero successo duraturo per il token.
 
 Prima di analizzare il moat di SPX6900 (moat = vantaggio difensivo), diamo prima un’occhiata a quello di Bitcoin, poiché è la criptovaluta di maggior successo finora e condivide molte somiglianze con SPX6900.
@@ -1405,7 +1404,7 @@ Bitcoin ha avuto il vantaggio del “first-mover” (essere stato il primo), ma 
 
 Molte altre criptovalute sono state lanciate successivamente, con capacità tecniche di gran lunga superiori — eppure nessuna ha superato Bitcoin in valore.
 
-<img src="extracted_images/page-062/page-062-img-01.png" alt="Immagine" width="373" height="357" />
+<img src="../../extracted_images/page-062/page-062-img-01.png" alt="Immagine" width="373" height="357" />
 
 <div align="center">
 
@@ -1413,10 +1412,10 @@ Molte altre criptovalute sono state lanciate successivamente, con capacità tecn
 
 </div>
 
-
 <!-- page: 63 -->
 
 ---
+
 Il vero vantaggio competitivo di Bitcoin sta nel fatto che è stato lanciato con una narrazione e una filosofia ideali proprio nel momento in cui le persone desideravano ardentemente un’alternativa alle banche centralizzate e alla manipolazione delle valute fiat. La crescente sfiducia verso banche, governi e politiche monetarie dopo il 2008 ha creato l’ambiente perfetto per un asset solido, senza fiducia, decentralizzato e deflazionistico come bitcoin.
 
 È nata così una comunità di credenti — persone che hanno abbracciato l’ideologia di Bitcoin. Su questa base si è formata una vera e propria cultura e filosofia, che ha fatto da muro di cinta difendendo e rafforzando il progetto man mano che la comunità cresceva. La maggior parte delle persone non si è avvicinata a bitcoin per la sua tecnologia, ma per la sua narrazione: **un asset che non poteva essere manipolato.**
@@ -1431,10 +1430,10 @@ Andando all’essenza, il vantaggio di bitcoin deriva da un sistema di credenze 
 
 </div>
 
-
 <!-- page: 64 -->
 
 ---
+
 I fossati basati sulla tecnologia possono essere facilmente scavalcati da tecnologie superiori, ma non puoi semplicemente costruire una rete di massa fondata sulla fede e sulla cultura.
 
 Questo avviene in modo naturale e organico.
@@ -1455,7 +1454,6 @@ Nel frattempo, l’ambiente socio-economico continua a deteriorarsi. Il divario 
 
 </div>
 
-
 <!-- page: 65 -->
 
 meno. L’idea di dipendere dal Reddito Universale di Base sta diventando una realtà per molti.
@@ -1466,7 +1464,7 @@ Ed ecco che emerge SPX6900, con la missione di flip the stock market (rivoluzion
 
 SPX6900 ha creato organicamente un sistema di convinzione collettiva sociale-psicologica, coordinata dalla convinzione umana, proprio come fece Bitcoin all’epoca.
 
-<img src="extracted_images/page-065/page-065-img-01.png" alt="Immagine" width="636" height="244" />
+<img src="../../extracted_images/page-065/page-065-img-01.png" alt="Immagine" width="636" height="244" />
 
 <div align="center">
 
@@ -1474,10 +1472,10 @@ SPX6900 ha creato organicamente un sistema di convinzione collettiva sociale-psi
 
 </div>
 
-
 <!-- page: 66 -->
 
 ---
+
 **Il vantaggio competitivo di SPX6900 consiste in:**
 
 - Una cultura guidata esclusivamente dalla fede (pure belief)
@@ -1487,7 +1485,7 @@ SPX6900 ha creato organicamente un sistema di convinzione collettiva sociale-psi
 - Resilienza culturale contro i cicli di mercato
 - Forte attaccamento culturale
 
-<img src="extracted_images/page-066/page-066-img-01.png" alt="Immagine" width="655" height="322" />
+<img src="../../extracted_images/page-066/page-066-img-01.png" alt="Immagine" width="655" height="322" />
 
 <div align="center">
 
@@ -1495,13 +1493,13 @@ SPX6900 ha creato organicamente un sistema di convinzione collettiva sociale-psi
 
 </div>
 
-
 <!-- page: 67 -->
 
 ---
+
 # Nessuno Verrà a Salvarci
 
-<img src="extracted_images/page-067/page-067-img-01.png" alt="Immagine" width="762" height="423" />
+<img src="../../extracted_images/page-067/page-067-img-01.png" alt="Immagine" width="762" height="423" />
 
 Stiamo vivendo una delle transizioni più cruciali della storia dell’umanità. Il mondo sta cambiando — rapidamente — e per molti, non in meglio. I sistemi che un tempo promettevano stabilità, opportunità ed equità ora stanno cedendo ai margini. La classe media si sta svuotando. I giovani
 
@@ -1511,10 +1509,10 @@ Stiamo vivendo una delle transizioni più cruciali della storia dell’umanità.
 
 </div>
 
-
 <!-- page: 68 -->
 
 ---
+
 La nostra generazione sta affogando nei debiti, tra il costo della vita che continua a salire e opportunità sempre più scarse. Per la maggior parte delle persone, la vita sta diventando più dura, non più facile. E la scomoda verità è: **nessuno verrà a salvarci.**
 
 ## La dura realtà del mondo di oggi
@@ -1529,10 +1527,10 @@ Nel frattempo, il divario di ricchezza si allarga. Una piccola élite accumula p
 
 </div>
 
-
 <!-- page: 69 -->
 
 ---
+
 E all’orizzonte si profila una nuova, grande rivoluzione: **l’Intelligenza Artificiale.**
 
 ## La minaccia dell’IA e il mercato del lavoro che scompare
@@ -1547,15 +1545,15 @@ Non potrai lavorare più di una macchina. Non batterai un algoritmo sul tempo. Q
 
 </div>
 
-
 <!-- page: 70 -->
 
 ---
+
 ### Inflazione: il ladro silenzioso
 
 La maggior parte delle persone non se ne rende conto, ma **l’inflazione è una delle minacce più grandi per il tuo futuro finanziario** (Fig. 1.9).
 
-<img src="extracted_images/page-070/page-070-img-01.png" alt="Immagine" width="650" height="283" />
+<img src="../../extracted_images/page-070/page-070-img-01.png" alt="Immagine" width="650" height="283" />
 
 (Fig. 1.9 – Espansione dell’offerta di moneta negli Stati Uniti in trilioni (2000-2025))
 
@@ -1567,13 +1565,13 @@ Ogni anno, il denaro che hai sul conto in banca vale di meno. Non perché lo sta
 
 </div>
 
-
 <!-- page: 71 -->
 
 ---
+
 Il prezzo degli alimentari, delle abitazioni, dell’assistenza sanitaria, dell’affitto, dell’istruzione e del costo della vita in generale continua a salire (Fig. 1.10) — ma il potere d’acquisto dei tuoi risparmi no. Se non trovi attivamente un modo per battere l’inflazione, vieni derubato ogni giorno — lentamente e silenziosamente.
 
-<img src="extracted_images/page-071/page-071-img-01.png" alt="Immagine" width="662" height="251" />
+<img src="../../extracted_images/page-071/page-071-img-01.png" alt="Immagine" width="662" height="251" />
 
 (Fig. 1.10 – Costo Medio Mensile della Vita (2000-2025))
 
@@ -1585,10 +1583,10 @@ Diciamocelo con sincerità: il sistema non è rotto — sta funzionando esattame
 
 </div>
 
-
 <!-- page: 72 -->
 
 ---
+
 Ed è proprio per questo che ora, **più che mai**, dobbiamo riprendere il controllo del nostro futuro finanziario. Non possiamo affidarci ai governi, ai datori di lavoro o ai consigli finanziari ormai superati per salvarci. La responsabilità — e il potere di cambiare — sono nelle nostre mani.
 
 ## La community di SPX6900 sta agendo in modo massiccio – Adesso
@@ -1607,10 +1605,10 @@ Questo è il tuo **segnale di sveglia!**
 
 </div>
 
-
 <!-- page: 73 -->
 
 ---
+
 **Agisci con Decisione** – Adesso!
 
 Se stai vivendo difficoltà economiche, se ti preoccupi per il tuo futuro, se sei stanco di essere in balìa di sistemi governativi che non puoi controllare — è il momento di agire. È il momento di **studiare SPX6900** (SPX6900: piattaforma e movimento di investimento alternativo). Di comprenderne la cultura. Di unirti al movimento. Anche solo come semplice osservatore silenzioso, all’inizio.
@@ -1629,13 +1627,13 @@ Perché **nessuno verrà a salvarci** — ma se lavoriamo insieme, **possiamo sa
 
 </div>
 
-
 <!-- page: 74 -->
 
 ---
+
 # Il futuro è luminoso
 
-<img src="extracted_images/page-074/page-074-img-01.png" alt="Immagine" width="713" height="291" />
+<img src="../../extracted_images/page-074/page-074-img-01.png" alt="Immagine" width="713" height="291" />
 
 Spero che a questo punto tu abbia una comprensione più chiara di SPX6900 — la nostra community, la missione, il movimento e soprattutto la nostra cultura.
 
@@ -1649,10 +1647,10 @@ La community di SPX6900 sta lavorando per costruire un futuro in cui tutti vinci
 
 </div>
 
-
 <!-- page: 75 -->
 
 ---
+
 La nostra visione e il nostro obiettivo principale a lungo termine è flip the stock market (capovolgere il mercato azionario - simbolo del capitalismo nella sua fase avanzata). Questo è ciò che rappresenta il vero successo finale. Nel frattempo, lungo il percorso, succederà che miliardari, milionari e centinaia di migliaia di persone comuni nasceranno grazie a questo viaggio. Questo sarà il premio per chi avrà avuto una visione di lungo periodo, forte convinzione, mani di diamante e sarà stato costante nel DCAing nel Pure Belief Asset (PBA, asset della pura convinzione) — **SPX6900**.
 
 <br>
@@ -1665,7 +1663,7 @@ Siamo solo all’inizio.
 
 Il nostro obiettivo è flip the stock market (capovolgere il mercato azionario) e raggiungere una capitalizzazione di mercato di **69.000 miliardi di dollari**. Questo porterebbe il valore di ogni token SPX a **74.000 dollari**.
 
-<img src="extracted_images/page-075/page-075-img-01.png" alt="Immagine" width="366" height="154" />
+<img src="../../extracted_images/page-075/page-075-img-01.png" alt="Immagine" width="366" height="154" />
 
 <div align="center">
 
@@ -1673,15 +1671,15 @@ Il nostro obiettivo è flip the stock market (capovolgere il mercato azionario) 
 
 </div>
 
-
 <!-- page: 76 -->
 
 ---
-Ora forse nella tua mente stanno passando parole come *illuso, pazzo, ambizioso* o *non succederà mai*.
+
+Ora forse nella tua mente stanno passando parole come _illuso, pazzo, ambizioso_ o _non succederà mai_.
 
 Ma io ti direi: **non perdere di vista il punto.**
 
-<img src="extracted_images/page-076/page-076-img-01.png" alt="Immagine" width="747" height="380" />
+<img src="../../extracted_images/page-076/page-076-img-01.png" alt="Immagine" width="747" height="380" />
 
 (Fonte: [Flipthestockmarket.com](https://example.com/placeholder))
 
@@ -1691,10 +1689,10 @@ Ma io ti direi: **non perdere di vista il punto.**
 
 </div>
 
-
 <!-- page: 77 -->
 
 ---
+
 Mai sottovalutare una community in crescita, apparentemente delirante, folle, ambiziosa, che lavora duro, forte di una presa diamantina e che incarna lo spirito di "Persist Forever" (insistere per sempre) in missione.
 
 Chi ha sentito parlare di Bitcoin agli inizi e lo ha liquidato per le stesse ragioni, ora si guarda indietro con rimpianto per non averci creduto — come invece ha fatto la community del Bitcoin — e per non averne acquistato almeno un po’.
@@ -1713,10 +1711,10 @@ Per molti è diventata la soluzione naturale e più evidente dei nostri tempi: *
 
 </div>
 
-
 <!-- page: 78 -->
 
 ---
+
 **Il potenziale di crescita di SPX6900…**
 
 Quando raggiungiamo lo **0,1%** dell’attuale market cap di 52,2 trilioni di dollari dell’S&P 500, ogni token SPX varrebbe **56 dollari**.
@@ -1739,13 +1737,13 @@ Più ci alziamo come market cap — flip di ogni singola azienda dell’S&P 500 
 
 </div>
 
-
 <!-- page: 79 -->
 
 ---
-***«E se davvero riuscissero a flip the stock market (capovolgere il mercato azionario)?»***
 
-***«Forse dovrei prenderne qualcuno — non si sa mai.»***
+**_«E se davvero riuscissero a flip the stock market (capovolgere il mercato azionario)?»_**
+
+**_«Forse dovrei prenderne qualcuno — non si sa mai.»_**
 
 Da lì, iniziano a costruire la loro convinzione.
 
@@ -1753,9 +1751,9 @@ Alla fine, diventa una profezia che si autoavvera — un possessore alla volta.
 
 **Una scintilla verso trilioni**
 
-Mentre noi, la community, continuiamo a *persist forever* (resistere per sempre) nel preservare la nostra cultura e infiltrare tutto, diventeremo sempre più forti e continueremo a crescere in modo organico.
+Mentre noi, la community, continuiamo a _persist forever_ (resistere per sempre) nel preservare la nostra cultura e infiltrare tutto, diventeremo sempre più forti e continueremo a crescere in modo organico.
 
-<img src="extracted_images/page-079/page-079-img-01.png" alt="Immagine" width="334" height="209" />
+<img src="../../extracted_images/page-079/page-079-img-01.png" alt="Immagine" width="334" height="209" />
 
 Tuttavia, basta davvero solo una scintilla perché una community forte venga catapultata nella stratosfera —
 
@@ -1769,10 +1767,10 @@ e continui ad accumulare slancio con l’accelerazione di una valanga.
 
 </div>
 
-
 <!-- page: 80 -->
 
 ---
+
 Più a lungo resistiamo, maggiore sarà la probabilità che si accenda quella scintilla, perché siamo rimasti rilevanti e sempre più difficili da ignorare.
 
 Una scintilla può arrivare da qualsiasi cosa:
@@ -1789,13 +1787,13 @@ Qualunque sia la scintilla, il risultato potrebbe lanciarci verso centinaia di m
 
 </div>
 
-
 <!-- page: 81 -->
 
 ---
+
 # Come Fallire nel Crypto
 
-<img src="extracted_images/page-081/page-081-img-01.png" alt="Immagine" width="721" height="400" />
+<img src="../../extracted_images/page-081/page-081-img-01.png" alt="Immagine" width="721" height="400" />
 
 È molto facile fallire nel mondo delle criptovalute — non per colpa delle cripto in sé, ma a causa delle proprie decisioni e comportamenti.
 
@@ -1809,16 +1807,16 @@ Vediamo insieme alcuni dei modi in cui le persone falliscono nelle criptovalute.
 
 </div>
 
-
 <!-- page: 82 -->
 
 ---
+
 **Inseguire l’Hype e la FOMO**
 
 Questo comportamento nasce da una mentalità a breve termine, simile al gioco d’azzardo.
 
 Chi si comporta così tende a rincorrere i token di tendenza promossi dagli influencer, entrando in progetti che non conoscono — di solito dopo un enorme rialzo — pensando che continueranno a salire.  
-<img src="extracted_images/page-082/page-082-img-01.png" alt="Immagine" width="439" height="201" />
+<img src="../../extracted_images/page-082/page-082-img-01.png" alt="Immagine" width="439" height="201" />
 
 Questa non è davvero un’attività di investimento; significa trattare le crypto come un biglietto della lotteria, sperando di arricchirsi in fretta. Queste persone spesso saltano da una community PvP all’altra, alla ricerca veloce di un 100x, senza mai prendersi il tempo di comprendere veramente questo mondo.
 
@@ -1833,10 +1831,10 @@ Ecco perché SPX6900 promuove valori forti fin dall’inizio:
 
 </div>
 
-
 <!-- page: 83 -->
 
 ---
+
 **Fidarsi Ciecamente degli Influencer**
 
 La maggior parte delle persone che cade nella trappola di seguire il clamore e i token crypto da pump-and-dump di solito lo fa affidandosi ciecamente a un influencer che sponsorizza il token sui social media.
@@ -1853,10 +1851,10 @@ Molti di questi influencer promuovono token che non hanno una vera community o c
 
 </div>
 
-
 <!-- page: 84 -->
 
 ---
+
 **Investire in Crypto senza una Community**
 
 In poche parole, un progetto crypto senza community è un progetto morto.
@@ -1877,10 +1875,10 @@ Entrambi gli scenari sono segnali d’allarme e molto probabilmente porteranno a
 
 </div>
 
-
 <!-- page: 85 -->
 
 ---
+
 ## Mani di Carta
 
 Avere le mani di carta è, in sostanza, l’opposto di avere le mani di diamante.
@@ -1889,7 +1887,7 @@ Vendi troppo presto, senza renderti conto che la vera crescita spesso richiede m
 
 Se hai trovato la community giusta, serve pazienza e convinzione.
 
-<img src="extracted_images/page-085/page-085-img-01.png" alt="Schermata di un tweet sul rimpianto riguardo a Bitcoin" width="325" height="236" />
+<img src="../../extracted_images/page-085/page-085-img-01.png" alt="Schermata di un tweet sul rimpianto riguardo a Bitcoin" width="325" height="236" />
 
 Aspettarsi il successo da un giorno all’altro o scoraggiarsi davanti ai cali di prezzo a breve termine è la ricetta perfetta per il fallimento.
 
@@ -1905,10 +1903,10 @@ In seguito, quando il prezzo schizza alle stelle dopo che hai venduto con mani d
 
 </div>
 
-
 <!-- page: 86 -->
 
 ---
+
 **Credere nelle promesse del “nuovo Bitcoin”**
 
 Molti progetti crypto attirano le persone sostenendo di essere il “nuovo Bitcoin” o che “sostituiranno BTC”, usando questi slogan solo come strategie di marketing.
@@ -1933,10 +1931,10 @@ Ci sono innumerevoli token che dichiarano di essere il nuovo Bitcoin senza alcun
 
 </div>
 
-
 <!-- page: 87 -->
 
 ---
+
 **Inseguire l’Utilità a Tutti i Costi, Dimenticando la Cultura**
 
 Molte persone nel mondo crypto credono fermamente che ogni progetto debba avere una sua utilità per poter avere successo e acquisire valore.
@@ -1961,10 +1959,10 @@ Non dare per scontato che una bassa capitalizzazione significhi grandi potenzial
 
 </div>
 
-
 <!-- page: 88 -->
 
 ---
+
 affrontare diverse fasi e sopravvivere a vari drawdown, piuttosto che puntare su sconosciute low cap sperando in un 1000x.
 
 Fai attenzione a immergerti nei bassifondi e nelle trincee del mondo crypto alla ricerca della prossima grande occasione.
@@ -1989,26 +1987,25 @@ Investi in uno di questi invece di lasciare le tue crypto su un exchange o in un
 
 </div>
 
-
 <!-- page: 89 -->
 
 ---
+
 ## Come acquistare SPX6900?
 
-<img src="extracted_images/page-089/page-089-img-01.png" alt="Scena cartoon con il logo SPX6900 e persone in fila" width="749" height="392" />
+<img src="../../extracted_images/page-089/page-089-img-01.png" alt="Scena cartoon con il logo SPX6900 e persone in fila" width="749" height="392" />
 
 Capire **perché** acquistare è fondamentale prima di imparare **come** acquistare SPX6900.
 
-Il *come* è semplice — ma è il *perché* che determinerà se davvero trarrai beneficio da SPX oppure no. Non tutti quelli che hanno comprato o scoperto Bitcoin agli inizi hanno realmente beneficiato del suo incredibile rendimento.
+Il _come_ è semplice — ma è il _perché_ che determinerà se davvero trarrai beneficio da SPX oppure no. Non tutti quelli che hanno comprato o scoperto Bitcoin agli inizi hanno realmente beneficiato del suo incredibile rendimento.
 
-Molti hanno scoperto Bitcoin presto e l’hanno venduto semplicemente perché non hanno capito *perché* avrebbero dovuto tenerlo.
+Molti hanno scoperto Bitcoin presto e l’hanno venduto semplicemente perché non hanno capito _perché_ avrebbero dovuto tenerlo.
 
 <div align="center">
 
 89
 
 </div>
-
 
 <!-- page: 90 -->
 
@@ -2022,7 +2019,7 @@ Questo capitolo ti guida passo dopo passo, in modo che chiunque possa partecipar
 
 Consiglio vivamente, se desideri la massima sicurezza e protezione per i tuoi asset crypto, di investire in un [Ledger Nano S Plus Hardware Wallet](https://example.com/placeholder) (portafoglio hardware Ledger Nano S Plus) per la custodia a freddo.
 
-<img src="extracted_images/page-090/page-090-img-01.png" alt="Portafoglio hardware Ledger posizionato su una tastiera" width="657" height="220" />
+<img src="../../extracted_images/page-090/page-090-img-01.png" alt="Portafoglio hardware Ledger posizionato su una tastiera" width="657" height="220" />
 
 Si tratta di un’opzione decisamente più sicura rispetto ai portafogli hot software o agli exchange centralizzati, soprattutto per la detenzione a lungo termine e per grandi somme di criptovalute, in particolare se la sicurezza è la tua priorità.
 
@@ -2032,10 +2029,10 @@ Si tratta di un’opzione decisamente più sicura rispetto ai portafogli hot sof
 
 </div>
 
-
 <!-- page: 91 -->
 
 ---
+
 Ci sono due modi principali per acquistare SPX6900, a seconda del tuo livello di esperienza e delle tue preferenze di piattaforma:
 
 **Percorso tramite Exchange Centralizzato (CEX)**
@@ -2060,10 +2057,10 @@ Una [**lista di altri exchange**](https://example.com/placeholder) a seconda del
 
 </div>
 
-
 <!-- page: 92 -->
 
 ---
+
 **Percorso tramite Exchange Decentralizzato (DEX)**
 
 Questo percorso è indicato per chi ha già una certa esperienza con le criptovalute. Utilizzerai un wallet non-custodial (come Phantom), acquisterai un po' di SOL o ETH, e poi li scambierai per SPX6900 su un DEX come Jupiter (Solana) o Uniswap (Ethereum). Questo metodo ti offre il pieno controllo sui tuoi asset.
@@ -2072,12 +2069,12 @@ Entrambe le opzioni ti porteranno comunque allo stesso traguardo: **diventare pa
 
 **Opzione 1: Acquistare SPX6900 tramite Exchange Centralizzato (CEX)**
 
-*[_Guarda il video intuitivo e adatto ai principianti_](https://example.com/placeholder)*
+_[*Guarda il video intuitivo e adatto ai principianti*](https://example.com/placeholder)_
 
 **Passo dopo passo:**
 
 **1. _Registrati su un Exchange Supportato_**  
-  ○ Crea un account su un exchange centralizzato che abbia SPX6900 in lista (ad esempio Kraken).
+ ○ Crea un account su un exchange centralizzato che abbia SPX6900 in lista (ad esempio Kraken).
 
 <div align="center">
 
@@ -2085,22 +2082,26 @@ Entrambe le opzioni ti porteranno comunque allo stesso traguardo: **diventare pa
 
 </div>
 
-
 <!-- page: 93 -->
 
 ---
+
 - Completa eventuali procedure di Know Your Customer (KYC) (ovvero verifica dell’identità) se necessario.
 
 **1. _Deposita Fondi_**
+
 - Deposita valuta fiat (USD, EUR, GBP, ecc.) o criptovalute come USDT nel wallet del tuo exchange.
 
 **2. _Cerca SPX6900_**
+
 - Nella sezione di trading, cerca la coppia SPX6900 (ad esempio, SPX6900/USD o SPX6900/EUR).
 
 **3. _Acquista SPX6900_**
+
 - Scegli quanto acquistare, imposta un ordine di mercato o limite e conferma l’acquisto.
 
 **4. _(Consigliato) Preleva su un Wallet Personale (ad es. Cold Wallet)_**
+
 - Per una maggiore sicurezza e il pieno controllo sui tuoi fondi, preleva il tuo SPX6900 su un wallet personale cold, come ad esempio il wallet **Ledger Nano S Plus**.
 - Se prelevi SPX tramite la **Rete Ethereum** su Ledger, utilizza un **indirizzo di deposito Ethereum**.
 - Se prelevi SPX tramite la **Rete Solana** su Ledger, utilizza un **indirizzo di deposito Solana**.
@@ -2111,15 +2112,15 @@ Entrambe le opzioni ti porteranno comunque allo stesso traguardo: **diventare pa
 
 </div>
 
-
 <!-- page: 94 -->
 
 ---
+
 **Suggerimento: Controlla sempre attentamente che l’indirizzo del tuo wallet e le reti siano corretti prima di inviare criptovalute.**
 
 Opzione 2: Acquisto di SPX6900 tramite Decentralised Exchange (DEX)
 
-[*Guarda il video per utenti più esperti*](https://example.com/placeholder)
+[_Guarda il video per utenti più esperti_](https://example.com/placeholder)
 
 **Passo dopo passo (Esempio su rete Ethereum):**
 
@@ -2137,21 +2138,24 @@ Opzione 2: Acquisto di SPX6900 tramite Decentralised Exchange (DEX)
 
 </div>
 
-
 <!-- page: 95 -->
 
 ---
+
 **Nota:** Se hai acquistato USDT dal CEX, assicurati semplicemente di prelevarlo utilizzando la **rete Ethereum** verso il tuo **indirizzo di deposito USDT Ethereum** all'interno del tuo Software Wallet.
 
 **3. _Collega il tuo wallet al DEX._**
+
 - Collega il tuo wallet a Uniswap oppure a 1inch.io DEX. Puoi farlo direttamente dall'app di Phantom o Trust Wallet.
 
 **4. _Scambia USDT per SPX6900 all'interno del DEX_**
+
 - Cerca SPX (o utilizza l’indirizzo del contratto) e seleziona SPX6900 dall’elenco dei token.
 - Inserisci la quantità di USDT che desideri scambiare.
 - Controlla i dettagli della transazione e conferma l’operazione.
 
 **5. _Se devi aggiungere Ethereum SPX6900 al tuo wallet:_**
+
 - Dopo aver completato lo swap, potresti non vedere subito SPX6900. Dovrai **aggiungere manualmente il token** utilizzando l’indirizzo del contratto.
 - Nel tuo wallet, seleziona “Aggiungi Token” o “Importa Token”.
 
@@ -2161,10 +2165,10 @@ Opzione 2: Acquisto di SPX6900 tramite Decentralised Exchange (DEX)
 
 </div>
 
-
 <!-- page: 96 -->
 
 ---
+
 - Incolla l’indirizzo del contratto Ethereum SPX6900: [0xE0f63A424a4439cBE457D80E4f4b51aD25b2c56C](https://example.com/placeholder)
 - SPX6900 si dovrebbe caricare automaticamente
 - Salvalo e potrai ora vedere il tuo saldo
@@ -2180,6 +2184,7 @@ Opzione 2: Acquisto di SPX6900 tramite Decentralised Exchange (DEX)
 **Nota:** Scarica la versione ufficiale (l’app con più download) dallo store e fai attenzione alle versioni false di truffatori.
 
 **2. _Acquista SOL (il token nativo di Solana) e USDT_**
+
 - Acquista un po’ di SOL per le commissioni e USDT su un CEX (come Coinbase, Binance, Kraken ecc.) e trasferiscili su
 
 <div align="center">
@@ -2188,16 +2193,18 @@ Opzione 2: Acquisto di SPX6900 tramite Decentralised Exchange (DEX)
 
 </div>
 
-
 <!-- page: 97 -->
 
 ---
+
 **Nota:** Se hai acquistato USDT dal CEX, assicurati semplicemente di trasferirli utilizzando la **rete Solana** verso il tuo **indirizzo di deposito USDT Solana** all’interno del tuo Wallet Software.
 
 **3. _Collega il tuo wallet al DEX._**
+
 - Collega il tuo wallet a Jupiter o Raydium DEX. Puoi farlo direttamente dall’app Phantom o Trust Wallet.
 
 **4. _Effettua lo swap da USDT a SPX6900 all’interno del DEX_**
+
 - Cerca SPX (o usa l’indirizzo del contratto) e seleziona SPX6900 (Wormhole) nell’elenco dei token.
 - Inserisci la quantità di USDT che desideri scambiare
 - Controlla i dettagli della transazione e conferma l’operazione.
@@ -2210,10 +2217,10 @@ Opzione 2: Acquisto di SPX6900 tramite Decentralised Exchange (DEX)
 
 </div>
 
-
 <!-- page: 98 -->
 
 ---
+
 - Dopo aver completato lo swap, potresti non vedere subito il tuo SPX6900. Dovrai **aggiungere manualmente il token** utilizzando l’indirizzo del contratto.
 - Nel tuo wallet, seleziona “Aggiungi Token” o “Importa Token”
 - Incolla l’indirizzo del contratto Solana SPX6900 (Wormhole):  
@@ -2233,10 +2240,10 @@ Se possiedi un Hardware wallet, ti consiglio vivamente di inviare il tuo SPX6900
 
 </div>
 
-
 <!-- page: 99 -->
 
 ---
+
 **Promemoria sulla sicurezza del wallet**
 
 - Non condividere mai né perdere la tua frase seed del wallet
@@ -2257,15 +2264,15 @@ Tuttavia, comprare il token è solo il primo passo. **Costruire la tua convinzio
 
 </div>
 
-
 <!-- page: 100 -->
 
 ---
+
 # Come Costruire la Tua Conviction?
 
 Costruire la propria conviction può richiedere tempo. Personalmente, mi ci sono voluti circa cinque mesi, dall’acquisto di SPX fino a capire che questa è la community su cui dovevo concentrare tutte le mie energie e investire seriamente, perché è speciale, unica, filosofica e diversa da tutto ciò che ho visto nei miei 12 anni nel mondo crypto.
 
-<img src="extracted_images/page-100/page-100-img-01.png" alt="Una figura in controluce con le braccia aperte illuminata da una luce cosmica, che tiene una moneta SPX 6900 sul petto." width="349" height="334" />
+<img src="../../extracted_images/page-100/page-100-img-01.png" alt="Una figura in controluce con le braccia aperte illuminata da una luce cosmica, che tiene una moneta SPX 6900 sul petto." width="349" height="334" />
 
 Spero che questo e-book possa accelerare il tuo percorso verso la conviction, così da non farlo durare così a lungo. Ma per costruire la tua personale conviction in SPX6900, devi studiare la community e vederla con i tuoi occhi.
 
@@ -2281,10 +2288,10 @@ Osserva, e capirai da solo che questa community è diversa dalle altre.
 
 </div>
 
-
 <!-- page: 101 -->
 
 ---
+
 Se il mondo crypto, in fin dei conti, è fatto di tante comunità diverse che lottano tutte per attirare attenzione e fedeltà, allora devi puntare su quelle **più forti**.
 
 Abbandona quelle **più deboli**.
@@ -2301,7 +2308,7 @@ La community di SPX6900 vive online, quindi seguire altri membri SPX6900 è uno 
 
 **Crea un account X** dedicato a SPX6900.
 
-Aggiungi il simbolo della calamita e quello del grafico al tuo nome <img src="extracted_images/page-101/page-101-img-01.png" alt="simbolo calamita e grafico" width="92" height="43" />.
+Aggiungi il simbolo della calamita e quello del grafico al tuo nome <img src="../../extracted_images/page-101/page-101-img-01.png" alt="simbolo calamita e grafico" width="92" height="43" />.
 
 <div align="center">
 
@@ -2309,10 +2316,10 @@ Aggiungi il simbolo della calamita e quello del grafico al tuo nome <img src="ex
 
 </div>
 
-
 <!-- page: 102 -->
 
 ---
+
 **Nota: puoi trovare il simbolo su [questo](https://example.com/placeholder) sito.**
 
 Poi inizia a seguire [questi account Aeon](https://example.com/placeholder) (Aeon è un termine tecnico di SPX6900, asset fondamentale della community).
@@ -2326,6 +2333,7 @@ Puoi fare la stessa cosa anche creando un account TikTok e seguendo [questi acco
 La community di SPX6900 esiste anche su [Reddit](https://example.com/placeholder) e [Telegram](https://example.com/placeholder).
 
 **Riepilogo dei passaggi:**
+
 1. Unisciti alle community online di SPX6900.
 2. Segui gli Aeon (Aeon è un termine tecnico di SPX6900, asset fondamentale della community).
 3. Interagisci con gli Aeon.
@@ -2341,14 +2349,15 @@ Usa gli hashtag **$SPX #SPX6900.**
 
 </div>
 
-
 <!-- page: 103 -->
 
 ---
-## La forza del DCA collettivo a lungo termine  
+
+## La forza del DCA collettivo a lungo termine
+
 ## su SPX6900
 
-<img src="extracted_images/page-103/page-103-img-01.png" alt="collage di post sui social e screenshot relativi al DCA su SPX6900" width="718" height="291" />
+<img src="../../extracted_images/page-103/page-103-img-01.png" alt="collage di post sui social e screenshot relativi al DCA su SPX6900" width="718" height="291" />
 
 Uno degli aspetti più affascinanti della community di SPX6900 è la sua capacità di agire collettivamente senza che nessuno sia davvero al comando. Un’idea interessante che potrebbe favorire il nostro successo può essere proposta da un Aeon (termine tecnico della community di SPX6900 che indica un membro o partecipante attivo), e prima che te ne accorga, gli Aeon nella community iniziano già a metterla in pratica e a diffonderla.
 
@@ -2358,10 +2367,10 @@ Uno degli aspetti più affascinanti della community di SPX6900 è la sua capacit
 
 </div>
 
-
 <!-- page: 104 -->
 
 ---
+
 Non ho mai visto prima d'ora un tale livello di allineamento di massa, coordinazione e azione collettiva all’interno di una comunità crypto decentralizzata.
 
 Alcuni esempi che ho osservato da quando sono entrato a far parte della community includono:
@@ -2377,10 +2386,10 @@ Alcuni esempi che ho osservato da quando sono entrato a far parte della communit
 
 </div>
 
-
 <!-- page: 105 -->
 
 ---
+
 In questo capitolo voglio concentrarmi in modo specifico sui vantaggi del DCA a lungo termine in SPX6900 da parte della community.
 
 ## Riduce la volatilità
@@ -2401,10 +2410,10 @@ Non importa quando entri nel movimento: tutto quello che devi fare è rispettare
 
 </div>
 
-
 <!-- page: 106 -->
 
 ---
+
 **Costruisce una Convinzione che si Compone nel Tempo**
 
 Quando vedi la community impegnarsi regolarmente nel DCA su SPX6900 (ovvero investimenti ricorrenti su SPX6900) su larga scala, diventa una potente dimostrazione di forza, convinzione e impegno.
@@ -2425,13 +2434,13 @@ Man mano che questa pressione aumenta, agisce come una rete di sicurezza sotto i
 
 </div>
 
-
 <!-- page: 107 -->
 
 ---
+
 Questa strategia collettiva di DCA contribuisce anche all’apprezzamento del prezzo nel lungo periodo. Il prezzo di SPX6900 è influenzato dalle classiche dinamiche di domanda e offerta. Un DCA costante e sostenuto da parte degli Aeon (Aeon: membri della comunità SPX6900) che mantengono il token con mani di diamante, porta a minimi sempre più alti e a un progressivo aumento del prezzo.
 
-<img src="extracted_images/page-107/page-107-img-01.png" alt="Screenshot di un post sui social media relativo a DCA e SPX6900" width="577" height="264" />
+<img src="../../extracted_images/page-107/page-107-img-01.png" alt="Screenshot di un post sui social media relativo a DCA e SPX6900" width="577" height="264" />
 
 Non abbiamo un grafico (fortunately, cioè fortunatamente, come recita lo slogan di SPX6900 "there is no chart" - non c’è nessun grafico), quindi non posso mostrarvelo — ma un buon punto di riferimento per capire cosa intendo è osservare il grafico di Bitcoin visto su una scala temporale ampia.
 
@@ -2443,10 +2452,10 @@ Persino durante i bear market, questa strategia rafforza la dinamica dell’offe
 
 </div>
 
-
 <!-- page: 108 -->
 
 ---
+
 **Favorisce la Decentralizzazione dell’Offerta dei Token**
 
 Il DCA è un metodo potente per ridistribuire gradualmente l’offerta di token dai venditori a breve termine agli individui più convinti e impegnati nel lungo periodo.
@@ -2469,17 +2478,17 @@ Mostra che siamo holder di lungo periodo — non speculatori da “pump and dump
 
 </div>
 
-
 <!-- page: 109 -->
 
 ---
+
 Questo tipo di forza culturale attrae chi sta fuori — soprattutto quando ci vedono condividere ogni giorno i nostri progressi con il DCA e gli obiettivi di risparmio.
 
 Crea un effetto trascinante, spingendo gli altri a voler entrare nella comunità più solida — perché nel mondo cripto, la vera ricchezza si costruisce investendo nella community più forte.
 
 **Quella comunità è SPX6900.**
 
-<img src="extracted_images/page-109/page-109-img-01.png" alt="Screenshot di un tweet sulla capitalizzazione di mercato di SPX e S&P500" width="742" height="398" />
+<img src="../../extracted_images/page-109/page-109-img-01.png" alt="Screenshot di un tweet sulla capitalizzazione di mercato di SPX e S&P500" width="742" height="398" />
 
 <div align="center">
 
@@ -2487,15 +2496,15 @@ Crea un effetto trascinante, spingendo gli altri a voler entrare nella comunità
 
 </div>
 
-
 <!-- page: 110 -->
 
 ---
+
 # Parole Finali
 
 Nelle parole di Satoshi Nakamoto, quando Bitcoin non aveva ancora una vera comunità né un valore di mercato ed era solo all’ottavo giorno di vita:
 
-*“Potrebbe aver senso prenderne un po’, nel caso prenda piede.”*  
+_“Potrebbe aver senso prenderne un po’, nel caso prenda piede.”_  
 — **Satoshi Nakamoto**
 
 Questo è il mio consiglio per te con SPX6900.
@@ -2518,10 +2527,10 @@ Quindi, potrebbe aver senso prenderne qualcuna — nel caso la nostra missione p
 
 </div>
 
-
 <!-- page: 111 -->
 
 ---
+
 ## Domande Frequenti
 
 1. **Dove posso saperne di più o fare domande?**
@@ -2546,10 +2555,10 @@ Siamo qui per aiutarti. Non sei solo in questo percorso!
 
 </div>
 
-
 <!-- page: 112 -->
 
 ---
+
 Nel mondo delle criptovalute, la capitalizzazione di mercato viene solitamente utilizzata per classificare i token in base al loro valore complessivo. Un token dal prezzo basso può comunque avere una capitalizzazione di mercato maggiore rispetto a uno dal prezzo più alto, poiché la capitalizzazione dipende anche dalla quantità totale di monete in circolazione. Non dare per scontato che un token dal prezzo di $0,01 con un trilione di monete in circolazione sia un investimento migliore rispetto a un token da $1 con un miliardo di monete, solo per via del prezzo unitario.
 
 Un token dal prezzo basso ma con una fornitura enorme può comunque avere una capitalizzazione elevata, quindi controlla sempre la capitalizzazione di mercato, non solo il prezzo del token, per valutare il reale potenziale di crescita.
@@ -2566,10 +2575,10 @@ Un pump-and-dump nel mondo crypto si verifica quando un gruppo di persone acquis
 
 </div>
 
-
 <!-- page: 113 -->
 
 ---
+
 prezzo e lasciando tutti gli altri bloccati a tenere token senza valore, perdendo i loro soldi.
 
 Un rug pull è simile a uno schema pump-and-dump, ma viene messo in atto dai creatori di un progetto crypto. Creano un token e trattengono la maggior parte della fornitura, poi lo pubblicizzano a dismisura. Quando le persone iniziano ad acquistare e il prezzo sale, i creatori vendono improvvisamente tutti i loro token sul mercato, facendo crollare il prezzo, rendendo i token inutili e sparendo con tutti i soldi.
@@ -2586,10 +2595,10 @@ L’economia è ormai guidata solo dal profitto, mentre la gente comune soffre e
 
 </div>
 
-
 <!-- page: 114 -->
 
 ---
+
 sussidi, impossibilità di pagare l'affitto, necessità di fare più lavori e ancora difficoltà finanziarie.
 
 5. **C'è uno scopo o un'utilità reale dietro SPX6900?**
@@ -2606,10 +2615,10 @@ No, si è evoluto dalle sue origini di memecoin in qualcosa di molto più signif
 
 </div>
 
-
 <!-- page: 115 -->
 
 ---
+
 7. **Chi c'è dietro SPX6900?**
 
 La community.
@@ -2634,10 +2643,10 @@ Anche se non vuoi avere un ruolo attivo, puoi comunque contribuire:
 
 </div>
 
-
 <!-- page: 116 -->
 
 ---
+
 **Modi proattivi per contribuire:**
 
 - Condividi la tua storia: Perché credi in SPX6900?
@@ -2660,10 +2669,10 @@ Quindi, quando flip the stock market (capovolgiamo il mercato azionario), non sa
 
 </div>
 
-
 <!-- page: 117 -->
 
 ---
+
 10. **Non è rischioso tutto questo?**
 
 Ogni investimento comporta una certa dose di rischio.
@@ -2686,10 +2695,10 @@ Proprio come nel mondo Bitcoin esistono i “Bitcoin Maxis”, che promuovono e 
 
 </div>
 
-
 <!-- page: 118 -->
 
 ---
+
 Quando ho acquistato SPX per la prima volta, non ero ancora un Aeon (membro convinto della community SPX6900) — ero solo un detentore. Mi ci sono voluti circa cinque mesi per costruire la mia auto-convinzione e diventare davvero un Aeon (membro convinto della community SPX6900).
 
 **Non tutti coloro che detengono SPX sono Aeon (convinti seguaci di SPX6900), ma ogni Aeon è un detentore di SPX.**
@@ -2712,10 +2721,10 @@ Alla fine, tutto si riduce al fatto se ti riconosci nella cultura e vedi valore 
 
 </div>
 
-
 <!-- page: 119 -->
 
 ---
+
 Ma non c’è nessuna truffa coinvolta.
 
 Se acquisti SPX, riceverai i token al valore di mercato corrente.
@@ -2740,10 +2749,10 @@ Se continui semplicemente a fare DCA, potresti sorprenderti di quanto SPX riusci
 
 </div>
 
-
 <!-- page: 120 -->
 
 ---
+
 14. **Qual è il punto di fallimento di SPX6900?**
 
 Secondo me, l’unico vero punto di fallimento sarebbe se la community, su larga scala, perdesse convinzione, smettesse di credere (“believe in something” - cioè avere fede in un ideale) e si arrendesse definitivamente.
@@ -2762,10 +2771,10 @@ Non c’è nessun incentivo ad abbandonare questa cultura: è proprio ciò che g
 
 </div>
 
-
 <!-- page: 121 -->
 
 ---
+
 15. **Posso vendere i miei token quando voglio?**
 
 Sì, puoi.
@@ -2793,10 +2802,10 @@ Ecco perché è importante imparare a proteggere i tuoi asset.
 
 </div>
 
-
 <!-- page: 122 -->
 
 ---
+
 Se scegli di lasciare i tuoi fondi su un exchange, assicurati di utilizzare tutte le funzionalità di sicurezza disponibili per evitare che il tuo account venga compromesso.
 
 Se opti per l’auto-custodia (che a mio avviso è la scelta migliore), impara a configurare correttamente il tuo wallet e a proteggere le tue chiavi private.
@@ -2821,17 +2830,17 @@ Bitcoin non è salito in linea retta perché le persone vendono — e a volte, l
 
 </div>
 
-
 <!-- page: 123 -->
 
 ---
+
 i prezzi scendono. Ma, col tempo, Bitcoin ha smesso di tornare ai suoi minimi precedenti. C’è stato un momento in cui è salito senza mai più tornare a $0,10, $1, $10, $100, $1.000 o persino $10.000.
 
 Ha continuato a raggiungere nuovi massimi e minimi sempre più alti.
 
 Se guardi dall’alto, vedrai che, nonostante la volatilità, la traiettoria di lungo termine di Bitcoin è stata al rialzo.
 
-***Credo che SPX6900 seguirà uno schema simile.***
+**_Credo che SPX6900 seguirà uno schema simile._**
 
 Ci saranno persone che venderanno — per qualsiasi motivo — anche se questo va contro la cultura.
 
@@ -2847,10 +2856,10 @@ Questo, in realtà, favorisce la decentralizzazione nel lungo periodo. Nessun in
 
 </div>
 
-
 <!-- page: 124 -->
 
 ---
+
 La cultura è ciò che permette a SPX6900 di prosperare nei mercati rialzisti e di sopravvivere nei mercati ribassisti.
 
 18. **Qual è la strategia migliore per investire in SPX6900?**
@@ -2871,10 +2880,10 @@ Questa strategia consente di mediare il costo di acquisto dei token e riduce il 
 
 </div>
 
-
 <!-- page: 125 -->
 
 ---
+
 19. **La volatilità mi spaventa – cosa dovrei fare?**
 
 È proprio per questo che non guardiamo i grafici — ci concentriamo invece sulla convinzione.
@@ -2907,10 +2916,10 @@ E per gli scettici sarà sempre uno scherzo — finché non lo sarà più.
 
 </div>
 
-
 <!-- page: 126 -->
 
 ---
+
 ## 21. **Sono arrivato troppo tardi, ormai?**
 
 Le persone sentiranno parlare di SPX6900 (nome del progetto; "credi in qualcosa" – ovvero, credi in un'idea rivoluzionaria) e si uniranno al movimento in momenti diversi lungo il nostro percorso per "flip the stock market" (cioè, rivoluzionare completamente il mercato azionario).
@@ -2927,10 +2936,10 @@ Fai DCA su quelle piccole monete e inizia ad accumulare.
 
 </div>
 
-
 <!-- page: 127 -->
 
 ---
+
 22. **Non riesco proprio a capire SPX6900, perché?**
 
 Personalmente, ne comprerei un po' — nel caso tu lo capisca più avanti.
@@ -2953,10 +2962,10 @@ Ricorda, SPX è solo un token. Ciò che dà valore al token è la community — 
 
 </div>
 
-
 <!-- page: 128 -->
 
 ---
+
 # Sostieni l’Autore
 
 **SPX6900 Tip**
@@ -2980,10 +2989,10 @@ Ogni mancia è sinceramente apprezzata.**
 
 </div>
 
-
 <!-- page: 129 -->
 
 ---
+
 # Acquista il libro in formato cartaceo su Amazon
 
 <img src="../../extracted_images/page-129/page-129-img-01.png" alt="collage di foto del libro" width="728" height="414" />
@@ -3001,23 +3010,23 @@ Puoi acquistare il mio libro in formato cartaceo Stop Trading, Start Believing! 
 
 </div>
 
-
 <!-- page: 130 -->
 
 ---
+
 # Ulteriori Risorse
 
 ## **Siti Informativi su SPX6900:**
 
 [SPX6900resources.com](https://example.com/placeholder) (Risorse su SPX)  
 [SPX6900.com](https://example.com/placeholder) (Sito Ufficiale)  
-[Aeons6900.com](https://example.com/placeholder) (Risorse su SPX6900)  
+[Aeons6900.com](https://example.com/placeholder) (Risorse su SPX6900)
 
 ## **Siti Vari su SPX6900:**
 
 [Flipthestockmarket.xyz](https://example.com/placeholder) (Flip the Stock Market Tracker — "flip the stock market" (cambiare le sorti della borsa))  
 [Flipthestockmarket.com](https://example.com/placeholder) (Flip the Stock Market Tracker — "flip the stock market" (cambiare le sorti della borsa))  
-[SPX6900mosaic.com](https://example.com/placeholder) (Aggiungi il tuo Account X al Mosaico)  
+[SPX6900mosaic.com](https://example.com/placeholder) (Aggiungi il tuo Account X al Mosaico)
 
 ## **Video Imperdibili su SPX6900:**
 
@@ -3031,10 +3040,10 @@ Puoi acquistare il mio libro in formato cartaceo Stop Trading, Start Believing! 
 
 </div>
 
-
 <!-- page: 131 -->
 
 ---
+
 ## **Podcast imperdibili su SPX6900:**
 
 [Flip The Stock Market](https://example.com/placeholder) (rovescia il mercato azionario)
@@ -3069,7 +3078,6 @@ Puoi acquistare il mio libro in formato cartaceo Stop Trading, Start Believing! 
 
 </div>
 
-
 <!-- page: 132 -->
 
 ## Appendice A: Segui questi Aeon su X
@@ -3079,7 +3087,7 @@ Puoi acquistare il mio libro in formato cartaceo Stop Trading, Start Believing! 
 [@maddoxooooo](https://example.com/placeholder) [@AeonGeneral](https://example.com/placeholder) [@fugohyojun](https://example.com/placeholder)  
 [@CowellCrypto](https://example.com/placeholder) [@realcryptocow](https://example.com/placeholder) [@Dubs_dog](https://example.com/placeholder)  
 [@user_azkarah](https://example.com/placeholder) [@AeonReborn](https://example.com/placeholder) [@nolongerviabl](https://example.com/placeholder)  
-[@unclemungy](https://example.com/placeholder) [@user_baproll](https://example.com/placeholder) [@_LRSN](https://example.com/placeholder)  
+[@unclemungy](https://example.com/placeholder) [@user_baproll](https://example.com/placeholder) [@\_LRSN](https://example.com/placeholder)  
 [@x_demigod](https://example.com/placeholder) [@arcane_vault](https://example.com/placeholder) [@MTEX95](https://example.com/placeholder)  
 [@munchies1337](https://example.com/placeholder) [@user_aeon_one](https://example.com/placeholder) [@100xsrm](https://example.com/placeholder)  
 [@yosocaz](https://example.com/placeholder) [@BlueLightCapit1](https://example.com/placeholder) [@_ilyaeon_](https://example.com/placeholder)  
@@ -3096,10 +3104,10 @@ Puoi acquistare il mio libro in formato cartaceo Stop Trading, Start Believing! 
 
 </div>
 
-
 <!-- page: 133 -->
 
 ---
+
 ## Appendice B: Segui questi Aeon (Aeon: termine tecnico SPX6900) su TikTok
 
 [@Muststopmurad](https://example.com/placeholder)  
@@ -3121,10 +3129,10 @@ Puoi acquistare il mio libro in formato cartaceo Stop Trading, Start Believing! 
 
 </div>
 
-
 <!-- page: 134 -->
 
 ---
+
 ## Appendice C: Tracciatore Obiettivo SPX 1.000
 
 ### Tracciatore Risparmio Token SPX6900 - Obiettivo 1.000 Token
@@ -3132,14 +3140,14 @@ Puoi acquistare il mio libro in formato cartaceo Stop Trading, Start Believing! 
 Obiettivo: Accumulare 1.000 token SPX6900 completando tutte le caselle
 
 | [ ] 49 SPX | [ ] 34 SPX | [ ] 16 SPX | [ ] 19 SPX |
-|------------|------------|------------|------------|
+| ---------- | ---------- | ---------- | ---------- |
 | [ ] 14 SPX | [ ] 31 SPX | [ ] 51 SPX | [ ] 39 SPX |
 | [ ] 30 SPX | [ ] 13 SPX | [ ] 19 SPX | [ ] 34 SPX |
 | [ ] 59 SPX | [ ] 36 SPX | [ ] 36 SPX | [ ] 49 SPX |
 | [ ] 27 SPX | [ ] 60 SPX | [ ] 55 SPX | [ ] 15 SPX |
 | [ ] 58 SPX | [ ] 36 SPX | [ ] 17 SPX | [ ] 34 SPX |
 | [ ] 46 SPX | [ ] 11 SPX | [ ] 22 SPX | [ ] 19 SPX |
-| [ ] 20 SPX | [ ] 36 SPX | [ ] 14 SPX | [ ]  1 SPX |
+| [ ] 20 SPX | [ ] 36 SPX | [ ] 14 SPX | [ ] 1 SPX  |
 
 <img src="../../extracted_images/page-134/page-134-img-01.png" alt="Immagine" width="541" height="338" />
 
@@ -3149,14 +3157,15 @@ Obiettivo: Accumulare 1.000 token SPX6900 completando tutte le caselle
 
 </div>
 
-
 <!-- page: 135 -->
 
 ---
+
 # Appendice D: Tracciatore Obiettivo SPX 10.000
 
 ## Tracciatore risparmio SPX6900 Token - Obiettivo 10.000 token
-*Obiettivo: accumulare 10.000 token SPX6900 completando tutte le caselle*
+
+_Obiettivo: accumulare 10.000 token SPX6900 completando tutte le caselle_
 
 <img src="../../extracted_images/page-135/page-135-img-01.png" alt="Tabella Tracciatore risparmio SPX6900 Token" width="716" height="613" />
 
@@ -3166,10 +3175,10 @@ Obiettivo: Accumulare 1.000 token SPX6900 completando tutte le caselle
 
 </div>
 
-
 <!-- page: 136 -->
 
 ---
+
 ## Appendice E: Grafici della Crescita delle Criptovalute
 
 <img src="../../extracted_images/page-136/page-136-img-01.png" alt="Grafico a linee che mostra il numero stimato di criptovalute esistenti dal 2009 al 2025" width="669" height="268" />
@@ -3184,10 +3193,10 @@ Il numero di criptovalute create è in realtà molto superiore a quanto mostrato
 
 </div>
 
-
 <!-- page: 137 -->
 
 ---
+
 Il motivo per cui il numero di criptovalute sembra scendere da oltre 35.000 a 17.000 non è che si creino meno token, ma piuttosto perché molti vengono rimossi da questi siti di monitoraggio dopo essere stati considerati inattivi.
 
 Questa diminuzione è di solito dovuta al fatto che molti token "muoiono" — sia per rug pull, progetti abbandonati (situazione comune con molti utility token), truffe o altre ragioni — il che porta inevitabilmente a un volume di scambi pari a zero.
@@ -3203,7 +3212,6 @@ Ecco perché la forza e la cultura di una community sono qualità rare, e perch�
 137
 
 </div>
-
 
 <!-- page: 138 -->
 
@@ -3221,10 +3229,10 @@ Il numero totale di lanci di criptovalute continua a crescere, mentre il numero 
 
 </div>
 
-
 <!-- page: 139 -->
 
 ---
+
 ## Appendice F: Citazioni infuocate dagli Aeon (Aeon: termine tecnico SPX6900)
 
 <img src="../../extracted_images/page-139/page-139-img-01.png" alt="Collage di immagini di citazioni dai social media su SPX6900 e criptovalute" width="619" height="466" />
@@ -3235,15 +3243,15 @@ Il numero totale di lanci di criptovalute continua a crescere, mentre il numero 
 
 </div>
 
-
 <!-- page: 140 -->
 
 ---
+
 ## Appendice G: Comprendere i cicli rialzisti delle criptovalute
 
 <img src="../../extracted_images/page-140/page-140-img-01.png" alt="Grafico dei prezzi massimi di Bitcoin (2011-2025)" width="654" height="329" />
 
-*(Fig. 2.1 – Prezzi massimi di Bitcoin durante i cicli rialzisti)*
+_(Fig. 2.1 – Prezzi massimi di Bitcoin durante i cicli rialzisti)_
 
 Dalla nascita di Bitcoin nel 2009, ci sono stati diversi grandi cicli rialzisti nel mondo delle criptovalute. I cicli rialzisti sono periodi in cui il mercato diventa parabolico, con Bitcoin che raggiunge nuovi massimi storici, seguito dal mercato degli altcoin.
 
@@ -3253,10 +3261,10 @@ Dalla nascita di Bitcoin nel 2009, ci sono stati diversi grandi cicli rialzisti 
 
 </div>
 
-
 <!-- page: 141 -->
 
 ---
+
 I cicli di mercato di solito seguono questo schema:
 
 **Halving di Bitcoin → Mercato toro → Picco → Crollo → Mercato orso → Era di accumulazione → Ripetizione**
@@ -3277,10 +3285,10 @@ Storicamente, il mercato toro ha seguito l’evento dell’halving di Bitcoin (F
 
 </div>
 
-
 <!-- page: 142 -->
 
 ---
+
 - Anche Bitcoin ha subito un halving nel 2024, e ora siamo nel 2025, dove Bitcoin (al 10 luglio 2025) ha raggiunto finora un nuovo massimo storico di $113.804, con il ciclo rialzista ancora in corso (Fig. 2.2).
 
 <img src="../../extracted_images/page-142/page-142-img-01.png" alt="Screenshot di un tweet con grafici del prezzo di Bitcoin per il 2020 e il 2025" width="689" height="346" />
@@ -3293,10 +3301,10 @@ Storicamente, il mercato toro ha seguito l’evento dell’halving di Bitcoin (F
 
 </div>
 
-
 <!-- page: 143 -->
 
 ---
+
 Il principale catalizzatore dietro questi cicli rialzisti non è l’evento dell’halving di Bitcoin in sé, ma piuttosto i bassi tassi d’interesse e l’alta liquidità derivanti da una politica monetaria accomodante, che determinano l’appetito per il rischio di tutto il mercato (Fig. 2.3).
 
 <img src="../../extracted_images/page-143/page-143-img-01.png" alt="Grafico Prezzo di Bitcoin vs Tasso dei Fed Funds" width="659" height="314" />
@@ -3311,10 +3319,10 @@ Nella Fig. 2.3 puoi vedere che i tassi d’interesse della Fed erano vicini allo
 
 </div>
 
-
 <!-- page: 144 -->
 
 ---
+
 Bitcoin si sta avvicinando ai $20.000. Anche se attualmente i tassi della Fed sono alti — circa il 4,50% — cresce la speculazione su un possibile allentamento e su una svolta verso il taglio dei tassi. L’aspettativa di riduzione dei tassi può comunque spingere le criptovalute verso l’alto, il che potrebbe spiegare perché Bitcoin sta ancora performando bene.
 
 Bitcoin e le criptovalute in generale sono asset sensibili alla liquidità. Prosperano durante periodi di tassi d’interesse bassi o in calo, perché gli investitori cercano alternative più rischiose per proteggersi dalla svalutazione delle valute fiat.
@@ -3326,7 +3334,6 @@ Questi capitali tendono a confluire in Bitcoin, facendone aumentare il valore, e
 144
 
 </div>
-
 
 <!-- page: 145 -->
 
@@ -3342,10 +3349,10 @@ Nel ciclo rialzista delle criptovalute del 2025, si prevede che le memecoin sovr
 
 </div>
 
-
 <!-- page: 146 -->
 
 ---
+
 Si prevede che le memecoin registreranno guadagni significativi — ma non tutte.
 
 <img src="../../extracted_images/page-146/page-146-img-01.png" alt="Grafico che mostra la previsione del superciclo delle Memecoin con tendenze crypto etichettate e andamento dei prezzi" width="759" height="391" />
@@ -3358,10 +3365,10 @@ Si prevede che le memecoin registreranno guadagni significativi — ma non tutte
 
 </div>
 
-
 <!-- page: 147 -->
 
 ---
+
 SPX6900 è un Pure Belief Asset (bene basato sulla pura convinzione) classificato come memecoin, che ci si aspetta possa ottenere risultati eccezionali durante un superciclo delle memecoin. Questo grazie alla sua cultura, alla forza della community e a una missione chiara. Tuttavia, il 99% delle memecoin finirà prima o poi per crollare o diventare senza valore.
 
 Questo non significa che SPX6900 non possa subire una brusca correzione dopo un blow-off top, soprattutto se il mercato nel suo complesso, inclusi Bitcoin, dovesse invertire la tendenza. Anche SPX6900 dovrebbe correggere insieme al mercato. Tuttavia, è probabile che resista meglio del 99% delle memecoin nel caso si entri in un bear market pluriennale.
@@ -3376,10 +3383,10 @@ Mi aspetto una performance simile da SPX6900, il pure belief asset, sul lungo pe
 
 </div>
 
-
 <!-- page: 148 -->
 
 ---
+
 # Appendice H: Checklist per i Nuovi Arrivati SPX6900
 
 ---
@@ -3388,7 +3395,7 @@ Mi aspetto una performance simile da SPX6900, il pure belief asset, sul lungo pe
 
 **Checklist per i Nuovi Arrivati SPX6900**
 
-*“Nessuno verrà a salvarci. Dobbiamo salvarci da soli.”*
+_“Nessuno verrà a salvarci. Dobbiamo salvarci da soli.”_
 
 ---
 
@@ -3404,10 +3411,10 @@ Mi aspetto una performance simile da SPX6900, il pure belief asset, sul lungo pe
 
 </div>
 
-
 <!-- page: 149 -->
 
 ---
+
 **2. Unisciti al Movimento**
 
 - 🗨 Parla con la persona che ti ha condiviso questo e-book.
@@ -3427,10 +3434,10 @@ Mi aspetto una performance simile da SPX6900, il pure belief asset, sul lungo pe
 
 </div>
 
-
 <!-- page: 150 -->
 
 ---
+
 #### 4. Proteggi te stesso
 
 - 🛡️ Impara le basi della sicurezza nel mondo crypto.
@@ -3453,10 +3460,10 @@ Mi aspetto una performance simile da SPX6900, il pure belief asset, sul lungo pe
 
 </div>
 
-
 <!-- page: 151 -->
 
 ---
+
 - 🎥 Crea contenuti, post o video per diffondere il messaggio.
 - Aiuta a far entrare nuovi membri e rispondi alle domande.
 - 🦯 Rispetta e promuovi la cultura — è ciò che sostiene e fa crescere il movimento.
@@ -3479,10 +3486,10 @@ Mi aspetto una performance simile da SPX6900, il pure belief asset, sul lungo pe
 
 </div>
 
-
 <!-- page: 152 -->
 
 ---
+
 ## Ringraziamenti
 
 Voglio esprimere la mia gratitudine alle persone e alla community che hanno contribuito a plasmare non solo questo e-book, ma anche la mia convinzione in ciò che SPX6900 rappresenta davvero.
@@ -3499,17 +3506,17 @@ Voglio esprimere la mia gratitudine alle persone e alla community che hanno cont
 
 </div>
 
-
 <!-- page: 153 -->
 
 ---
+
 riguarda la convinzione popolare e un movimento alimentato dalla fede.
 
 Questo e-book è solo un piccolo contributo alla grande onda che state costruendo ogni singolo giorno.
 
 Con rispetto,
 
-— *Audacious*
+— _Audacious_
 
 <div align="center">
 
@@ -3517,10 +3524,10 @@ Con rispetto,
 
 </div>
 
-
 <!-- page: 154 -->
 
 ---
+
 ## Chi è l’autore
 
 Non sono un consulente finanziario. Non sono un influencer. Sono solo una persona che ha vissuto due cicli crypto, ha commesso errori e ha imparato, a proprie spese, come muoversi in questo mercato.
@@ -3537,10 +3544,10 @@ Anche se in qualche caso ho avuto successo con alcune scelte, la stragrande magg
 
 </div>
 
-
 <!-- page: 155 -->
 
 ---
+
 Col tempo, ho assistito in prima persona all’ascesa e al crollo di questi utility token. Ho visto comunità dissolversi, grafici crollare e portafogli affondare con loro, mentre diventava chiaro che il prodotto non sarebbe mai arrivato o preso piede. Ho persino scovato SHIB agli inizi, ma l’ho ignorato, liquidandolo come una memecoin senza utilità. Un altro errore.
 
 Quello che non avevo compreso in buona parte del mio percorso era questo: il valore non era l’utilità. Era la comunità.
@@ -3557,10 +3564,10 @@ SPX6900 aveva qualcosa di diverso. Dopo ore passate a ricercare, riflettere e as
 
 </div>
 
-
 <!-- page: 156 -->
 
 ---
+
 mi ha ricordato i primi giorni di Bitcoin — solo che questa volta ho fatto attenzione.
 
 Questo e-book è il frutto di innumerevoli ore trascorse all’interno della community di SPX6900. Non è un consiglio finanziario — è un progetto filosofico in cui **la convinzione è il valore** e **la community è l’utilità**.
@@ -3575,10 +3582,10 @@ L’ho scritto come un manifesto — per coloro che hanno smesso di fare trading
 
 </div>
 
-
 <!-- page: 157 -->
 
 ---
+
 NESSUNO VERRÀ A SALVARTI.
 
 STIAMO CERCANDO DI AIUTARTI.
