@@ -200,14 +200,6 @@ We welcome contributions from developers and technical contributors. Here are th
 3. **Image extraction failures**: Manually extract images for improved results
 4. **Translation inconsistencies**: Review context-dependent terms manually
 
-### Debug Mode
-
-Add debug logging by setting the environment variable:
-
-```bash
-DEBUG=true
-```
-
 ## Technical Stack
 
 - **TypeScript**: Primary language for type safety
