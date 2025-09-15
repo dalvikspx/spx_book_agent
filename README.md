@@ -48,7 +48,7 @@ Some words may be translated too literally, missing contextual meaning. For exam
 
 ### 2. Image Extraction Challenges
 
-The AI agent attempts to identify and extract images from each page of the book, but since OpenAI models aren't specialized for precise image detection, accuracy can be limited.
+The AI agent attempts to identify and extract images from each page image (PNG files in the `book_pages/` directory), but since OpenAI models aren't specialized for precise image detection, accuracy can be limited.
 
 **Manual Image Solution:**
 

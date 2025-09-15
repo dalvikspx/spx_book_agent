@@ -59,13 +59,15 @@ Open `final_book.md` and look for:
 
 ### Why This Matters
 
-The AI agent attempts to extract images from the PDF, but often makes mistakes or misses images entirely. Manual image extraction provides much better results.
+The AI agent attempts to extract images from the page images (PNG files in `book_pages/`), but often makes mistakes by cutting images not on the right width and height (this is an openAI API limit). Manual image extraction provides much better results.
 
 ### What You Need
 
-- The original PDF: `Discovering_SPX6900_The_World's_First_Pure_Belief_Asset_E_book.pdf`
+- The original PDF: `Discovering_SPX6900_The_World's_First_Pure_Belief_Asset_E_book.pdf` (only for manual image extraction)
 - Screenshot tool (built into Windows/Mac/Linux)
 - Basic image editing software (optional)
+
+**Note**: The PDF is only needed if you want to manually extract better quality images. The translation process itself works with the PNG files in the `book_pages/` directory.
 
 ### Step 1: Identify Pages with Images
 

@@ -72,8 +72,10 @@ TARGET_LANGUAGE_CODE=hi
 
 ### Step 4: Prepare the Book
 
-1. Ensure the PDF file `Discovering_SPX6900_The_World's_First_Pure_Belief_Asset_E_book.pdf` is in the project root directory
+1. Ensure the book page images are available in the `book_pages/` directory as PNG files (`-001.png`, `-002.png`, etc.)
 2. (Optional) Manually extract and place images in the `extracted_images/` directory for better quality
+
+**Note**: The translation process works directly with the PNG images in the `book_pages/` directory. The original PDF file is not used during translation - it's only useful for manual image extraction if needed.
 
 ## Running the Translation Agent
 
