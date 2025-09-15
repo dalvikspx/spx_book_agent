@@ -630,7 +630,7 @@ const main = async () => {
 
 	const result = await run(
 		agent,
-		`what is the latest page number i've translated in ${TARGET_LANGUAGE}?`,
+		`continue the translation of the book from page 127 to the end in ${TARGET_LANGUAGE}?`,
 		{ maxTurns: 1000 }
 	);
 	console.log(result.finalOutput);

@@ -513,7 +513,7 @@ const agent = new agents_1.Agent({
 const main = () => __awaiter(void 0, void 0, void 0, function* () {
     // Initialize translation paths before starting
     yield initializeTranslationPaths();
-    const result = yield (0, agents_1.run)(agent, `what is the latest page number i've translated in ${TARGET_LANGUAGE}?`, { maxTurns: 1000 });
+    const result = yield (0, agents_1.run)(agent, `continue the translation of the book from page 127 to the end in ${TARGET_LANGUAGE}?`, { maxTurns: 1000 });
     console.log(result.finalOutput);
     // After generating the Markdown, convert it to a fixed-height paginated PDF
     // try {
