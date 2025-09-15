@@ -59,6 +59,8 @@ function getTranslationExample(language) {
         French: '"working hard" should be translated as "travailler dur" not "travailler chaud"',
         German: '"working hard" should be translated as "hart arbeiten" not "heiß arbeiten"',
         Portuguese: '"working hard" should be translated as "trabalhar duro" not "trabalhar quente"',
+        "Mandarin Chinese": '"working hard" should be translated as "努力工作" (nǔlì gōngzuò) not "热工作" (literal translation)',
+        Hindi: '"working hard" should be translated as "कड़ी मेहनत करना" (kadee mehanat karna) not "गर्म काम" (literal translation)',
     };
     return (examples[language] ||
         '"working hard" should be translated idiomatically, not literally');
@@ -513,7 +515,7 @@ const agent = new agents_1.Agent({
 const main = () => __awaiter(void 0, void 0, void 0, function* () {
     // Initialize translation paths before starting
     yield initializeTranslationPaths();
-    const result = yield (0, agents_1.run)(agent, `continue the translation of the book from page 127 to the end in ${TARGET_LANGUAGE}?`, { maxTurns: 1000 });
+    const result = yield (0, agents_1.run)(agent, `translate the pages of the book from page 6 to page 56 in ${TARGET_LANGUAGE}`, { maxTurns: 1000 });
     console.log(result.finalOutput);
     // After generating the Markdown, convert it to a fixed-height paginated PDF
     // try {

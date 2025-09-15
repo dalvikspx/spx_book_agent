@@ -54,6 +54,10 @@ function getTranslationExample(language: string): string {
 			'"working hard" should be translated as "hart arbeiten" not "heiß arbeiten"',
 		Portuguese:
 			'"working hard" should be translated as "trabalhar duro" not "trabalhar quente"',
+		"Mandarin Chinese":
+			'"working hard" should be translated as "努力工作" (nǔlì gōngzuò) not "热工作" (literal translation)',
+		Hindi:
+			'"working hard" should be translated as "कड़ी मेहनत करना" (kadee mehanat karna) not "गर्म काम" (literal translation)',
 	};
 	return (
 		examples[language as keyof typeof examples] ||
@@ -630,7 +634,7 @@ const main = async () => {
 
 	const result = await run(
 		agent,
-		`continue the translation of the book from page 127 to the end in ${TARGET_LANGUAGE}?`,
+		`translate the pages of the book from page 6 to page 56 in ${TARGET_LANGUAGE}`,
 		{ maxTurns: 1000 }
 	);
 	console.log(result.finalOutput);
