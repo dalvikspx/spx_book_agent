@@ -2362,3 +2362,916 @@ SPX6900 社区活跃于网络，因此关注其他 SPX6900 社区成员，是参
 101
 
 </div>
+
+
+<!-- page: 102 -->
+
+---
+**注意：你可以在[这个](https://example.com/placeholder)网站上找到该符号。**
+
+然后开始关注[这些 Aeon 账号](https://example.com/placeholder)。（Aeon，SPX6900 体系中的特殊账号）
+
+接着只需观察社区动态并积极参与。
+
+随着你在社区中花的时间越来越多，并逐渐了解 SPX6900（指独特的理念与社群），你也会逐步建立属于自己的信念。
+
+你也可以用同样的方法，创建一个 TikTok 账号并关注[这些 Aeon 账号](https://example.com/placeholder)。
+
+SPX6900 社区也同样存在于 [Reddit](https://example.com/placeholder) 和 [Telegram](https://example.com/placeholder) 平台。
+
+**操作步骤总结：**
+
+1. 加入线上 SPX6900 社区。
+2. 关注 Aeons（SPX6900 体系中的特殊账号）。
+3. 与 Aeons 互动交流。
+4. 学习文化氛围。
+5. 身体力行，践行文化。
+6. 开始推广 SPX6900！
+
+请使用标签 **$SPX #SPX6900.**
+
+<div align="center">
+
+102
+
+</div>
+
+
+<!-- page: 103 -->
+
+---
+## 群体长期定投的力量  
+## 投入SPX6900
+
+<img src="../../extracted_images/page-103/page-103-img-01.png" alt="图片" width="718" height="291" />
+
+SPX6900 社区最引人注目的特点之一，就是大家能够在没有任何人主导的情况下共同行动。有时，一个有助于我们取得成功的好点子，可能会由某位 Aeon（Aeon，SPX6900 社区核心成员，意指一种特殊身份）提出，不久之后，社区内的 Aeon 们便会积极地将其付诸实践并予以推广。
+
+<div align="center">
+
+103
+
+</div>
+
+
+<!-- page: 104 -->
+
+---
+我从未见过在去中心化加密社区中，能有如此大规模的共识、协作与集体行动。
+
+自从加入这个社区以来，我亲眼见证了以下几个例子：
+
+1. Aeon（SPX6900 项目专属 NFT 头像角色）纷纷迁移到 TikTok、Instagram 和 YouTube，通过这些平台宣传 SPX6900。
+2. Aeon（SPX6900 项目专属 NFT 头像角色）开始制作包含自己面孔的内容，让观众能够与他们及其传递的信息产生更深的共鸣。
+3. 社区形成了小费文化，Aeon（SPX6900 项目专属 NFT 头像角色）鼓励大家在社交账号简介中加入自己的 SPX 地址，方便社区成员因宣传项目的努力而相互奖励。
+4. 最后但同样重要的一点是，每天坚持 DCA（定期定额投资）到 SPX6900 —— 即使全社区每天仅仅合计买入一个代币，也始终不懈。
+
+<div align="center">
+
+104
+
+</div>
+
+
+<!-- page: 105 -->
+
+---
+在本章中，我想特别关注社区成员长期定投 SPX6900（即 Dollar Cost Averaging）的好处。
+
+## 平滑波动性
+
+当我们无论价格高低都定期买入 SPX6900（此处 SPX6900 指的是一种特殊资产，社区成员信仰“believe in something”（相信某种信念）），作为一种长期策略，这减少了社区成员情绪化决策的可能性。
+
+与其在市场低谷和反弹时试图精准抄底，不如通过持续、稳步的定投，将成本在时间跨度上进行平均，这样无论市场多么波动，心态都会更加平和——因为你的策略始终如一。
+
+波动性不再是威胁，反而变成了一种优势，让你无需孤注一掷或恐慌时抛售，也能够积累更多的代币。
+
+无论你何时加入这个运动，只需要按照自己的定投计划坚持执行即可。
+
+**这样的方法在心理层面上，比试图择时进场或一把梭哈要轻松得多。**
+
+<div align="center">
+
+105
+
+</div>
+
+
+<!-- page: 106 -->
+
+---
+**建立复利信念**
+
+当你看到社区成员持续大规模地定投（DCA）进SPX6900（SPX6900，“believe in something”（相信某种信念）、“persist forever”（永不放弃）等社区口号）时，这成为了力量、信念与承诺的有力展现。
+
+这种持续的行动不断加强大家对愿景的集体信任，并随着时间推移，进一步深化了社区的决心。即使是圈外人，也能从这种策略中看到一个明确的信号：**SPX6900背后有一个真正有信仰的社区。**
+
+在加密世界里，能够始终展现强大凝聚力的社区令人无法忽视——**因为在内心深处，你知道这个社区终将成为赢家。**
+
+**打造可持续的价格底部**
+
+社区成员的集体定投（DCA）会形成持续、规律的每日买入压力。
+
+随着这种买入力度不断增强，它就像是一张托底的安全网——当短线交易者和抛售方导致价格波动或下跌时，这种买入压力有助于稳住并守护价格底部。
+
+<div align="center">
+
+106
+
+</div>
+
+
+<!-- page: 107 -->
+
+---
+这种集体定投（DCA）策略同样有助于长期价格升值。SPX6900 的价格受基本的供需关系影响。来自 Aeon（SPX6900 技术词汇，泛指长线坚定持有者）的持续且稳定定投，加上“diamond hand”（坚定持币不卖出），推动了更高的底部和后续的价格攀升。
+
+<img src="../../extracted_images/page-107/page-107-img-01.png" alt="图片" width="577" height="264" />
+
+我们没有图表（fortunately，意为“幸运的是”；SPX6900 口号，这里表示“不拘泥于传统图表分析”），所以我无法为你展示——但很好的参照就是比特币的走势图（放大来看）。
+
+即使在熊市期间，这种策略也能强化代币的供应结构，让买盘压力持续存在。
+
+<div align="center">
+
+107
+
+</div>
+
+
+<!-- page: 108 -->
+
+---
+**促进代币供给去中心化**
+
+DCA（定投）是一种强有力的方式，可以将代币供给逐步从短线卖家转移到真正有信念的持有者手中。
+
+同时，它也为新成员提供了加入这一运动的机会，无需担心“错过机会”（FOMO，错失恐惧症）——让他们可以随着时间慢慢积累，而不是在高位一次性重仓买入。
+
+**强化社区文化**
+
+集体DCA对社区文化有着巨大的推动作用。
+
+它向外界展示，我们是一个自律、耐心、反炒作、着眼长远，并且对使命充满信心的社区。
+
+这说明我们是真正的长期持有者——而不是那种炒作、拉盘砸盘的投机分子。
+
+这就是我们PvE本质（玩家对环境）的活生生写照：我们更关心使命的长期可持续性和代币的不断积累，而不是每日的价格波动。
+
+<div align="center">
+
+108
+
+</div>
+
+
+<!-- page: 109 -->
+
+---
+这种文化的凝聚力对外来者具有很强的吸引力——尤其是当他们看到我们每天分享定投进展和储蓄目标时。
+
+它能够激发强大的社交动力，让更多人想要加入最有实力的社区——因为在加密领域，真正的财富是在最强大的社区中投资而实现的。
+
+**这个社区就是 SPX6900。**
+
+<img src="../../extracted_images/page-109/page-109-img-01.png" alt="图片" width="742" height="398" />
+
+<div align="center">
+
+109
+
+</div>
+
+
+<!-- page: 110 -->
+
+---
+# 最后的话
+
+正如中本聪（Satoshi Nakamoto）在比特币刚诞生八天、还没有真正的社区和市值时所说：
+
+*“或许留一点，以防它真的流行起来。”*  
+— **Satoshi Nakamoto**
+
+这也是我对你参与 SPX6900（SPX6900 项目）的建议。
+
+唯一的不同是，我们现在已经拥有不断壮大的社区。
+
+市值大约达到 10 亿美元。
+
+价格大约是 1 美元。
+
+但我们还没有 flip the stock market（彻底颠覆股市市场）。
+
+所以，也许你应该留一点——以防我们的使命真的流行起来。
+
+**Persist Forever（永不止步），Aeons（SPX6900 社区成员们）！**
+
+<div align="center">
+
+110
+
+</div>
+
+
+<!-- page: 111 -->
+
+---
+## 常见问题解答
+
+1. **我可以在哪里了解更多信息或提问？**
+
+请和把这本电子书分享给你的那个人交流。
+
+注册一个 X 账号，并开始关注本电子书中推荐的 [Aeons（Aeon：Aeon 指 SPX6900 生态系统中的关键概念）](https://example.com/placeholder)。
+
+你也可以在 X、Reddit 或 Telegram 等社区中提出你的问题，与大家交流。
+
+仔细阅读本电子书中的「[更多资源](https://example.com/placeholder)」部分，并观看所有 [推荐视频](https://example.com/placeholder)。
+
+我们在这里帮助你。在这段旅程中，你并不孤单！
+
+2. **什么是市值？**
+
+市值全称是市值总额（market capitalisation），代表一种加密货币的总价值。它通过将某种加密资产的价格乘以其流通中的总币数来计算。
+
+<div align="center">
+
+111
+
+</div>
+
+
+<!-- page: 112 -->
+
+---
+在加密货币领域，市值通常用来衡量代币的整体价值。一个价格较低的代币仍然可能拥有比价格更高的代币更大的市值，因为市值还取决于代币的总供应量。不要仅仅因为某个代币的单价是 $0.01，流通量却高达一万亿枚，就认为它比单价 $1、流通量十亿枚的代币更值得投资。
+
+价格低但发行量巨大的代币，市值同样可能非常庞大——因此在评估实际增长潜力时，务必要查看市值，而不仅仅关注币价。
+
+大市值代币的市值通常在一百亿美元以上。中市值代币市值在十亿到一百亿美元之间，小市值代币则低于十亿美元。
+
+3. **什么是“拉高抛售式跑路”骗局？**
+
+在加密货币领域，“拉高抛售（pump-and-dump）”是一种行为：一群人买入价格低、交易量小的代币，然后在社交媒体上大肆炒作宣传，吸引新买家进场，借机人为地推高币价。等价格被推高到顶点时，他们会一起抛售手中的全部代币（也就是“dump”，倾销），把币抛给所有新买家——自己赚得盆满钵满，却带崩了这个代币的价格。
+
+<div align="center">
+
+112
+
+</div>
+
+
+<!-- page: 113 -->
+
+---
+Rug pull（地毯拉走）类似于“pump-and-dump（拉高出货）”骗局，但它是由加密项目的创始人亲自操作的。他们创建一种代币，并掌控大部分的代币供应，然后大肆炒作。当人们纷纷买入、币价不断上涨时，创始人会一次性抛售手中的所有代币，导致币价暴跌，代币变得一文不值，而他们则携带资金消失无踪。
+
+4. **什么是晚期资本主义？**
+
+晚期资本主义是一个用来对资本主义现状进行文化批判的术语——如今的资本主义高度追逐利润，完全忽视了普通人的利益。这导致了诸多负面后果，例如极端的财富不平等、公司垄断、工人被剥削、消费主义盛行，以及一切事物都被商品化。
+
+经济变得只为利润服务，普通人在这个过程中苦苦挣扎，被远远抛在后面。比如，一些CEO年薪高达数亿美元，而他们的员工却没有
+
+<div align="center">
+
+113
+
+</div>
+
+
+<!-- page: 114 -->
+
+---
+福利、付不起房租、需要打几份工，还是在经济上捉襟见肘。
+
+5. **SPX6900 真的有实际用途或意义吗？**
+
+它的作用在于其独特的文化和社群。我们的宗旨、目标和使命很简单——通过共同的信念和坚持，一位持有者接一位持有者地“flip the stock market”（翻转股市，通过集体信念颠覆股市行情）。这正是 SPX6900 是一款 Pure Belief Asset（纯信仰资产，完全基于信仰的数字资产）的原因。
+
+6. **这只是另一种梗币（memecoin）吗？**
+
+不，SPX6900 已经从最初的梗币发展为更有意义、更有使命感的存在。如今，越来越多的人把 SPX6900 当作一种运动来认真对待。它早已不再只是“梗币”，而是成长为 Pure Belief Asset（纯信仰资产，完全基于信念构建的资产）——这都要归功于愿意投入其中的社区成员。
+
+<div align="center">
+
+114
+
+</div>
+
+
+<!-- page: 115 -->
+
+---
+7. **谁在幕后推动 SPX6900？**
+
+社区。
+
+开发者在项目刚开始时就离开了，从那以后，SPX6900 一直靠社区成员维系至今。如今，这已是一个去中心化、社区驱动的运动，没有任何个人能够有权力破坏或终结这项使命。
+
+SPX6900 不存在中心化的单点失效风险。
+
+8. **我该如何为这个运动做出贡献？**
+
+每一位 SPX6900 信仰者都能以自己的方式做出贡献。你无需成为开发者或网红。只要你相信，你就属于这里。
+
+即便你不想主动发声，也可以通过以下方式贡献力量：
+
+- 持续定投 SPX6900
+- 尊重社区的文化与理念
+- 将本电子书及其他 SPX6900 宣传资料分享给你想帮助的人
+
+<div align="center">
+
+115
+
+</div>
+
+
+<!-- page: 116 -->
+
+---
+**主动参与的方式：**
+
+- 分享你的故事：为什么你会 believe in something（相信某些东西，SPX6900 社区口号）？
+- 在社交媒体上创建帖子、内容或视频
+- 帮助新成员顺利加入
+- 传播 SPX6900 哲学和文化（宣传 SPX6900 的理念和文化）
+- 你带来越多价值，网络就会越强大。
+
+9. **6900 这个数字是什么意思？**
+
+6900 其实只是一个玩笑，是对 500 的趣味演绎。社区成员笑称 SPX6900 指数比标普 500 多了 6,400 个 “S&P”。
+
+最终——从数学上来说——就是 **6900 > 500**。
+
+因此，当我们选择 flip the stock market（颠覆股市，SPX6900 社区口号）时，这其实并不令人意外——毕竟这只是数学：**6900 大于 500。**
+
+<div align="center">
+
+116
+
+</div>
+
+
+<!-- page: 117 -->
+
+---
+10. **这不是很冒险吗？**
+
+每一项投资都有一定的风险。
+
+SPX6900也不例外。没人能百分之百保证它会一直表现良好。但我们可以通过研究、权衡利弊、评估成败的概率，以及考虑风险与收益的比率——即你可能获得多少回报，或可能承担多少损失——来做好尽职调查。
+
+不过，有一件事我是肯定的：如果不承担经过计算的风险，就不会有任何回报。如果你想让生活发生翻天覆地的变化，你必须在某件事情上勇敢地承担合理的风险，并且believe in something（相信某个信念——此句为SPX6900口号）。
+
+没有人会来拯救我们。我们只能靠自己！
+
+11. **成为一名 Aeon 有什么意义？**
+
+在我看来，Aeon（SPX6900忠实信仰者）是SPX6900真正的信仰者——那些践行并守护其文化的人。
+
+就像比特币圈有“比特币最大主义者”（Bitcoin Maxis），坚定宣传和捍卫比特币的理念一样，SPX6900也有Aeons（核心守护者）。
+
+<div align="center">
+
+117
+
+</div>
+
+
+<!-- page: 118 -->
+
+---
+当我第一次购买SPX时，我还不是一个Aeon（Aeon，持有并信仰SPX的核心成员，仅保留英文原词并做中文解释）——只是一个普通的持有者。大约花了我五个月的时间，才真正建立起属于自己的信念，并且真正成为了一名Aeon。
+
+**不是每个SPX持有者都是Aeon，但每一个Aeon都是SPX持有者。**
+
+12. **我怎么知道这不是骗局？**
+
+从代币结构来看，完全无需担心。代币合约无法被修改，也不能再产生新的代币。
+
+开发者在项目早期就已经退出，从那以后便完全由社区自发推动。
+
+从技术角度来看，没有任何个人、团队或开发者能够骗取你的资金。所有代币都在流通中，完全去中心化。
+
+不断壮大的社区及其独特的文化，赋予了SPX6900真正的价值。
+
+归根结底，这取决于你是否对这种文化产生共鸣，是否看到成为其中一员的价值——或者说，不认同也无妨。
+
+<div align="center">
+
+118
+
+</div>
+
+
+<!-- page: 119 -->
+
+---
+但这里没有任何骗局。
+
+如果你购买 SPX，你会以当前的市场价格收到代币。
+
+### 13. **拥有多少 SPX6900 才算够？**
+
+不要给你能拥有多少 SPX6900 设限。
+
+与其设定上限，不如为自己设定一个最低目标，然后持续进行 DCA（定投, 即分批买入）。
+
+一个不错的起点是，将目标最低设置为 **1,000 枚 SPX 代币**。你可以随时使用 [SPX Token Saving Tracker（SPX 代币储蓄追踪器）](https://example.com/placeholder) 以更有趣的方式帮助你实现这个里程碑。
+
+给你的 SPX 持仓设上限，只会限制你的长期潜力。
+
+如果你坚持定投下去，你最终会对自己积累的 SPX 数量感到惊喜。
+
+**设定一个最低目标。达成它。然后持续定投。**
+
+<div align="center">
+
+119
+
+</div>
+
+
+<!-- page: 120 -->
+
+---
+14. **SPX6900 的失败点是什么？**
+
+在我看来，唯一的失败点，就是如果社区在大范围内失去信仰，停止相信（believe in something，指停止对理念或目标的坚持），并彻底放弃。
+
+鉴于社区的凝聚力如此强大，这种情况似乎很难发生。
+
+防止这种情况发生的关键，是保持 SPX6900 的文化。这种文化的设计初衷，就是为了保护和壮大社区，维持代币价值，推动长期发展。
+
+只要我们没有在大规模上背弃这种文化，项目就不会自行堕落或瓦解。
+
+没有任何动力让我们放弃这份文化——正是它确保了我们的社区能够持续发展。这也最终转化为长期的价值增长。
+
+<div align="center">
+
+120
+
+</div>
+
+
+<!-- page: 121 -->
+
+---
+15. **我可以随时卖出我的代币吗？**
+
+可以，你随时都可以。
+
+虽然我们的文化更提倡买入、持有和定投（DCA），因为财富的积累来自于“在市场中持有的时间”，而不是“抓住最佳时机”。我们也极力不鼓励盯盘和频繁交易。
+
+不过，你可以在任何时候自由卖出你的代币。
+
+每个人都有不同的目标和人生轨迹。
+
+但请注意：如果你在大家都在努力“flip the stock market”（颠覆股市——指的是我们的目标是通过持续持有和信念击败传统股市）的时候发帖说自己卖出了，可能会被其他成员不太认可。此外，如果你一次性全部卖出，风险很高——随着我们价格的不断上涨，你很可能会后悔没能继续持有。
+
+16. **我会失去我的SPX6900吗？**
+
+会的——如果你被黑客攻击或者安全意识薄弱。
+
+在加密领域，如果你的代币丢失了，基本上很难再找回。
+
+这也是为什么学习如何保护好你的资产格外重要。
+
+<div align="center">
+
+121
+
+</div>
+
+
+<!-- page: 122 -->
+
+---
+如果你选择将资产留在交易所，一定要启用所有可用的安全功能，防止账户被盗。
+
+如果你选择自行保管（我认为这是最好的方式），请学习如何正确设置你的钱包并保护私钥。
+
+如果你的私钥泄露，资产就有可能被盗——而且无法追回。
+
+因此，了解如何保护你的交易所钱包或私钥至关重要。
+
+<br>
+
+17. **当人们最终卖出时，价格会暴跌吗？**
+
+比特币的市值并不是从几分钱一路直线上涨到一万亿美元的。
+
+在这个过程中波动极大，而且比特币曾被无数次宣称“已死亡”。
+
+比特币之所以没有单边上涨，就是因为有人卖出——有时候，抛压还会大于买盘，从而导致
+
+<div align="center">
+
+122
+
+</div>
+
+
+<!-- page: 123 -->
+
+---
+价格会下跌。但最终，比特币不再回到之前的低点。有一刻，它一路上涨，再也没有回到 $0.10、$1、$10、$100、$1,000 甚至 $10,000 的价位。
+
+它不断创下新高，同时低点也在不断抬升。
+
+如果把眼光放远，你会发现，尽管比特币价格有波动，但长期走势依然是向上的。
+
+***我相信 SPX6900（SPX6900 与比特币类似，也会呈现出相同的走势）也会遵循类似的轨迹。***
+
+总会有人选择卖出——无论原因是什么——哪怕这与社区文化背道而驰。
+
+在熊市期间，价格可能会受到冲击。但正是社区文化会守护这个代币，让它不至于归零，并推动它不断创出新高、抬高低点。
+
+即使“巨鲸”抛售手中的代币，社区也会通过定投（DCA）将其吸收。
+
+从长远来看，这实际上有利于去中心化。只要社区文化还在，没有任何个人能够通过抛售摧毁这个项目。
+
+<div align="center">
+
+123
+
+</div>
+
+
+<!-- page: 124 -->
+
+---
+这种文化使得SPX6900能够在牛市中蓬勃发展，在熊市中生存下来。
+
+18. **投资SPX6900的最佳策略是什么？**
+
+在我看来，最好的策略是用你能够承受亏损的钱来投资——也就是说，在你覆盖所有开销之后。
+
+我们大多数人每个月都会有一些不必要的花费。不妨把这些钱转投到投资上，或者考虑专门找一份兼职，将收入全部用于投资。
+
+建议采用定投（Dollar Cost Averaging，DCA）的方法来投资SPX6900。
+
+DCA的含义是，无论SPX6900代币的价格如何，都定期（每周、每月等）投入固定金额进行投资。
+
+这种策略会平滑你的每个代币的平均成本，并降低在错误时机一次性投入大量资金的风险。DCA非常适合长期投资——而SPX6900本身就是一次跨越多个周期的长期使命。
+
+<div align="center">
+
+124
+
+</div>
+
+
+<!-- page: 125 -->
+
+---
+19. **波动让我害怕——我该怎么办？**
+
+这正是我们不看走势图（there is no chart，没有走势图）的原因——我们更注重信念（conviction）。
+
+第一，停止盯着走势图看。
+
+然后，深入研究SPX6900，并在其投资理念和文化中建立起长期信念。
+
+最后，逢低定投，把波动当作进场的机会。
+
+&nbsp;
+
+20. **SPX6900的使命是不是太不切实际了？**
+
+没错——它的确非常不切实际，充满了“妄想”。
+
+我们有什么资格认为小小的SPX6900可以flip the stock market（颠覆股票市场）？
+
+但我们偏偏相信。
+
+当你投资于像Pure Belief Asset (PBA，纯信念资产)这样肩负宏大使命的标的时，拥有坚定甚至“妄想”的信念并没有错。
+
+“妄想”正是我们的资产。
+
+对于怀疑者来说，这永远都是一个笑谈——直到有一天，这变成了事实。
+
+<div align="center">
+
+125
+
+</div>
+
+
+<!-- page: 126 -->
+
+---
+21. **我现在加入是不是太晚了？**
+
+大家会在我们“flip the stock market”（翻转股市，掀起市场变革）的旅途中的不同阶段听说SPX6900，并加入这个运动。
+
+比特币也曾出现过同样的现象。不是每个人都在比特币低于$1、$10、$100、$1,000或者$10,000的时候入场——但从大局看，他们并不算晚，因为比特币最终都远远超过了这些价位。
+
+对于SPX6900，你很容易判断自己是不是“晚了”：我们“flip the stock market”（翻转股市）并且市值达到$69万亿了吗？如果还没有，那你就还不算晚。
+
+坚持定投这些小币，开始积累吧。
+
+<div align="center">
+
+126
+
+</div>
+
+
+<!-- page: 127 -->
+
+---
+22. **我就是搞不懂SPX6900，为什么？**
+
+就我个人而言，我会买一点——以防你以后明白了它的价值。
+
+2013年我第一次接触比特币时，我也没搞懂它，但到了2019年我就明白了。如果我当年买了一点，那次早期投入就能让我受益匪浅。
+
+2013年我之所以没搞懂比特币，是因为那时我没去研究它——直到2019年。
+
+这也是为什么在这本电子书中，我一直强调**学习SPX6900的重要性**（Study SPX6900）。只有这样，你才能真正理解它，并建立属于你自己的信念，而不是依赖于别人的信念。
+
+这本电子书只是一个帮助你的指南，可以帮助你缩短学习曲线，但真正想要学习SPX6900并建立自己的信念，唯一的方法就是观察这个社区——观察他们的信念，以及他们如何践行这种文化。
+
+记住，SPX只是一个代币。真正赋予它价值的是社区——所以要深入研究社区里的每一个人，以及他们的信念，这样才能理解SPX6900。
+
+**学习SPX6900（Study SPX6900）。**
+
+<div align="center">
+
+127
+
+</div>
+
+
+<!-- page: 128 -->
+
+---
+# 支持作者
+
+**SPX6900 打赏提示**
+
+如果您在这本免费电子书中获得了价值，并希望对作者在创作过程中的时间、付出和研究表示感谢，欢迎通过 SPX6900 进行打赏。
+
+**SPX Ethereum [钱包地址](https://example.com/placeholder)：**
+
+0x22D3b939a7E832232e833e8dF22ac1ba9D7610B0
+
+**SPX Solana [钱包地址](https://example.com/placeholder)：**
+
+25zojSFpVu1qsETY9MMZFFy8jZEu7peDCSdrU2o8xzcR
+
+**感谢您对我工作的支持！**
+
+**每一份打赏我都由衷感激。**
+
+<div align="center">
+
+128
+
+</div>
+
+
+<!-- page: 129 -->
+
+---
+# 在亚马逊购买平装书
+
+<img src="../../extracted_images/page-129/page-129-img-01.png" alt="图片" width="728" height="414" />
+
+你可以在亚马逊购买我的平装书《Stop Trading, Start Believing!》（停止交易，开始信仰！——与本电子书相得益彰），作为本电子书的有益补充。
+
+[亚马逊美国](https://example.com/placeholder) [亚马逊新加坡](https://example.com/placeholder) [亚马逊意大利](https://example.com/placeholder)
+
+[亚马逊英国](https://example.com/placeholder) [亚马逊西班牙](https://example.com/placeholder) [亚马逊波兰](https://example.com/placeholder)
+
+[亚马逊加拿大](https://example.com/placeholder) [亚马逊瑞典](https://example.com/placeholder) [亚马逊法国](https://example.com/placeholder)
+
+[亚马逊爱尔兰](https://example.com/placeholder) [亚马逊荷兰](https://example.com/placeholder) [亚马逊德国](https://example.com/placeholder)
+
+<div align="center">
+
+129
+
+</div>
+
+
+<!-- page: 130 -->
+
+---
+# 更多资源
+
+## **SPX6900 信息网站：**
+
+[SPX6900resources.com](https://example.com/placeholder)（SPX 资源）
+
+[SPX6900.com](https://example.com/placeholder)（官方网站）
+
+[Aeons6900.com](https://example.com/placeholder)（SPX6900 资源）
+
+## **SPX6900 杂项网站：**
+
+[Flipthestockmarket.xyz](https://example.com/placeholder)（Flip the Stock Market Tracker，“flip the stock market”（翻转股市，SPX6900 口号）追踪器）
+
+[Flipthestockmarket.com](https://example.com/placeholder)（Flip the Stock Market Tracker，“flip the stock market”（翻转股市，SPX6900 口号）追踪器）
+
+[SPX6900mosaic.com](https://example.com/placeholder)（将你的 X 账号加入马赛克）
+
+## **SPX6900 必看视频：**
+
+[Murad The Memecoin Super-cycle TOKEN2049](https://example.com/placeholder)
+
+[穆拉德：150 个 SPX6900 有望达到 1 万亿美元市值的理由！｜信仰的力量](https://example.com/placeholder)
+
+<div align="center">
+
+130
+
+</div>
+
+
+<!-- page: 131 -->
+
+---
+## **SPX6900 必听播客：**
+
+[Flip The Stock Market（翻转股市，意为打破传统股市规则）](https://example.com/placeholder)
+
+[Persist Forever（永不言弃，坚持到底）](https://example.com/placeholder)
+
+
+## **SPX6900 必读文章：**
+
+[SPX6900 会成为下一个 Game Stop（游戏驿站）吗？](https://example.com/placeholder)
+
+[信仰的力量：社群如何比创始人更持久](https://example.com/placeholder)
+
+[SPX6900：加入“信仰运动”前你需要了解什么](https://example.com/placeholder)
+
+[邪教币/梗币：理解其用途、价值与文化影响](https://example.com/placeholder)
+
+[终极梗币指南：纯度、分类与潜力全解](https://example.com/placeholder)
+
+[数字世界七大奇迹 —— SPX6900 能成为第八个传奇奇迹吗？](https://example.com/placeholder)
+
+[SPX6900：比特币、狗狗币与 GameStop 的交汇点](https://example.com/placeholder)
+
+[SPX6900 文化：圈内人视角](https://example.com/placeholder)
+
+
+## **SPX6900 官方周边：**
+
+[SPX6900gear.com](https://example.com/placeholder)（由 [Jordan Riz](https://example.com/placeholder) 创作的周边）
+
+<div align="center">
+
+131
+
+</div>
+
+
+<!-- page: 132 -->
+
+---
+## 附录A：在X平台关注这些Aeons（Aeon，Aeon为SPX6900体系中的特殊术语）
+
+[@MustStopMurad](https://example.com/placeholder) [@crypticsheds](https://example.com/placeholder) [@Plutermes](https://example.com/placeholder)  
+[@GhostOfTanzCho](https://example.com/placeholder) [@EbMD](https://example.com/placeholder) [@1d34h4z4rd](https://example.com/placeholder)  
+[@maddoxooooo](https://example.com/placeholder) [@AeonGeneral](https://example.com/placeholder) [@fugohyojun](https://example.com/placeholder)  
+[@CowellCrypto](https://example.com/placeholder) [@realcryptocow](https://example.com/placeholder) [@Dubs_dog](https://example.com/placeholder)  
+[@user_azkarah](https://example.com/placeholder) [@AeonReborn](https://example.com/placeholder) [@nolongerviabl](https://example.com/placeholder)  
+[@unclemungy](https://example.com/placeholder) [@user_baproll](https://example.com/placeholder) [@_LRSN](https://example.com/placeholder)  
+[@x_demigod](https://example.com/placeholder) [@arcane_vault](https://example.com/placeholder) [@MTEX95](https://example.com/placeholder)  
+[@munchies1337](https://example.com/placeholder) [@user_aeon_one](https://example.com/placeholder) [@100xsrm](https://example.com/placeholder)  
+[@yosocaz](https://example.com/placeholder) [@BlueLightCapit1](https://example.com/placeholder) [@_ilyaeon_](https://example.com/placeholder)  
+[@MikeFlipthe500](https://example.com/placeholder) [@Matthew_C_Beck](https://example.com/placeholder) [@rootsie143](https://example.com/placeholder)  
+[@AEON2092](https://example.com/placeholder) [@ClayBuilder76](https://example.com/placeholder) [@archm1chael](https://example.com/placeholder)  
+[@Cashfire88](https://example.com/placeholder) [@Tokenomico90239](https://example.com/placeholder) [@aeontrux](https://example.com/placeholder)  
+[@ayooocousin](https://example.com/placeholder) [@electronfarmer3](https://example.com/placeholder) [@ianszcze](https://example.com/placeholder)  
+[@Bai323370623552](https://example.com/placeholder) [@orvalous](https://example.com/placeholder) [@Chiron5555](https://example.com/placeholder)  
+[@TechFocused](https://example.com/placeholder) [@CountryBitcoin](https://example.com/placeholder) [@0xRS7](https://example.com/placeholder)
+
+<div align="center">
+
+132
+
+</div>
+
+
+<!-- page: 133 -->
+
+---
+## 附录B：在TikTok上关注这些Aeon（Aeon，意为纪元，是SPX6900（SPX6900，一种虚拟资产体系）中的技术术语）
+
+[@Muststopmurad](https://example.com/placeholder)  
+[@tanzcho](https://example.com/placeholder)  
+[@realcryptocow](https://example.com/placeholder)  
+[@millionairenormie](https://example.com/placeholder)  
+[@meme_coin_lord](https://example.com/placeholder)  
+[@Cryptic_Mang](https://example.com/placeholder)  
+[@twanny2c](https://example.com/placeholder)  
+[@countrybitcoin](https://example.com/placeholder)  
+[@aeon_trux](https://example.com/placeholder)  
+[@ebbie_md](https://example.com/placeholder)  
+[@aeonreborn](https://example.com/placeholder)  
+[@aeon.broadcast](https://example.com/placeholder)
+
+<div align="center">
+
+133
+
+</div>
+
+
+<!-- page: 134 -->
+
+---
+## 附录C：SPX 1,000目标追踪器
+
+### SPX6900代币储蓄记录表 - 1,000代币目标
+目标：通过完成所有方格，累计1,000枚SPX6900代币
+
+<img src="../../extracted_images/page-134/page-134-img-01.png" alt="图片" width="541" height="338" />
+
+<div align="center">
+
+134
+
+</div>
+
+
+<!-- page: 135 -->
+
+---
+# 附录D：SPX 10,000目标追踪器
+
+## SPX6900代币储蓄追踪表 - 10,000代币目标
+
+*目标：通过完成所有方格，累计10,000个SPX6900代币*
+
+<img src="../../extracted_images/page-135/page-135-img-01.png" alt="图片" width="716" height="613" />
+
+<div align="center">
+
+135
+
+</div>
+
+
+<!-- page: 136 -->
+
+---
+# 附录 E：加密货币增长图表
+
+<img src="../../extracted_images/page-136/page-136-img-01.png" alt="图片" width="669" height="268" />
+
+*（图 1.11 – 自 2009 年以来加密货币的估算增长情况）*
+
+实际上，创造出的加密货币数量远远超过图 1.11 中显示的数字，因为该图仅估算了在 [CoinMarketCap](https://example.com/placeholder) 和 [CoinGecko](https://example.com/placeholder) 等追踪网站上被收录的加密货币数量。它并未统计每天通过发币平台 (launchpads) 创建的成千上万个代币——这些过程甚至常常不需要任何编程技能——并且这些代币通常都在去中心化交易所 (DEX) 进行交易。
+
+<div align="center">
+
+136
+
+</div>
+
+
+<!-- page: 137 -->
+
+---
+加密货币数量从 35,000 多个骤降至 17,000，并不是因为新代币的发行数量减少，而是由于许多被认为不再活跃的代币会被这些追踪网站下架。
+
+这种减少通常是因为代币“死亡”——无论是被“拉地毯”、项目被弃置（这在许多实用型代币中很常见）、诈骗，还是其他原因——最终都会导致交易量归零。
+
+请注意，这些数据甚至还不包括那些从未在追踪网站上线、仅在去中心化交易所（DEX）中存在的已“死亡”加密代币。
+
+数量的下滑正好凸显了加密项目的高淘汰率，也说明了创造一个代币有多么容易——但想要复制出一个拥有凝聚力的社区却非常困难。正因如此，许多代币甚至无法在一次完整的市场周期中存活下来。
+
+也正因如此，具备强大社区力量与文化的项目极为稀有，这就是为什么像 SPX6900（社区号召力与文化独特，极为稀有和重要的加密社区）这样的社区，在加密货币领域里显得如此特别、独一无二，并且意义非凡。
+
+<div align="center">
+
+137
+
+</div>
+
+
+<!-- page: 138 -->
+
+<img src="../../extracted_images/page-138/page-138-img-01.png" alt="图片" width="634" height="321" />
+
+（图 1.12 – 自2009年以来加密货币总创建数量与活跃加密货币数量对比）
+
+图 1.12 是一个双折线图，展示了自2009年以来创建的加密货币总数与仍在追踪网站上被活跃列出的加密货币数量。蓝线表示总创建数量，橙线则代表活跃上市的币种数量。
+
+加密货币的总发行数量持续增长，而活跃上市的币种增加较为缓慢，并可能随着无效项目被下架而减少。
+
+**138**
+
+<div align="center">
+
+138
+
+</div>
