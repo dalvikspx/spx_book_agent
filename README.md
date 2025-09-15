@@ -77,11 +77,11 @@ extracted_images/
 └── ...
 ```
 
-## For Developers & Tech Enthusiasts 🚀
+## For Developers & Technical Contributors
 
-Ready to get your hands dirty with the code? All the technical setup, installation instructions, build commands, and developer contribution guidelines have been moved to a dedicated guide:
+All technical setup, installation instructions, build commands, and developer contribution guidelines have been moved to a dedicated guide:
 
-**📖 [DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md)** - Your complete technical reference
+**[DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md)** - Complete technical reference
 
 This guide covers:
 
@@ -97,40 +97,40 @@ This guide covers:
 
 We welcome contributions from everyone! Whether you're a developer, native speaker, designer, or just someone passionate about making SPX6900 knowledge accessible worldwide.
 
-### For Native Speakers & Language Enthusiasts 🌍
+### For Native Speakers & Language Contributors
 
 Your expertise is invaluable for creating high-quality translations:
 
-- **Review translation quality** - Help us catch context-dependent translation errors
+- **Review translation quality** - Help identify context-dependent translation errors
 - **Suggest cultural adaptations** - Ensure content resonates with local audiences
 - **Provide linguistic feedback** - Help improve translations that might be too literal
 - **Verify existing translations** - We especially need verification for non-Italian translations
 
-### For Designers & Content Creators 🎨
+### For Designers & Content Contributors
 
 Help make the translated books visually appealing:
 
 - **Add correct images** from the original PDF to improve visual quality
 - **Create professional PDF layouts** using tools like Canva or similar
 - **Improve markdown formatting** for better readability
-- **Design better visual elements** for the final output
+- **Design visual elements** for the final output
 
-### For Developers & Tech Contributors 💻
+### For Technical Contributors
 
-Want to improve the code? Check out our **[Developer Guide](./DEVELOPER_GUIDE.md)** for:
+To contribute code improvements, see the **[Developer Guide](./DEVELOPER_GUIDE.md)** for:
 
 - Technical contribution guidelines
 - Code improvement opportunities
 - Architecture enhancement ideas
 - Bug fixes and feature requests
 
-### Non-Developer Friendly Guide 📚
+### Non-Technical Contributor Guide
 
-📖 **Detailed Instructions**: See [CONTRIBUTING_TRANSLATION.md](./CONTRIBUTING_TRANSLATION.md) for step-by-step instructions on how to improve translations, add images, and create professional PDF layouts using free tools.
+**Detailed Instructions**: See [CONTRIBUTING_TRANSLATION.md](./CONTRIBUTING_TRANSLATION.md) for step-by-step instructions on how to improve translations, add images, and create professional PDF layouts using free tools.
 
 ---
 
-**Get involved!** Open issues, submit pull requests, or reach out with suggestions. Every contribution helps make SPX6900 knowledge more accessible! 🚀
+To get involved, open issues, submit pull requests, or reach out with suggestions. All contributions help make SPX6900 knowledge more accessible.
 
 ---
 

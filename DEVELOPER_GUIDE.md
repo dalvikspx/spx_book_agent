@@ -1,10 +1,10 @@
 # Developer Guide - SPX6900 Book Translation AI Agent
 
-Welcome, fellow developers and tech enthusiasts! 🚀 This guide covers everything you need to get the SPX6900 Book Translation AI Agent up and running on your machine.
+This guide provides comprehensive technical documentation for developers working with the SPX6900 Book Translation AI Agent. It covers installation, configuration, usage, and contribution guidelines.
 
 ## Prerequisites
 
-Before diving in, make sure you have:
+Before starting, ensure you have the following requirements:
 
 - Node.js (version 16 or higher)
 - npm or yarn package manager
@@ -167,37 +167,37 @@ extracted_images/
 
 ## Developer Contributions
 
-We welcome contributions from developers and vibe coders! Here's how you can help:
+We welcome contributions from developers and technical contributors. Here are the areas where you can help:
 
 ### Code Improvements
 
-- **Code optimizations**: Make the translation process faster and more efficient
-- **Bug fixes**: Enhance error handling and fix edge cases
-- **New features**: Add functionality for better translation accuracy
-- **Better image extraction**: Improve algorithms for detecting and extracting images from PDFs
+- **Code optimizations**: Improve translation process efficiency and performance
+- **Bug fixes**: Enhance error handling and resolve edge cases
+- **New features**: Add functionality for improved translation accuracy
+- **Image extraction**: Improve algorithms for detecting and extracting images from PDFs
 
 ### Technical Enhancements
 
 - **PDF export improvements**: Enhance the markdown-to-PDF conversion in `utils/pdf.ts`
-- **UI/UX improvements**: Make the tool more user-friendly
-- **Documentation**: Keep this guide and code comments up to date
+- **User interface improvements**: Improve tool usability and user experience
+- **Documentation**: Maintain current documentation and code comments
 - **Testing**: Add unit tests and integration tests
-- **Performance monitoring**: Add logging and metrics
+- **Performance monitoring**: Implement logging and metrics
 
 ### Architecture & Scaling
 
-- **Async processing**: Implement better parallel processing for multiple pages
-- **Rate limiting**: Smart handling of OpenAI API rate limits
-- **Caching**: Cache translation results to avoid re-processing
-- **Configuration**: Make more aspects configurable via environment variables
+- **Async processing**: Implement improved parallel processing for multiple pages
+- **Rate limiting**: Implement intelligent handling of OpenAI API rate limits
+- **Caching**: Implement translation result caching to avoid re-processing
+- **Configuration**: Expand configurable aspects via environment variables
 
 ## Troubleshooting
 
 ### Common Issues
 
-1. **API Key errors**: Make sure your OpenAI API key is valid and has sufficient credits
+1. **API Key errors**: Ensure your OpenAI API key is valid and has sufficient credits
 2. **Memory issues**: Use batch processing for large books
-3. **Image extraction failures**: Manually extract images for better results
+3. **Image extraction failures**: Manually extract images for improved results
 4. **Translation inconsistencies**: Review context-dependent terms manually
 
 ### Debug Mode
@@ -208,9 +208,9 @@ Add debug logging by setting the environment variable:
 DEBUG=true
 ```
 
-## Tech Stack
+## Technical Stack
 
-- **TypeScript**: Main language for type safety
+- **TypeScript**: Primary language for type safety
 - **Node.js**: Runtime environment
 - **OpenAI API**: GPT models for translation
 - **PDF processing**: Custom utilities for PDF manipulation
@@ -218,4 +218,4 @@ DEBUG=true
 
 ---
 
-Ready to contribute? Fork the repo, make your changes, and submit a pull request! Let's make SPX6900 knowledge accessible worldwide! 🌍
+To contribute, fork the repository, make your changes, and submit a pull request. All contributions help make SPX6900 knowledge accessible worldwide.
