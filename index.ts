@@ -52,8 +52,12 @@ function getTranslationExample(language: string): string {
 			'"working hard" should be translated as "travailler dur" not "travailler chaud"',
 		German:
 			'"working hard" should be translated as "hart arbeiten" not "heiß arbeiten"',
-		Portuguese:
+		"Portuguese (European)":
+			'"working hard" should be translated as "trabalhar arduamente" not "trabalhar quente"',
+		"Portuguese (Brazilian)":
 			'"working hard" should be translated as "trabalhar duro" not "trabalhar quente"',
+		Portuguese:
+			'"working hard" should be translated as "trabalhar arduamente" not "trabalhar quente"',
 		"Mandarin Chinese":
 			'"working hard" should be translated as "努力工作" (nǔlì gōngzuò) not "热工作" (literal translation)',
 		Hindi:
@@ -634,7 +638,7 @@ const main = async () => {
 
 	const result = await run(
 		agent,
-		`translate the book from page 113 to the end of the book in ${TARGET_LANGUAGE}`,
+		`translate from page 98 of the book to page 157 in ${TARGET_LANGUAGE}`,
 		{
 			maxTurns: 1000,
 		}
