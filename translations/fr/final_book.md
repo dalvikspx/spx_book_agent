@@ -675,3 +675,434 @@ Pour autant, **notre ennemi, c’est la TradFi — et notre objectif, c’est de
 27
 
 </div>
+
+
+<!-- page: 28 -->
+
+---
+## La proposition de valeur de SPX6900
+
+<img src="../../extracted_images/page-028/page-028-img-01.png" alt="Image" width="714" height="328" />
+
+La véritable proposition de valeur de toute cryptomonnaie — une fois qu’on fait abstraction de tous les discours qui l’entourent — se résume en réalité à **la communauté qui y croit.**
+
+<div align="center">
+
+28
+
+</div>
+
+
+<!-- page: 29 -->
+
+---
+**Investir dans les personnes**
+
+Nous, le peuple, sommes ceux qui donnons finalement de la valeur à une crypto, pour une raison ou une autre, en choisissant de l’acheter et de la conserver. Nous créons la demande pour la crypto grâce à notre pouvoir d’achat collectif.
+
+Prenons l’exemple du Bitcoin. Il a été le premier du genre — une communauté qui s’est développée de manière organique, et qui, encore aujourd’hui, continue d’adhérer à ses valeurs et à sa philosophie : être une forme d’argent supérieure et un réseau décentralisé en comparaison avec la monnaie fiduciaire et les systèmes bancaires centralisés.
+
+C’est justement cette communauté solide qui donne au bitcoin sa valeur et qui est le moteur de l’appréciation de son prix (Fig 1.7).
+
+<img src="../../extracted_images/page-029/page-029-img-01.png" alt="Image" width="665" height="267" />
+
+(Fig 1.7 – Appréciation du prix du Bitcoin dans le temps)
+
+<div align="center">
+
+29
+
+</div>
+
+
+<!-- page: 30 -->
+
+---
+Quand vous comprenez que la crypto consiste avant tout à investir dans des personnes, il faut vous poser la question :
+
+- Vers quelle crypto les gens sont-ils naturellement attirés ?
+- Quelle crypto fidélise les utilisateurs et les encourage à rester ?
+- Quelle crypto suscite chez les gens de la passion, de la motivation et de l’inspiration ?
+- Quelle crypto agit comme un aimant pour l’argent durement gagné des gens ?
+- Quelle crypto voit croître le nombre de détenteurs fidèles ?
+- Quelle crypto pousse les gens à produire des écrits, des œuvres d’art, des vidéos et des mèmes créatifs de qualité pour en faire la promotion ?
+- Comment cette crypto parvient-elle à accomplir tout cela ?
+
+<img src="../../extracted_images/page-030/page-030-img-01.png" alt="Image" width="646" height="203" />
+
+<div align="center">
+
+30
+
+</div>
+
+
+<!-- page: 31 -->
+
+---
+C'est la crypto à laquelle vous devez prêter attention — car beaucoup d’autres personnes s’y intéressent de près et y investissent.
+
+**SPX6900 est un exemple parfait de ce type de cryptomonnaie.**
+
+### Investir dans la spéculation sur l’utilité
+
+De nombreuses autres cryptos sont construites autour de récits d’utilité et de cas d’usage qui attirent les gens à acheter et à spéculer. Leurs communautés spéculent sur le fait que l’utilité et le cas d’usage du token deviendront réels et largement adoptés — ce qui donnerait alors de la valeur au token.
+
+Même avec les tokens utilitaires, vous investissez toujours dans les personnes — vous investissez dans la capacité des gens à continuer de spéculer sur l’idée d’utilité.
+
+La plupart de ces tokens utilitaires ne sont que des concepts, des idées, et des théories sur lesquelles les gens spéculent, sans cas d’usage réel ni adoption institutionnelle de masse. Au final, ce sont donc toujours les gens qui donnent de la valeur à ces récits d’utilité par la spéculation, dans l’espoir qu’une utilité réelle et de masse se concrétisera un jour.
+
+<div align="center">
+
+31
+
+</div>
+
+
+<!-- page: 32 -->
+
+---
+**Investir dans la culture communautaire**
+
+Et puis, il existe des tokens qui n’ont ni narration utilitaire ni cas d’usage — comme les memecoins. La communauté y adhère pour des raisons qui tiennent à l’attrait qu’elle-même exerce. Dans le cas de SPX6900 — **un Pure Belief Asset (un actif fondé uniquement sur la croyance)** — c’est la culture incarnée par la communauté qui attire et fidélise ses membres.
+
+<img src="../../extracted_images/page-032/page-032-img-01.png" alt="Image" width="765" height="545" />
+
+**ÉLÉMENTS MÉTAPHYSIQUES DE SPX6900**
+
+Communauté      Croyance      Conviction
+
+Persévérance      Résilience      Loyauté
+
+Patience      Optimisme      Amour
+
+<div align="center">
+
+32
+
+</div>
+
+
+<!-- page: 33 -->
+
+---
+## L'importance de la culture SPX6900
+
+La culture SPX6900 est essentielle à la réussite du token — tout comme l'utilité est essentielle à la réussite des utility tokens (jetons utilitaires).
+
+Un point d'échec majeur pour les utility tokens survient lorsque l'utilité promise ne se matérialise pas ou n'est pas adoptée. Dans ce cas, la communauté abandonne souvent le token, et son prix s'effondre en conséquence.
+
+Cela s'explique par le fait que les personnes qui investissent dans des cryptomonnaies utilitaires n'ont, en réalité, aucune loyauté envers la communauté ou le token, si ce n'est l'espoir que l'utilité promise devienne réelle.
+
+De la même manière, si la culture SPX6900 est perdue et n'est ni protégée ni entretenue par la communauté, il existe un risque élevé que la communauté se détériore — perdant ainsi ce qui fait son attrait et qui donne envie à d'autres de la rejoindre.
+
+<img src="../../extracted_images/page-033/page-033-img-01.png" alt="Image" width="322" height="319" />
+
+<div align="center">
+
+33
+
+</div>
+
+
+<!-- page: 34 -->
+
+---
+C’est pourquoi, lorsque vous rejoignez le mouvement SPX6900, respecter et défendre notre culture est absolument essentiel pour la croissance et le succès de la communauté.
+
+Prenez Bitcoin, par exemple — il n’aurait jamais pu passer de rien à une capitalisation boursière de mille milliards de dollars au fil des ans si la communauté Bitcoin n’avait pas maintenu et préservé sa culture.
+
+La philosophie du maximalisme Bitcoin a encouragé tout le monde à croire que Bitcoin était supérieur à tout le reste, à continuer d’en accumuler, de HODL, et d’en prendre le contrôle total. Cette préservation de la culture par la communauté a non seulement attiré des gens vers Bitcoin, mais elle leur a aussi donné la conviction nécessaire pour s’y tenir.
+
+Et si SPX6900 veut atteindre des milliers de milliards de capitalisation et un jour flip the stock market (renverser les marchés financiers traditionnels), il n’y parviendra que grâce à une communauté soudée qui défend et perpétue la culture SPX6900 à travers les marchés haussiers comme baissiers.
+
+Le succès de SPX6900 dépend en fin de compte de la communauté — et le succès de la communauté dépend de
+
+<div align="center">
+
+34
+
+</div>
+
+
+<!-- page: 35 -->
+
+---
+sa capacité à adopter, incarner et préserver la culture et la philosophie SPX6900 (SPX6900 culture et philosophie : principes et valeurs propres à SPX6900).
+
+Sans cette culture, il n’y aurait pas de communauté forte et de qualité en train de se former derrière SPX — ce qui rendrait le jeton indifférencié de la majorité des autres tokens de l’univers crypto : de simples [pump-and-dump rug pulls](https://example.com/placeholder) (arnaques financières à la hausse et à la baisse) éphémères qui n’évolueront jamais vers quelque chose de spécial ou de grand.
+
+L’une des grandes caractéristiques de SPX6900 est qu’il n’a pas de point d’échec lié à son utilité. C’est une inquiétude que la communauté n’a pas à avoir.
+
+Notre seul risque réel est l’autodégradation : échouer à maintenir notre culture et notre philosophie.
+
+Si nous *persist forever* (persistons indéfiniment à défendre notre culture), il n’y a aucun véritable point faible. Notre message est solide, notre mouvement attire, et nous pouvons continuer à grandir, un détenteur après l’autre, jusqu’à atteindre notre mission : flip the stock market (renverser le marché boursier).
+
+Cependant, **nous devons veiller à protéger notre culture** — surtout en nous développant — afin de survivre sur le long terme, de traverser plusieurs cycles et de parvenir à flip the stock market (renverser le marché boursier) avec succès.
+
+<div align="center">
+
+35
+
+</div>
+
+
+<!-- page: 36 -->
+
+---
+# Qu’est-ce que la culture SPX6900 ?
+
+## **Stop Trading and Believe in Something** (slogan en anglais : « arrêtez de trader et croyez en quelque chose »)
+
+Cela encourage la communauté à adopter un esprit d’investissement à long terme, à forte conviction, avec des mains de diamant (c’est-à-dire sans vendre), et une stratégie de [moyenne d’achat périodique (Dollar Cost Averaging, DCA)](https://example.com/placeholder) lors de l’achat de SPX6900 — plutôt que de céder à la mentalité court-termiste de certains traders qui cherchent de rapides profits sans aucune croyance dans la communauté.
+
+## **There Is No Chart** (slogan en anglais : « il n’y a pas de graphique »)
+
+Notre culture décourage fortement la publication de graphiques ainsi que les distractions qui vont avec.
+
+C’est le jeu des traders court-termistes. SPX6900 représente un investissement à long terme, basé sur la conviction.
+
+<img src="../../extracted_images/page-036/page-036-img-01.png" alt="Image" width="382" height="285" />
+
+<div align="center">
+
+36
+
+</div>
+
+
+<!-- page: 37 -->
+
+C’est pourquoi nous disons que le prix est binaire : **avons-nous flip the stock market (retroussé la bourse – c’est-à-dire bouleversé les marchés comme l’annonce le slogan SPX6900) ou non ?** Sinon, il nous reste encore du travail à accomplir.
+
+Ne pas s’obséder sur les graphiques permet aussi de libérer un temps précieux pour des choses bien plus importantes, comme promouvoir SPX6900 de manière créative et tisser des liens authentiques avec d’autres Aeons (Aeon – membres de la communauté SPX6900) tout en construisant des relations durables.
+
+## Le seul ennemi, c’est la TradFi
+
+Cela reflète notre esprit rebelle, anti-système, anti-corporation — en opposition à tout ce que représente le système financier traditionnel. C’est très proche de l’idéologie anti-banques des débuts du Bitcoin. Après tout, notre mission est de flip the stock market (retourner le marché boursier – défier l’ordre établi comme annoncé par le slogan SPX6900).
+
+<img src="../../extracted_images/page-037/page-037-img-01.png" alt="Image" width="502" height="238" />
+
+<div align="center">
+
+37
+
+</div>
+
+
+<!-- page: 38 -->
+
+---
+**Persist Forever** (slogan en anglais : "persister à jamais")
+
+Cet état d’esprit résilient — ne jamais abandonner, résister à l’injustice du système, supporter les défis de notre mission et tenir bon aussi longtemps qu’il le faudra — représente le cœur battant et l’âme de notre communauté.
+
+<img src="../../extracted_images/page-038/page-038-img-01.png" alt="Image" width="302" height="216" />
+
+Comment pourrions-nous jamais espérer atteindre notre objectif ambitieux de **flip the stock market** (inverser la tendance de la bourse) un jour et **d’atteindre des milliers de milliards**, si ce n’est en persistant à jamais ?
+
+**Aucune Publication Inappropriée**
+
+Nous n’acceptons tout simplement pas cela dans notre communauté. Nous gardons un espace sain.
+
+<div align="center">
+
+38
+
+</div>
+
+
+<!-- page: 39 -->
+
+---
+### Une vie paisible plutôt que la cupidité
+
+Voilà ce qui arrive lorsque vous arrêtez de courir après les graphiques, les chandeliers et les variations de prix. Cet état d’esprit ne mène qu’au stress, alimenté par la cupidité et l’obsession de vouloir anticiper le marché. Mener une vie paisible, c’est investir régulièrement (DCA) dans SPX6900 (SPX6900 est un produit d’investissement particulier ; voir explication) avec une vision à long terme et une forte conviction — sans surveiller les graphiques.
+
+<img src="../../extracted_images/page-039/page-039-img-01.png" alt="Image" width="267" height="269" />
+
+Il est bien plus serein et gratifiant de miser sur la durée plutôt que d’essayer de prédire le marché.
+
+**DCA simplement et allez prendre l’air.**
+
+<div align="center">
+
+39
+
+</div>
+
+
+<!-- page: 40 -->
+
+---
+### Uniquement PvE, Pas de PvP
+
+#### Memecoins PvP
+**aussi appelés Hyperparis**
+
+<img src="../../extracted_images/page-040/page-040-img-01.png" alt="Image" width="249" height="229" />
+
+#### Memecoins PvE
+**aussi appelés “Cults”**
+
+<img src="../../extracted_images/page-040/page-040-img-02.png" alt="Image" width="250" height="229" />
+
+Le comportement Player vs. Player (PvP) a corrompu une grande partie de la crypto — c’est toxique, individualiste et cela empêche la formation de communautés solides. SPX6900 est strictement une communauté Player vs. Environment (PvE). Nous ne sommes pas les uns contre les autres — nous sommes unis contre le système TradFi.
+
+Nous travaillons constamment main dans la main pour construire une communauté forte, capable, un jour, de flip the stock market (retourner la bourse traditionnelle).
+
+<div align="center">
+
+40
+
+</div>
+
+
+<!-- page: 41 -->
+
+---
+**Promouvoir la positivité**
+
+Notre communauté vit selon la devise de vaincre les détracteurs, les sceptiques et les critiques par l’amour — et non en répondant à leur négativité. Nous souhaitons la réussite aux autres. Nous disons aux gens que nous les aimons. Et nous essayons sincèrement d’aider les autres en partageant SPX6900 (projet SPX6900) avec eux.
+
+**Infiltrer partout !**
+
+La communauté SPX6900 (SPX6900) est l’une des plus acharnées de l’univers crypto — c’est tout simplement sans précédent en toutes mes années dans la crypto. On parle de gens qui postent chaque jour des messages enthousiastes sur les réseaux sociaux, créent des contenus TikTok, des vidéos YouTube et des reels Instagram, lancent des podcasts, vont à la rencontre des habitants dans leurs villes et villages pour partager SPX6900 (projet SPX6900), et produisent même des [bandes dessinées](https://example.com/placeholder), [livres](https://example.com/placeholder), e-books, produits dérivés, sites web, et bien plus encore.
+
+Nous sommes véritablement engagés à diffuser le message et la mission de SPX6900 (projet SPX6900) en touchant le plus grand nombre — nous infiltrons tout !
+
+<div align="center">
+
+41
+
+</div>
+
+
+<!-- page: 42 -->
+
+---
+**Tous les principes réunis**
+
+Lorsque vous rassemblez tous les principes positifs de la culture SPX6900 (la communauté SPX6900 – voir explication ci-dessous) et que vous les combinez, cela crée véritablement une communauté unique et spéciale dans le monde des cryptomonnaies.
+
+Certaines communautés peuvent avoir une forte conviction et une mentalité de non-trading, mais vous remarquerez également qu’elles sont très toxiques, négatives et affichent des comportements impitoyables.
+
+D’autres communautés peuvent sembler positives au départ — mais vous vous rendez vite compte qu’elles ne font que s’affronter (PvP) entre elles. Au moindre signe d’augmentation de prix, tout le monde se précipite pour vendre sur les autres, empêchant ainsi l’apparition d’une véritable confiance ou loyauté au sein de la communauté.
+
+C’est pourquoi SPX6900 (voir explication ci-dessous) est un type de communauté à part — différente — et sa culture doit être préservée et respectée.
+
+<div align="center">
+
+42
+
+</div>
+
+
+<!-- page: 43 -->
+
+---
+**Un Pure Belief Asset (actif de croyance pure)** comme SPX6900 nécessite une culture qui protège la communauté et son système de croyance pour pouvoir s'épanouir et réussir — et c’est précisément ce que SPX6900 possède.
+
+<img src="../../extracted_images/page-043/page-043-img-01.png" alt="Image" width="635" height="408" />
+
+Les personnes extérieures le remarquent et sont attirées par notre passion, notre conviction, notre philosophie et notre mission. Elles souhaitent faire partie de notre communauté, mais ce qui les pousse à rester et à forger leur propre conviction individuelle, c’est la culture.
+
+<div align="center">
+
+43
+
+</div>
+
+
+<!-- page: 44 -->
+
+---
+# La réalité de l’univers crypto
+
+L’univers crypto a énormément évolué depuis l’apparition du Bitcoin. Un·e nouvel·le arrivant·e aujourd’hui serait inondé·e par tant de communautés différentes vantant chacune leurs propres jetons, à tel point qu’il peut devenir très difficile de savoir par où commencer et sur quoi se lancer ([Annexe E](https://example.com/placeholder)).
+
+Je tiens à vous avertir : la grande majorité des jetons dans l’espace crypto sont des impasses. Ils n’ont aucun avenir concret et finiront probablement par disparaître dans l’oubli pour une raison ou une autre.
+
+Vous n’avez vraiment pas envie de perdre votre temps ou votre argent à vous engager dans ces jetons crypto sans issue, car cela risque fort de vous laisser un goût amer lorsque la communauté s’essoufflera et que le prix s’effondrera — entraînant la perte totale de vos économies.
+
+Soyez vigilant, investissez intelligemment et faites preuve de diligence raisonnable.
+
+Heureusement, si vous investissez dans le bon jeton et la bonne communauté au bon moment, cela pourrait transformer radicalement votre
+
+<div align="center">
+
+44
+
+</div>
+
+
+<!-- page: 45 -->
+
+---
+la vie financière. De l’argent qui change la vie. Une richesse générationnelle. Ou tout simplement la liberté financière et la possibilité de prendre une retraite anticipée.
+
+Je diviserais le monde des cryptomonnaies en deux grandes catégories :
+
+- **Bitcoin**
+- **Altcoins** (toutes les cryptomonnaies autres que le Bitcoin) :
+  - **Jetons utilitaires**
+  - **Memecoins**
+  - **Pure Belief Assets (PBA)** (Pure Belief Asset — actif basé uniquement sur la croyance, spécifique à SPX6900)
+
+## Bitcoin (BTC)
+
+Le Bitcoin est le roi de toutes les cryptomonnaies. Il possède la communauté la plus solide et, au 8<sup> juillet 2025, s’échange à 109 037 $ avec une capitalisation boursière d’environ 2,1 billions de dollars.
+
+À cause de sa capitalisation et de son prix très élevés, il n’est plus vraiment idéal pour le commun des mortels d’investir dans le BTC tout en espérant réaliser un énorme retour sur investissement (ROI) en peu de temps — sauf si vous êtes déjà aisé et pouvez investir un montant important dans le BTC.
+
+<div align="center">
+
+45
+
+</div>
+
+
+<!-- page: 45 -->
+
+---
+la vie financière. De l’argent qui change la vie. Une richesse générationnelle. Ou tout simplement la liberté financière et la possibilité de prendre une retraite anticipée.
+
+Je diviserais le monde des cryptomonnaies en deux grandes catégories :
+
+- **Bitcoin**
+- **Altcoins** (toutes les cryptomonnaies autres que le Bitcoin) :
+  - **Jetons utilitaires**
+  - **Memecoins**
+  - **Pure Belief Assets (PBA)** (Pure Belief Asset — actif basé uniquement sur la croyance, spécifique à SPX6900)
+
+## Bitcoin (BTC)
+
+Le Bitcoin est le roi de toutes les cryptomonnaies. Il possède la communauté la plus solide et, au 8 juillet 2025, s’échange à 109 037 $ avec une capitalisation boursière d’environ 2,1 billions de dollars.
+
+À cause de sa capitalisation et de son prix très élevés, il n’est plus vraiment idéal pour le commun des mortels d’investir dans le BTC tout en espérant réaliser un énorme retour sur investissement (ROI) en peu de temps — sauf si vous êtes déjà aisé et pouvez investir un montant important dans le BTC.
+
+<div align="center">
+
+45
+
+</div>
+
+
+<!-- page: 46 -->
+
+---
+Pour la plupart des gens au quotidien, utiliser le BTC comme solution d’épargne à long terme ou fonds de retraite est aujourd’hui la meilleure stratégie. Cela consiste à investir régulièrement dans le Bitcoin grâce à la méthode du dollar-cost averaging (DCA), avec une vision sur plusieurs décennies. Le Bitcoin est une option sûre sur le long terme, mais ce n’est pas la meilleure crypto si vous recherchez des rendements plus élevés à partir d’un capital modeste sur une période beaucoup plus courte.
+
+**Jetons utilitaires**
+
+Les cryptomonnaies autres que le Bitcoin, qui mettent en avant une utilité ou une fonction spécifique, sont considérées comme des jetons utilitaires. Cet univers est saturé de jetons utilitaires — allant des paiements, du gaming et du traitement de données IA, à la tokenisation, aux Layer 1, Layer 2, à l’interopérabilité, au Metaverse, aux jetons DEX, et bien d’autres encore.
+
+Le récit de l’utilité est omniprésent.
+
+Les jetons utilitaires sont principalement des investissements spéculatifs. Une grande partie de leur offre est généralement détenue par l’équipe, qui la revend souvent aux investisseurs particuliers afin de financer le projet. Dans de nombreux cas, l’équipe et le récit d’utilité deviennent le principal point faible de ces jetons. Les équipes sont souvent incompétentes, échouent
+
+<div align="center">
+
+46
+
+</div>
