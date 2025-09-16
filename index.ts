@@ -632,9 +632,13 @@ const main = async () => {
 	// Initialize translation paths before starting
 	await initializeTranslationPaths();
 
-	const result = await run(agent, `translate the book in ${TARGET_LANGUAGE}`, {
-		maxTurns: 1000,
-	});
+	const result = await run(
+		agent,
+		`translate the book from page 52 to page 102 in ${TARGET_LANGUAGE}`,
+		{
+			maxTurns: 1000,
+		}
+	);
 	console.log(result.finalOutput);
 
 	// After generating the Markdown, convert it to a fixed-height paginated PDF
