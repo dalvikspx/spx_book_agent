@@ -634,7 +634,7 @@ const main = async () => {
 
 	const result = await run(
 		agent,
-		`translate the book from page 52 to page 102 in ${TARGET_LANGUAGE}`,
+		`translate the book from page 112 to the end of the book in ${TARGET_LANGUAGE}`,
 		{
 			maxTurns: 1000,
 		}
