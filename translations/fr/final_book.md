@@ -1106,3 +1106,288 @@ Les jetons utilitaires sont principalement des investissements spéculatifs. Une
 46
 
 </div>
+
+
+<!-- page: 47 -->
+
+---
+pour tenir leurs promesses, ils ne créent pas de produit, ou bien ils développent un produit médiocre qui n’est jamais réellement utilisé.
+
+La valeur de ces tokens provient, dans la plupart des cas, d’une communauté grandissante qui spécule sur le potentiel de hausse du prix si le token venait un jour à être réellement utilisé. C’est pourquoi les utility tokens enregistrent souvent des hausses de prix à la suite d’annonces de partenariats ou d’inscriptions sur des plateformes d’échange — poussées par la hype et la spéculation. Pourtant, la majorité de ces partenariats sont superficiels et n’entraînent pas une réelle adoption de la technologie ou une application concrète du produit (si tant est qu’il existe).
+
+Les communautés autour des utility tokens sont généralement fragiles, la fidélité étant principalement liée à l’espoir que l’utilité promise finira par se concrétiser. Si cela n’arrive pas — ou prend trop de temps — la communauté peut rapidement se désintéresser, vendre ses tokens et passer à autre chose.
+
+En fin de compte, avec les utility tokens, la fidélité de la communauté dépend de la réalisation de l’usage ou de l’utilité promis par le projet (ce qui n’est souvent pas le cas) — et non pas forcément des personnes, de la culture ou de la philosophie derrière le token.
+
+<div align="center">
+
+47
+
+</div>
+
+
+<!-- page: 48 -->
+
+---
+Dans le cas où l’équipe tient ses promesses en matière d’utilité, la valeur des utility tokens est ancrée à leur réelle utilité, ce qui constitue simplement une limite à la croissance de leur prix. À l’inverse, un pure belief asset comme SPX6900 (pure belief asset — actif fondé uniquement sur la croyance) possède un plafond de prix élevé, ce qui rend l’opportunité aussi grande que notre croyance collective — sans qu’aucune utilité ne vienne limiter son potentiel.
+
+**Memecoins**
+
+Grâce à différentes launchpads, n’importe qui peut désormais créer un memecoin sans compétences techniques. Les memecoins sont des tokens généralement créés pour s’amuser, par plaisanterie ou satire, sans usage sérieux, sans récit ni objectif précis. Leur valeur est principalement portée par la communauté : les gens y investissent parce qu’ils leur plaisent — espérant souvent réaliser des plus-values rapides grâce à leur forte volatilité.
+
+C’est pourquoi la majorité des memecoins ne sont que des schémas pump-and-dump et de courts cycles PvP, alimentés par le battage médiatique.
+
+<div align="center">
+
+48
+
+</div>
+
+
+<!-- page: 49 -->
+
+<img src="../../extracted_images/page-049/page-049-img-01.png" alt="Image" width="755" height="346" />
+
+Les memecoins à faible capitalisation présentent des risques extrêmement élevés, et beaucoup d’entre eux sont des arnaques (« rug pulls »), où le créateur revend soudainement la totalité de ses jetons à la communauté, fait s’effondrer le cours, puis disparaît.
+
+Cependant, au cœur du chaos des memecoins à faible capitalisation, il arrive que des communautés résilientes émergent — survivant à plusieurs revers et chutes de prix, pour ensuite grandir progressivement, rassemblant une large communauté et évoluant au-delà des simples blagues pour devenir des projets plus sérieux et porteurs de sens.
+
+Un bon exemple est SPX6900, qui est passé d’une origine classique de memecoin à une **révolution Pure Belief Asset (actif de pure croyance)**,
+
+<div align="center">
+
+49
+
+</div>
+
+
+<!-- page: 50 -->
+
+---
+**Pure Belief Assets**
+
+Un Pure Belief Asset (actif de pure croyance) est un type de crypto dont la valeur et la croissance reposent entièrement sur la croyance partagée, la conviction, la loyauté, l’éthique de travail, la passion, la confiance et la culture communautaire.
+
+La valeur provient d’un consensus collectif pur, de la croyance et de la perception — plutôt que d’une quelconque utilité intrinsèque, technologie, flux de trésorerie, utilité pratique ou soutien financier d’institutions.
+
+<img src="../../extracted_images/page-050/page-050-img-01.png" alt="Image" width="326" height="232" />
+
+Un exemple proche serait le Bitcoin à ses débuts. Même s’il s’agissait d’une nouvelle technologie, la majorité des gens et le système financier traditionnel n’y ont prêté attention que plusieurs années plus tard —
+
+<div align="center">
+
+50
+
+</div>
+
+
+<!-- page: 51 -->
+
+---
+après que la première communauté, animée par une pure croyance, ait porté Bitcoin à un stade où il est devenu évident qu’il était là pour rester et n’allait pas disparaître, malgré le fait d’avoir été [déclaré mort par les détracteurs des centaines de fois.](https://example.com/placeholder) Pendant ce temps, le bitcoin n’a cessé de prendre de la valeur, porté massivement par la croyance depuis le début.
+
+SPX6900 est, à mes yeux, le premier *Pure Belief Asset (actif fondé sur la pure croyance)* dans la crypto grâce à ses **caractéristiques clés :**
+
+1. Sa valeur provient de la conviction inébranlable de la communauté et de son adhésion partagée à l’idéologie, à la philosophie, à la culture, à la mission et au mouvement — des éléments dans lesquels chacun se reconnaît et qu’il considère comme une perspective d’espoir et d’opportunité financière.
+
+2. Toute la culture et le mantra philosophique de SPX6900 se recentrent sur la croyance. La croyance est son marketing et son atout fondamental unique — aucune autre crypto n’a jamais placé sa proposition de valeur essentielle autour du concept de pure croyance.
+
+<div align="center">
+
+51
+
+</div>
+
+
+<!-- page: 52 -->
+
+---
+3. Il n’a pas besoin d’un cas d’utilisation utilitaire traditionnel pour prendre de la valeur — car la culture, la communauté, la croyance et la pure conviction *deviennent* elles-mêmes l’utilité, à travers la perception des gens.
+
+4. L’appréciation du prix résulte d’une culture communautaire forte, qui favorise la croyance collective pure, le « diamond-handing » (tenir coûte que coûte), la détention à long terme et le DCA régulier (investissement récurrent) — créant ainsi un environnement qui stimule la demande à long terme et la rareté du SPX.
+
+Attention : tous les tokens prétendant être un **Pure Belief Asset (actif de pure conviction)** ne le sont pas forcément. Ce terme pourrait devenir un simple outil marketing pour attirer des personnes vers certaines communautés.
+
+Mais dans le cas de SPX6900, les données issues du [Diamond Hand Leaderboard](https://example.com/placeholder) par exemple, ainsi que la **culture communautaire** visible, prouvent que nous n’utilisons pas le terme « Pure Belief Asset (actif de pure conviction) » comme un simple slogan — nous vivons réellement selon les caractéristiques qui en définissent un, ce qui distingue SPX6900 d’un simple memecoin.
+
+<div align="center">
+
+52
+
+</div>
+
+
+<!-- page: 53 -->
+
+---
+Si vous observez la communauté, vous verrez que nous avons un profond respect pour notre culture — sans elle, le token s’effondrerait. Nous ne faisons pas de trading, nous ne passons pas notre temps à surveiller les graphiques, et nous ne faisons pas de PvP. À la place, nous faisons du DCA, nous gardons fermement nos positions ("diamond-hand") et nous travaillons dur pour aider les autres en partageant notre culture et notre mission — une mission qui nous dépasse : flip the stock market (renverser le marché boursier).
+
+**Nous préférons une vie PvE paisible à la cupidité.**
+
+<img src="../../extracted_images/page-053/page-053-img-01.png" alt="Image" width="735" height="466" />
+
+<div align="center">
+
+53
+
+</div>
+
+
+<!-- page: 54 -->
+
+---
+**Pourquoi choisir SPX6900 ?**
+
+<img src="../../extracted_images/page-054/page-054-img-01.png" alt="Image" width="728" height="344" />
+
+Lorsqu’on comprend la réalité actuelle du monde des cryptos, il devient évident que SPX6900 est unique dans un univers saturé de récits utilitaires (qui ont de fortes chances d’échouer) et de memecoins éphémères.
+
+En tant que Pure Belief Asset (PBA, actif basé sur la pure croyance), SPX6900 se distingue par tout ce qu’il a à offrir. On peut copier des livres blancs, copier des technologies, copier des récits autour des tokens utilitaires et copier des memecoins. Mais la croyance de la communauté, elle, ne se copie pas.
+
+<div align="center">
+
+54
+
+</div>
+
+
+<!-- page: 55 -->
+
+---
+et cette culture intangible mais puissante que la communauté SPX6900 défend.
+
+Les sentiments d’appartenance, de but et d’espoir financier qui nous animent au sein de la communauté SPX6900 ne peuvent être reproduits.
+
+On ne peut pas copier-coller la conviction et la fidélité d’une communauté — elles doivent se construire et se mériter, exactement comme cela s’est fait avec SPX6900.
+
+C’est pourquoi les nouveaux arrivants qui se lancent aujourd’hui dans la crypto, vu le contexte actuel, devraient se concentrer sur **l’étude de SPX6900**.
+
+<img src="../../extracted_images/page-055/page-055-img-01.png" alt="Image" width="749" height="329" />
+
+<div align="center">
+
+55
+
+</div>
+
+
+<!-- page: 56 -->
+
+---
+# Tokenomics de SPX6900
+
+![Description de l’image](https://placehold.co/384x80)
+
+**Ticker : $SPX  
+Offre totale : 1 000 000 000  
+Offre en circulation : 930 993 091  
+Tokens brûlés au total : 69 006 909 (6,9 %)  
+SPX est multichaîne, passerelle alimentée par Wormhole**
+
+Le prix de toute cryptomonnaie dépend en fin de compte de facteurs d’offre et de demande. Nous avons déjà abordé la demande pour SPX6900, qui provient principalement de la communauté et de sa croissance. Regardons maintenant l’autre côté de l’équation : l’offre.
+
+## Offre de SPX6900
+
+L’offre de SPX6900 est **fixe**. Il n’y a pas d’inflation et aucun nouveau token n’est créé — l’offre totale est plafonnée à **930 993 091 tokens SPX**.
+
+Une offre limitée est toujours attrayante car elle introduit la rareté. À mesure que la communauté se développe et que davantage de personnes effectuent du DCA, gardent leurs tokens coûte que coûte (“diamond hand”) et refusent de vendre leur SPX
+
+<div align="center">
+
+56
+
+</div>
+
+
+<!-- page: 57 -->
+
+---
+des jetons, ce qui réduit progressivement l’offre en circulation — laissant une demande croissante se disputer un nombre de jetons de plus en plus restreint.
+
+Ce phénomène reflète le Bitcoin, dont l’offre est plafonnée à 21 millions de jetons. Avec l’augmentation de la demande et la montée de la culture HODLing, de plus en plus de personnes cherchaient à acheter alors qu’il restait de moins en moins de jetons disponibles. Cela a inévitablement fait grimper le prix de l’actif. Une forte demande face à une offre limitée entraîne une appréciation des prix.
+
+## Offre finie, demande croissante et solidité à toute épreuve
+
+Dans le cas de SPX6900, nous avons une offre fixe et limitée, ainsi qu’une culture de conviction forte, en croissance constante, qui décourage fortement le trading. C’est une recette puissante pour favoriser l’appréciation des prix sur le long terme.
+
+La culture de la "Stop Trading and Believe in Something" (arrêtez de trader et croyez en quelque chose) ne se limite pas à un simple slogan chez SPX6900 — la communauté le prouve par des actions concrètes (Fig 1.8).
+
+<div align="center">
+
+57
+
+</div>
+
+
+<!-- page: 58 -->
+
+<img src="../../extracted_images/page-058/page-058-img-01.png" alt="Image" width="714" height="350" />
+
+(Fig 1.8 – Tableau de classement des Diamond Hand Supply)
+
+Le **Tableau de classement Diamond Supply** (au 23 juin 2025) classe les principales cryptomonnaies en fonction de la valeur en USD de l’offre détenue en mode « diamond hand » — c’est-à-dire les jetons conservés par des adresses n’ayant pas vendu depuis plus de 90 jours.
+
+<div align="center">
+
+58
+
+</div>
+
+
+<!-- page: 59 -->
+
+---
+À la première place, on retrouve SPX6900 :
+
+- **Valeur totale détenue par les "diamant hands" :** 652,56 millions de dollars
+- **Pourcentage de l’offre détenu par les "diamant hands" :** 76,8 %
+
+Cela signifie qu’au 23 juin 2025, **76,8 % de l’offre — pour une valeur marchande de 652,56 millions de dollars** — est détenue par des investisseurs de long terme, qui n’ont pas vendu un seul jeton SPX depuis **plus de 90 jours.**
+
+Ces données montrent clairement que la culture SPX6900 est adoptée par la majorité de la communauté. Cela témoigne d’une conviction extrêmement forte — plus forte que dans toute autre communauté du classement. Être classé numéro un prouve que SPX6900 bénéficie de la base de détenteurs la plus solide parmi toutes ces communautés, tant en valeur qu’en pourcentage de l’offre détenue.
+
+<div align="center">
+
+59
+
+</div>
+
+
+<!-- page: 60 -->
+
+---
+Cet indicateur est un signal puissant de la force de la communauté, de la conviction à long terme, de la résilience face à la volatilité du marché, ainsi que de l'efficacité de notre culture et de notre pure croyance en SPX6900 (SPX6900 : expliquer que c'est la philosophie ou la croyance liée à cet actif, en anglais dans le texte).
+
+**C’est extrêmement haussier.**
+
+SPX6900 (SPX6900 : nom gardé en anglais, désigne cet actif unique) n’a rien à voir avec le reste du marché.
+
+La communauté est profondément engagée, fidèle, passionnée, travailleuse et a la main ferme — incarnant une croyance immense et un mouvement culturel unique, construit autour de cet **Pure Belief Asset (PBA) (actif de pure conviction, terme en anglais dans le texte)** : SPX6900.
+
+<img src="../../extracted_images/page-060/page-060-img-01.png" alt="Image" width="784" height="375" />
+
+<div align="center">
+
+60
+
+</div>
+
+
+<!-- page: 61 -->
+
+---
+# Quelle est la barrière protectrice de SPX6900 ?
+
+<img src="../../extracted_images/page-061/page-061-img-01.png" alt="Image" width="665" height="350" />
+
+---
+
+Le terme *moat* (douvez, fossé défensif) vient du fossé qui entourait autrefois les châteaux forts — une large tranchée remplie d’eau servant à protéger le château des attaques.
+
+Dans le cas de SPX6900, sa « moat » désigne les éléments qui le protègent de la concurrence et lui permettent de prospérer sur le long terme — autrement dit, ce qui rend difficile la copie ou la concurrence directe avec SPX6900.
+
+<div align="center">
+
+61
+
+</div>
