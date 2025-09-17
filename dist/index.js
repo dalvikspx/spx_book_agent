@@ -518,7 +518,7 @@ const agent = new agents_1.Agent({
 const main = () => __awaiter(void 0, void 0, void 0, function* () {
     // Initialize translation paths before starting
     yield initializeTranslationPaths();
-    const result = yield (0, agents_1.run)(agent, `translate the first 50 pages of the book to ${TARGET_LANGUAGE}`, {
+    const result = yield (0, agents_1.run)(agent, `translate from page 51 to page 101 of the book to ${TARGET_LANGUAGE}`, {
         maxTurns: 1000,
     });
     console.log(result.finalOutput);
