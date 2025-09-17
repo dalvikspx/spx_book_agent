@@ -61,7 +61,8 @@ function getTranslationExample(language: string): string {
 		"Mandarin Chinese":
 			'"working hard" should be translated as "努力工作" (nǔlì gōngzuò) not "热工作" (literal translation)',
 		Hindi:
-			'"working hard" should be translated as "कड़ी मेहनत करना" (kadee mehanat karna) not "गर्म काम" (literal translation)',
+			'"working hard" should be translated as "कड़ी मेहนत करना" (kadee mehanat karna) not "गर्म काम" (literal translation)',
+		Thai: '"working hard" should be translated as "ทำงานหนัก" (tham ngan nàk) not "ทำงานร้อน" (literal translation)',
 	};
 	return (
 		examples[language as keyof typeof examples] ||
@@ -638,7 +639,7 @@ const main = async () => {
 
 	const result = await run(
 		agent,
-		`translate from page 98 of the book to page 157 in ${TARGET_LANGUAGE}`,
+		`translate from page 51 to page 101 of the book to ${TARGET_LANGUAGE}`,
 		{
 			maxTurns: 1000,
 		}

@@ -62,7 +62,8 @@ function getTranslationExample(language) {
         "Portuguese (Brazilian)": '"working hard" should be translated as "trabalhar duro" not "trabalhar quente"',
         Portuguese: '"working hard" should be translated as "trabalhar arduamente" not "trabalhar quente"',
         "Mandarin Chinese": '"working hard" should be translated as "努力工作" (nǔlì gōngzuò) not "热工作" (literal translation)',
-        Hindi: '"working hard" should be translated as "कड़ी मेहनत करना" (kadee mehanat karna) not "गर्म काम" (literal translation)',
+        Hindi: '"working hard" should be translated as "कड़ी मेहนत करना" (kadee mehanat karna) not "गर्म काम" (literal translation)',
+        Thai: '"working hard" should be translated as "ทำงานหนัก" (tham ngan nàk) not "ทำงานร้อน" (literal translation)',
     };
     return (examples[language] ||
         '"working hard" should be translated idiomatically, not literally');
@@ -517,7 +518,7 @@ const agent = new agents_1.Agent({
 const main = () => __awaiter(void 0, void 0, void 0, function* () {
     // Initialize translation paths before starting
     yield initializeTranslationPaths();
-    const result = yield (0, agents_1.run)(agent, `translate from page 98 of the book to page 157 in ${TARGET_LANGUAGE}`, {
+    const result = yield (0, agents_1.run)(agent, `translate the first 50 pages of the book to ${TARGET_LANGUAGE}`, {
         maxTurns: 1000,
     });
     console.log(result.finalOutput);
