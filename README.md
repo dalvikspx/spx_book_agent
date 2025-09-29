@@ -32,7 +32,8 @@ For questions, feedback, or translation quality reports, please contact on X: [@
 This code and its usage is completely **free**. However, if you find this AI agent useful and want to show your support, you can send a tip in SPX6900 (or any other token, which I will convert to SPX6900) to this address on **Ethereum or Base networks**:
 
 ```
-0xBe9C1c18dEF96cA2fA89c04Ba54100360Ad09D9C
+ETH & BASE: 0xBe9C1c18dEF96cA2fA89c04Ba54100360Ad09D9C
+SOL: HTBeQcikuJpFLatiBco8ZXERE4RhsqtzYP78MPFRtQvn
 ```
 
 _All tips are greatly appreciated and help support further development!_
