@@ -12,6 +12,10 @@ import {
 	PageBreak,
 	BorderStyle,
 	Footer,
+	Table,
+	TableRow,
+	TableCell,
+	WidthType,
 } from "docx";
 import sharp from "sharp";
 
@@ -177,6 +181,67 @@ function parseMarkdownFormatting(
 	return textRuns;
 }
 
+// Funzione per parsare una tabella markdown in oggetto Table DOCX
+function parseMarkdownTable(tableLines: string[]): Table {
+	// Filtra la riga separatore (|---|---|)
+	const rows = tableLines.filter((line) => !line.match(/^\|[\s:-]+\|/));
+
+	// Calcola il numero di colonne dalla prima riga
+	const firstRowCells = rows[0]
+		.split("|")
+		.filter((cell) => cell.trim())
+		.map((cell) => cell.trim());
+	const numColumns = firstRowCells.length;
+	const columnWidth = Math.floor(100 / numColumns); // Larghezza in percentuale per colonna
+
+	const tableRows = rows.map((line, index) => {
+		const cells = line
+			.split("|")
+			.filter((cell) => cell.trim())
+			.map((cell) => cell.trim());
+
+		return new TableRow({
+			children: cells.map(
+				(cellText) =>
+					new TableCell({
+						children: [
+							new Paragraph({
+								children: parseMarkdownFormatting(
+									cellText,
+									index === 0 ? 26 : 24, // Header più grande
+									"Arial"
+								),
+							}),
+						],
+						width: {
+							size: columnWidth,
+							type: WidthType.PERCENTAGE,
+						},
+						margins: {
+							top: 100,
+							bottom: 100,
+							left: 100,
+							right: 100,
+						},
+						// Header con sfondo grigio chiaro
+						shading:
+							index === 0
+								? {
+										fill: "E0E0E0",
+										color: "auto",
+								  }
+								: undefined,
+					})
+			),
+		});
+	});
+
+	return new Table({
+		rows: tableRows,
+		width: { size: 100, type: WidthType.PERCENTAGE },
+	});
+}
+
 // Funzione per convertire il contenuto markdown in sezioni DOCX con footer
 async function convertMarkdownToDocxPages(pages: PageContent[]) {
 	const sections: any[] = [];
@@ -187,6 +252,7 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 
 		// Processa il contenuto della pagina
 		const lines = page.content.split("\n");
+		let tableLines: string[] = [];
 
 		for (const line of lines) {
 			const trimmedLine = line.trim();
@@ -202,6 +268,12 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 
 			// Gestisci headings
 			if (trimmedLine.startsWith("# ")) {
+				// Se c'erano righe di tabella accumulate, crea la tabella
+				if (tableLines.length > 0) {
+					const table = parseMarkdownTable(tableLines);
+					pageParagraphs.push(table as any);
+					tableLines = [];
+				}
 				const titleText = trimmedLine.substring(2);
 				pageParagraphs.push(
 					new Paragraph({
@@ -211,6 +283,12 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 					})
 				);
 			} else if (trimmedLine.startsWith("## ")) {
+				// Se c'erano righe di tabella accumulate, crea la tabella
+				if (tableLines.length > 0) {
+					const table = parseMarkdownTable(tableLines);
+					pageParagraphs.push(table as any);
+					tableLines = [];
+				}
 				const headingText = trimmedLine.substring(3);
 				pageParagraphs.push(
 					new Paragraph({
@@ -220,6 +298,12 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 					})
 				);
 			} else if (trimmedLine.startsWith("### ")) {
+				// Se c'erano righe di tabella accumulate, crea la tabella
+				if (tableLines.length > 0) {
+					const table = parseMarkdownTable(tableLines);
+					pageParagraphs.push(table as any);
+					tableLines = [];
+				}
 				const subHeadingText = trimmedLine.substring(4);
 				pageParagraphs.push(
 					new Paragraph({
@@ -229,6 +313,12 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 					})
 				);
 			} else if (trimmedLine.startsWith("#### ")) {
+				// Se c'erano righe di tabella accumulate, crea la tabella
+				if (tableLines.length > 0) {
+					const table = parseMarkdownTable(tableLines);
+					pageParagraphs.push(table as any);
+					tableLines = [];
+				}
 				const subSubHeadingText = trimmedLine.substring(5);
 				pageParagraphs.push(
 					new Paragraph({
@@ -238,6 +328,12 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 					})
 				);
 			} else if (trimmedLine.match(/^<img[^>]+>$/)) {
+				// Se c'erano righe di tabella accumulate, crea la tabella
+				if (tableLines.length > 0) {
+					const table = parseMarkdownTable(tableLines);
+					pageParagraphs.push(table as any);
+					tableLines = [];
+				}
 				// Gestisci immagini
 				try {
 					const imgTag = trimmedLine;
@@ -291,15 +387,15 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 				// Salta i div center per numeri di pagina (verranno messi nel footer)
 				continue;
 			} else if (trimmedLine.startsWith("|")) {
-				// Inizia una tabella - sempliciamo per ora
-				// Per ora tratta le tabelle come testo normale
-				pageParagraphs.push(
-					new Paragraph({
-						children: parseMarkdownFormatting(trimmedLine, 24, "Arial"),
-						spacing: { before: 100, after: 100, line: 480, lineRule: "auto" },
-					})
-				);
+				// Accumula righe di tabella
+				tableLines.push(trimmedLine);
 			} else if (trimmedLine.startsWith("-")) {
+				// Se c'erano righe di tabella accumulate, crea la tabella
+				if (tableLines.length > 0) {
+					const table = parseMarkdownTable(tableLines);
+					pageParagraphs.push(table as any);
+					tableLines = [];
+				}
 				// Liste
 				pageParagraphs.push(
 					new Paragraph({
@@ -309,6 +405,12 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 					})
 				);
 			} else {
+				// Se c'erano righe di tabella accumulate, crea la tabella
+				if (tableLines.length > 0) {
+					const table = parseMarkdownTable(tableLines);
+					pageParagraphs.push(table as any);
+					tableLines = [];
+				}
 				// Testo normale
 				pageParagraphs.push(
 					new Paragraph({
@@ -317,6 +419,12 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 					})
 				);
 			}
+		}
+
+		// Se ci sono righe di tabella alla fine della pagina, crea la tabella
+		if (tableLines.length > 0) {
+			const table = parseMarkdownTable(tableLines);
+			pageParagraphs.push(table as any);
 		}
 
 		// Crea il footer con il numero di pagina per questa pagina

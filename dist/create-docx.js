@@ -171,6 +171,55 @@ function parseMarkdownFormatting(text, baseSize, baseFont) {
     }
     return textRuns;
 }
+// Funzione per parsare una tabella markdown in oggetto Table DOCX
+function parseMarkdownTable(tableLines) {
+    // Filtra la riga separatore (|---|---|)
+    const rows = tableLines.filter((line) => !line.match(/^\|[\s:-]+\|/));
+    // Calcola il numero di colonne dalla prima riga
+    const firstRowCells = rows[0]
+        .split("|")
+        .filter((cell) => cell.trim())
+        .map((cell) => cell.trim());
+    const numColumns = firstRowCells.length;
+    const columnWidth = Math.floor(100 / numColumns); // Larghezza in percentuale per colonna
+    const tableRows = rows.map((line, index) => {
+        const cells = line
+            .split("|")
+            .filter((cell) => cell.trim())
+            .map((cell) => cell.trim());
+        return new docx_1.TableRow({
+            children: cells.map((cellText) => new docx_1.TableCell({
+                children: [
+                    new docx_1.Paragraph({
+                        children: parseMarkdownFormatting(cellText, index === 0 ? 26 : 24, // Header più grande
+                        "Arial"),
+                    }),
+                ],
+                width: {
+                    size: columnWidth,
+                    type: docx_1.WidthType.PERCENTAGE,
+                },
+                margins: {
+                    top: 100,
+                    bottom: 100,
+                    left: 100,
+                    right: 100,
+                },
+                // Header con sfondo grigio chiaro
+                shading: index === 0
+                    ? {
+                        fill: "E0E0E0",
+                        color: "auto",
+                    }
+                    : undefined,
+            })),
+        });
+    });
+    return new docx_1.Table({
+        rows: tableRows,
+        width: { size: 100, type: docx_1.WidthType.PERCENTAGE },
+    });
+}
 // Funzione per convertire il contenuto markdown in sezioni DOCX con footer
 function convertMarkdownToDocxPages(pages) {
     return __awaiter(this, void 0, void 0, function* () {
@@ -180,6 +229,7 @@ function convertMarkdownToDocxPages(pages) {
             const pageParagraphs = [];
             // Processa il contenuto della pagina
             const lines = page.content.split("\n");
+            let tableLines = [];
             for (const line of lines) {
                 const trimmedLine = line.trim();
                 // Salta le linee vuote
@@ -193,6 +243,12 @@ function convertMarkdownToDocxPages(pages) {
                     continue;
                 // Gestisci headings
                 if (trimmedLine.startsWith("# ")) {
+                    // Se c'erano righe di tabella accumulate, crea la tabella
+                    if (tableLines.length > 0) {
+                        const table = parseMarkdownTable(tableLines);
+                        pageParagraphs.push(table);
+                        tableLines = [];
+                    }
                     const titleText = trimmedLine.substring(2);
                     pageParagraphs.push(new docx_1.Paragraph({
                         children: parseMarkdownFormatting(titleText, 36, "Arial"),
@@ -201,6 +257,12 @@ function convertMarkdownToDocxPages(pages) {
                     }));
                 }
                 else if (trimmedLine.startsWith("## ")) {
+                    // Se c'erano righe di tabella accumulate, crea la tabella
+                    if (tableLines.length > 0) {
+                        const table = parseMarkdownTable(tableLines);
+                        pageParagraphs.push(table);
+                        tableLines = [];
+                    }
                     const headingText = trimmedLine.substring(3);
                     pageParagraphs.push(new docx_1.Paragraph({
                         children: parseMarkdownFormatting(headingText, 32, "Arial"),
@@ -209,6 +271,12 @@ function convertMarkdownToDocxPages(pages) {
                     }));
                 }
                 else if (trimmedLine.startsWith("### ")) {
+                    // Se c'erano righe di tabella accumulate, crea la tabella
+                    if (tableLines.length > 0) {
+                        const table = parseMarkdownTable(tableLines);
+                        pageParagraphs.push(table);
+                        tableLines = [];
+                    }
                     const subHeadingText = trimmedLine.substring(4);
                     pageParagraphs.push(new docx_1.Paragraph({
                         children: parseMarkdownFormatting(subHeadingText, 28, "Arial"),
@@ -217,6 +285,12 @@ function convertMarkdownToDocxPages(pages) {
                     }));
                 }
                 else if (trimmedLine.startsWith("#### ")) {
+                    // Se c'erano righe di tabella accumulate, crea la tabella
+                    if (tableLines.length > 0) {
+                        const table = parseMarkdownTable(tableLines);
+                        pageParagraphs.push(table);
+                        tableLines = [];
+                    }
                     const subSubHeadingText = trimmedLine.substring(5);
                     pageParagraphs.push(new docx_1.Paragraph({
                         children: parseMarkdownFormatting(subSubHeadingText, 26, "Arial"),
@@ -225,6 +299,12 @@ function convertMarkdownToDocxPages(pages) {
                     }));
                 }
                 else if (trimmedLine.match(/^<img[^>]+>$/)) {
+                    // Se c'erano righe di tabella accumulate, crea la tabella
+                    if (tableLines.length > 0) {
+                        const table = parseMarkdownTable(tableLines);
+                        pageParagraphs.push(table);
+                        tableLines = [];
+                    }
                     // Gestisci immagini
                     try {
                         const imgTag = trimmedLine;
@@ -275,14 +355,16 @@ function convertMarkdownToDocxPages(pages) {
                     continue;
                 }
                 else if (trimmedLine.startsWith("|")) {
-                    // Inizia una tabella - sempliciamo per ora
-                    // Per ora tratta le tabelle come testo normale
-                    pageParagraphs.push(new docx_1.Paragraph({
-                        children: parseMarkdownFormatting(trimmedLine, 24, "Arial"),
-                        spacing: { before: 100, after: 100, line: 480, lineRule: "auto" },
-                    }));
+                    // Accumula righe di tabella
+                    tableLines.push(trimmedLine);
                 }
                 else if (trimmedLine.startsWith("-")) {
+                    // Se c'erano righe di tabella accumulate, crea la tabella
+                    if (tableLines.length > 0) {
+                        const table = parseMarkdownTable(tableLines);
+                        pageParagraphs.push(table);
+                        tableLines = [];
+                    }
                     // Liste
                     pageParagraphs.push(new docx_1.Paragraph({
                         children: parseMarkdownFormatting(trimmedLine, 26, "Arial"),
@@ -291,12 +373,23 @@ function convertMarkdownToDocxPages(pages) {
                     }));
                 }
                 else {
+                    // Se c'erano righe di tabella accumulate, crea la tabella
+                    if (tableLines.length > 0) {
+                        const table = parseMarkdownTable(tableLines);
+                        pageParagraphs.push(table);
+                        tableLines = [];
+                    }
                     // Testo normale
                     pageParagraphs.push(new docx_1.Paragraph({
                         children: parseMarkdownFormatting(trimmedLine, 26, "Arial"),
                         spacing: { before: 100, after: 100, line: 480, lineRule: "auto" },
                     }));
                 }
+            }
+            // Se ci sono righe di tabella alla fine della pagina, crea la tabella
+            if (tableLines.length > 0) {
+                const table = parseMarkdownTable(tableLines);
+                pageParagraphs.push(table);
             }
             // Crea il footer con il numero di pagina per questa pagina
             const footer = new docx_1.Footer({
