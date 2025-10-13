@@ -205,7 +205,7 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 				const titleText = trimmedLine.substring(2);
 				pageParagraphs.push(
 					new Paragraph({
-						children: parseMarkdownFormatting(titleText, 32, "Arial"),
+						children: parseMarkdownFormatting(titleText, 36, "Arial"),
 						heading: HeadingLevel.TITLE,
 						spacing: { before: 400, after: 300, line: 480, lineRule: "auto" },
 					})
@@ -214,7 +214,7 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 				const headingText = trimmedLine.substring(3);
 				pageParagraphs.push(
 					new Paragraph({
-						children: parseMarkdownFormatting(headingText, 28, "Arial"),
+						children: parseMarkdownFormatting(headingText, 32, "Arial"),
 						heading: HeadingLevel.HEADING_1,
 						spacing: { before: 300, after: 200, line: 480, lineRule: "auto" },
 					})
@@ -223,7 +223,7 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 				const subHeadingText = trimmedLine.substring(4);
 				pageParagraphs.push(
 					new Paragraph({
-						children: parseMarkdownFormatting(subHeadingText, 24, "Arial"),
+						children: parseMarkdownFormatting(subHeadingText, 28, "Arial"),
 						heading: HeadingLevel.HEADING_2,
 						spacing: { before: 200, after: 150, line: 480, lineRule: "auto" },
 					})
@@ -232,7 +232,7 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 				const subSubHeadingText = trimmedLine.substring(5);
 				pageParagraphs.push(
 					new Paragraph({
-						children: parseMarkdownFormatting(subSubHeadingText, 22, "Arial"),
+						children: parseMarkdownFormatting(subSubHeadingText, 26, "Arial"),
 						heading: HeadingLevel.HEADING_3,
 						spacing: { before: 200, after: 150, line: 480, lineRule: "auto" },
 					})
@@ -295,7 +295,7 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 				// Per ora tratta le tabelle come testo normale
 				pageParagraphs.push(
 					new Paragraph({
-						children: parseMarkdownFormatting(trimmedLine, 20, "Arial"),
+						children: parseMarkdownFormatting(trimmedLine, 24, "Arial"),
 						spacing: { before: 100, after: 100, line: 480, lineRule: "auto" },
 					})
 				);
@@ -303,7 +303,7 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 				// Liste
 				pageParagraphs.push(
 					new Paragraph({
-						children: parseMarkdownFormatting(trimmedLine, 22, "Arial"),
+						children: parseMarkdownFormatting(trimmedLine, 26, "Arial"),
 						spacing: { before: 100, after: 100, line: 480, lineRule: "auto" },
 						indent: { left: 720 },
 					})
@@ -312,7 +312,7 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 				// Testo normale
 				pageParagraphs.push(
 					new Paragraph({
-						children: parseMarkdownFormatting(trimmedLine, 22, "Arial"),
+						children: parseMarkdownFormatting(trimmedLine, 26, "Arial"),
 						spacing: { before: 100, after: 100, line: 480, lineRule: "auto" },
 					})
 				);
@@ -326,7 +326,7 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 					children: [
 						new TextRun({
 							text: page.pageNumber.toString(),
-							size: 20,
+							size: 24,
 							color: "666666",
 							font: "Arial",
 						}),

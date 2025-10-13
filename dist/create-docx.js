@@ -195,7 +195,7 @@ function convertMarkdownToDocxPages(pages) {
                 if (trimmedLine.startsWith("# ")) {
                     const titleText = trimmedLine.substring(2);
                     pageParagraphs.push(new docx_1.Paragraph({
-                        children: parseMarkdownFormatting(titleText, 32, "Arial"),
+                        children: parseMarkdownFormatting(titleText, 36, "Arial"),
                         heading: docx_1.HeadingLevel.TITLE,
                         spacing: { before: 400, after: 300, line: 480, lineRule: "auto" },
                     }));
@@ -203,7 +203,7 @@ function convertMarkdownToDocxPages(pages) {
                 else if (trimmedLine.startsWith("## ")) {
                     const headingText = trimmedLine.substring(3);
                     pageParagraphs.push(new docx_1.Paragraph({
-                        children: parseMarkdownFormatting(headingText, 28, "Arial"),
+                        children: parseMarkdownFormatting(headingText, 32, "Arial"),
                         heading: docx_1.HeadingLevel.HEADING_1,
                         spacing: { before: 300, after: 200, line: 480, lineRule: "auto" },
                     }));
@@ -211,7 +211,7 @@ function convertMarkdownToDocxPages(pages) {
                 else if (trimmedLine.startsWith("### ")) {
                     const subHeadingText = trimmedLine.substring(4);
                     pageParagraphs.push(new docx_1.Paragraph({
-                        children: parseMarkdownFormatting(subHeadingText, 24, "Arial"),
+                        children: parseMarkdownFormatting(subHeadingText, 28, "Arial"),
                         heading: docx_1.HeadingLevel.HEADING_2,
                         spacing: { before: 200, after: 150, line: 480, lineRule: "auto" },
                     }));
@@ -219,7 +219,7 @@ function convertMarkdownToDocxPages(pages) {
                 else if (trimmedLine.startsWith("#### ")) {
                     const subSubHeadingText = trimmedLine.substring(5);
                     pageParagraphs.push(new docx_1.Paragraph({
-                        children: parseMarkdownFormatting(subSubHeadingText, 22, "Arial"),
+                        children: parseMarkdownFormatting(subSubHeadingText, 26, "Arial"),
                         heading: docx_1.HeadingLevel.HEADING_3,
                         spacing: { before: 200, after: 150, line: 480, lineRule: "auto" },
                     }));
@@ -278,14 +278,14 @@ function convertMarkdownToDocxPages(pages) {
                     // Inizia una tabella - sempliciamo per ora
                     // Per ora tratta le tabelle come testo normale
                     pageParagraphs.push(new docx_1.Paragraph({
-                        children: parseMarkdownFormatting(trimmedLine, 20, "Arial"),
+                        children: parseMarkdownFormatting(trimmedLine, 24, "Arial"),
                         spacing: { before: 100, after: 100, line: 480, lineRule: "auto" },
                     }));
                 }
                 else if (trimmedLine.startsWith("-")) {
                     // Liste
                     pageParagraphs.push(new docx_1.Paragraph({
-                        children: parseMarkdownFormatting(trimmedLine, 22, "Arial"),
+                        children: parseMarkdownFormatting(trimmedLine, 26, "Arial"),
                         spacing: { before: 100, after: 100, line: 480, lineRule: "auto" },
                         indent: { left: 720 },
                     }));
@@ -293,7 +293,7 @@ function convertMarkdownToDocxPages(pages) {
                 else {
                     // Testo normale
                     pageParagraphs.push(new docx_1.Paragraph({
-                        children: parseMarkdownFormatting(trimmedLine, 22, "Arial"),
+                        children: parseMarkdownFormatting(trimmedLine, 26, "Arial"),
                         spacing: { before: 100, after: 100, line: 480, lineRule: "auto" },
                     }));
                 }
@@ -305,7 +305,7 @@ function convertMarkdownToDocxPages(pages) {
                         children: [
                             new docx_1.TextRun({
                                 text: page.pageNumber.toString(),
-                                size: 20,
+                                size: 24,
                                 color: "666666",
                                 font: "Arial",
                             }),
