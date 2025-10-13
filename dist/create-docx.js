@@ -87,9 +87,17 @@ function processImage(imagePath) {
                 console.warn(`Immagine non trovata: ${fullPath}`);
                 throw new Error(`Immagine non trovata: ${fullPath}`);
             }
-            // Usa sharp per convertire l'immagine in buffer
-            const imageBuffer = yield (0, sharp_1.default)(fullPath).png().toBuffer();
-            return imageBuffer;
+            // Usa sharp per convertire l'immagine in buffer e ottenere le dimensioni
+            const image = (0, sharp_1.default)(fullPath);
+            const metadata = yield image.metadata();
+            const imageBuffer = yield image.png().toBuffer();
+            return {
+                buffer: imageBuffer,
+                metadata: {
+                    width: metadata.width || 300,
+                    height: metadata.height || 200,
+                },
+            };
         }
         catch (error) {
             console.error(`Errore nel processare l'immagine ${imagePath}:`, error);
@@ -97,12 +105,21 @@ function processImage(imagePath) {
         }
     });
 }
-// Funzione per estrarre dimensioniImmagine dal tag HTML
-function extractImageDimensions(imgTag) {
+// Larghezza massima per le immagini (in pixel) - circa 6 pollici per A4 con margini
+const MAX_IMAGE_WIDTH = 550;
+// Funzione per calcolare le dimensioni dell'immagine rispettando i limiti della pagina
+function calculateImageDimensions(imgTag, actualWidth, actualHeight) {
+    // Prova a estrarre dimensioni dal tag HTML
     const widthMatch = imgTag.match(/width="(\d+)"/);
     const heightMatch = imgTag.match(/height="(\d+)"/);
-    const width = widthMatch ? parseInt(widthMatch[1]) : 300;
-    const height = heightMatch ? parseInt(heightMatch[1]) : 200;
+    let width = widthMatch ? parseInt(widthMatch[1]) : actualWidth;
+    let height = heightMatch ? parseInt(heightMatch[1]) : actualHeight;
+    // Se l'immagine è troppo larga, ridimensiona proporzionalmente
+    if (width > MAX_IMAGE_WIDTH) {
+        const ratio = MAX_IMAGE_WIDTH / width;
+        width = MAX_IMAGE_WIDTH;
+        height = Math.round(height * ratio);
+    }
     return { width, height };
 }
 // Funzione per parsare la formattazione markdown e convertirla in TextRun array
@@ -311,8 +328,8 @@ function convertMarkdownToDocxPages(pages) {
                         const srcMatch = imgTag.match(/src="([^"]+)"/);
                         if (srcMatch) {
                             const imagePath = srcMatch[1];
-                            const imageBuffer = yield processImage(imagePath);
-                            const dimensions = extractImageDimensions(imgTag);
+                            const { buffer: imageBuffer, metadata } = yield processImage(imagePath);
+                            const dimensions = calculateImageDimensions(imgTag, metadata.width, metadata.height);
                             pageParagraphs.push(new docx_1.Paragraph({
                                 children: [
                                     new docx_1.ImageRun({

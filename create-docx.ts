@@ -59,7 +59,10 @@ function splitIntoPages(markdownContent: string): PageContent[] {
 }
 
 // Funzione per processare le immagini
-async function processImage(imagePath: string): Promise<Buffer> {
+async function processImage(imagePath: string): Promise<{
+	buffer: Buffer;
+	metadata: { width: number; height: number };
+}> {
 	try {
 		// Risolvi il percorso relativo rispetto al file markdown
 		const fullPath = path.resolve("translations/it", imagePath);
@@ -69,26 +72,49 @@ async function processImage(imagePath: string): Promise<Buffer> {
 			throw new Error(`Immagine non trovata: ${fullPath}`);
 		}
 
-		// Usa sharp per convertire l'immagine in buffer
-		const imageBuffer = await sharp(fullPath).png().toBuffer();
+		// Usa sharp per convertire l'immagine in buffer e ottenere le dimensioni
+		const image = sharp(fullPath);
+		const metadata = await image.metadata();
+		const imageBuffer = await image.png().toBuffer();
 
-		return imageBuffer;
+		return {
+			buffer: imageBuffer,
+			metadata: {
+				width: metadata.width || 300,
+				height: metadata.height || 200,
+			},
+		};
 	} catch (error) {
 		console.error(`Errore nel processare l'immagine ${imagePath}:`, error);
 		throw error;
 	}
 }
 
-// Funzione per estrarre dimensioniImmagine dal tag HTML
-function extractImageDimensions(imgTag: string): {
+// Larghezza massima per le immagini (in pixel) - circa 6 pollici per A4 con margini
+const MAX_IMAGE_WIDTH = 550;
+
+// Funzione per calcolare le dimensioni dell'immagine rispettando i limiti della pagina
+function calculateImageDimensions(
+	imgTag: string,
+	actualWidth: number,
+	actualHeight: number
+): {
 	width: number;
 	height: number;
 } {
+	// Prova a estrarre dimensioni dal tag HTML
 	const widthMatch = imgTag.match(/width="(\d+)"/);
 	const heightMatch = imgTag.match(/height="(\d+)"/);
 
-	const width = widthMatch ? parseInt(widthMatch[1]) : 300;
-	const height = heightMatch ? parseInt(heightMatch[1]) : 200;
+	let width = widthMatch ? parseInt(widthMatch[1]) : actualWidth;
+	let height = heightMatch ? parseInt(heightMatch[1]) : actualHeight;
+
+	// Se l'immagine è troppo larga, ridimensiona proporzionalmente
+	if (width > MAX_IMAGE_WIDTH) {
+		const ratio = MAX_IMAGE_WIDTH / width;
+		width = MAX_IMAGE_WIDTH;
+		height = Math.round(height * ratio);
+	}
 
 	return { width, height };
 }
@@ -341,8 +367,14 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 
 					if (srcMatch) {
 						const imagePath = srcMatch[1];
-						const imageBuffer = await processImage(imagePath);
-						const dimensions = extractImageDimensions(imgTag);
+						const { buffer: imageBuffer, metadata } = await processImage(
+							imagePath
+						);
+						const dimensions = calculateImageDimensions(
+							imgTag,
+							metadata.width,
+							metadata.height
+						);
 
 						pageParagraphs.push(
 							new Paragraph({
