@@ -60,7 +60,7 @@ function splitIntoPages(markdownContent) {
     for (let i = 1; i < sections.length; i += 2) {
         if (sections[i]) {
             const pageNumber = parseInt(sections[i]);
-            const content = sections[i + 1] || '';
+            const content = sections[i + 1] || "";
             // Estrai i percorsi delle immagini dal contenuto
             const imageRegex = /<img[^>]+src="([^"]+)"[^>]*>/g;
             const images = [];
@@ -71,7 +71,7 @@ function splitIntoPages(markdownContent) {
             pages.push({
                 pageNumber,
                 content: content.trim(),
-                images
+                images,
             });
         }
     }
@@ -82,15 +82,13 @@ function processImage(imagePath) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             // Risolvi il percorso relativo rispetto al file markdown
-            const fullPath = path.resolve('translations/it', imagePath);
+            const fullPath = path.resolve("translations/it", imagePath);
             if (!fs.existsSync(fullPath)) {
                 console.warn(`Immagine non trovata: ${fullPath}`);
                 throw new Error(`Immagine non trovata: ${fullPath}`);
             }
             // Usa sharp per convertire l'immagine in buffer
-            const imageBuffer = yield (0, sharp_1.default)(fullPath)
-                .png()
-                .toBuffer();
+            const imageBuffer = yield (0, sharp_1.default)(fullPath).png().toBuffer();
             return imageBuffer;
         }
         catch (error) {
@@ -123,29 +121,29 @@ function parseMarkdownFormatting(text, baseSize, baseFont) {
                 textRuns.push(new docx_1.TextRun({
                     text: normalText,
                     size: baseSize,
-                    font: baseFont
+                    font: baseFont,
                 }));
             }
         }
         const formattedText = match[0];
         // Gestisci grassetto **testo**
-        if (formattedText.startsWith('**') && formattedText.endsWith('**')) {
+        if (formattedText.startsWith("**") && formattedText.endsWith("**")) {
             const boldText = formattedText.slice(2, -2);
             textRuns.push(new docx_1.TextRun({
                 text: boldText,
                 bold: true,
                 size: baseSize,
-                font: baseFont
+                font: baseFont,
             }));
         }
         // Gestisci corsivo _testo_
-        else if (formattedText.startsWith('_') && formattedText.endsWith('_')) {
+        else if (formattedText.startsWith("_") && formattedText.endsWith("_")) {
             const italicText = formattedText.slice(1, -1);
             textRuns.push(new docx_1.TextRun({
                 text: italicText,
                 italics: true,
                 size: baseSize,
-                font: baseFont
+                font: baseFont,
             }));
         }
         lastIndex = match.index + match[0].length;
@@ -157,7 +155,7 @@ function parseMarkdownFormatting(text, baseSize, baseFont) {
             textRuns.push(new docx_1.TextRun({
                 text: remainingText,
                 size: baseSize,
-                font: baseFont
+                font: baseFont,
             }));
         }
     }
@@ -167,8 +165,8 @@ function parseMarkdownFormatting(text, baseSize, baseFont) {
             new docx_1.TextRun({
                 text: text,
                 size: baseSize,
-                font: baseFont
-            })
+                font: baseFont,
+            }),
         ];
     }
     return textRuns;
@@ -181,49 +179,49 @@ function convertMarkdownToDocxPages(pages) {
             // Array per i paragrafi di questa pagina specifica
             const pageParagraphs = [];
             // Processa il contenuto della pagina
-            const lines = page.content.split('\n');
+            const lines = page.content.split("\n");
             for (const line of lines) {
                 const trimmedLine = line.trim();
                 // Salta le linee vuote
                 if (!trimmedLine)
                     continue;
                 // Salta i separatori "---"
-                if (trimmedLine === '---')
+                if (trimmedLine === "---")
                     continue;
                 // Salta i div di chiusura </div>
-                if (trimmedLine === '</div>')
+                if (trimmedLine === "</div>")
                     continue;
                 // Gestisci headings
-                if (trimmedLine.startsWith('# ')) {
+                if (trimmedLine.startsWith("# ")) {
                     const titleText = trimmedLine.substring(2);
                     pageParagraphs.push(new docx_1.Paragraph({
                         children: parseMarkdownFormatting(titleText, 32, "Arial"),
                         heading: docx_1.HeadingLevel.TITLE,
-                        spacing: { before: 400, after: 300 }
+                        spacing: { before: 400, after: 300, line: 480, lineRule: "auto" },
                     }));
                 }
-                else if (trimmedLine.startsWith('## ')) {
+                else if (trimmedLine.startsWith("## ")) {
                     const headingText = trimmedLine.substring(3);
                     pageParagraphs.push(new docx_1.Paragraph({
                         children: parseMarkdownFormatting(headingText, 28, "Arial"),
                         heading: docx_1.HeadingLevel.HEADING_1,
-                        spacing: { before: 300, after: 200 }
+                        spacing: { before: 300, after: 200, line: 480, lineRule: "auto" },
                     }));
                 }
-                else if (trimmedLine.startsWith('### ')) {
+                else if (trimmedLine.startsWith("### ")) {
                     const subHeadingText = trimmedLine.substring(4);
                     pageParagraphs.push(new docx_1.Paragraph({
                         children: parseMarkdownFormatting(subHeadingText, 24, "Arial"),
                         heading: docx_1.HeadingLevel.HEADING_2,
-                        spacing: { before: 200, after: 150 }
+                        spacing: { before: 200, after: 150, line: 480, lineRule: "auto" },
                     }));
                 }
-                else if (trimmedLine.startsWith('#### ')) {
+                else if (trimmedLine.startsWith("#### ")) {
                     const subSubHeadingText = trimmedLine.substring(5);
                     pageParagraphs.push(new docx_1.Paragraph({
                         children: parseMarkdownFormatting(subSubHeadingText, 22, "Arial"),
                         heading: docx_1.HeadingLevel.HEADING_3,
-                        spacing: { before: 200, after: 150 }
+                        spacing: { before: 200, after: 150, line: 480, lineRule: "auto" },
                     }));
                 }
                 else if (trimmedLine.match(/^<img[^>]+>$/)) {
@@ -243,11 +241,16 @@ function convertMarkdownToDocxPages(pages) {
                                             width: dimensions.width,
                                             height: dimensions.height,
                                         },
-                                        type: "png"
-                                    })
+                                        type: "png",
+                                    }),
                                 ],
                                 alignment: docx_1.AlignmentType.CENTER,
-                                spacing: { before: 200, after: 200 }
+                                spacing: {
+                                    before: 200,
+                                    after: 200,
+                                    line: 480,
+                                    lineRule: "auto",
+                                },
                             }));
                         }
                     }
@@ -259,11 +262,11 @@ function convertMarkdownToDocxPages(pages) {
                                     text: `[Immagine non disponibile: ${trimmedLine}]`,
                                     italics: true,
                                     color: "999999",
-                                    font: "Arial"
-                                })
+                                    font: "Arial",
+                                }),
                             ],
                             alignment: docx_1.AlignmentType.CENTER,
-                            spacing: { before: 200, after: 200 }
+                            spacing: { before: 200, after: 200, line: 480, lineRule: "auto" },
                         }));
                     }
                 }
@@ -271,27 +274,27 @@ function convertMarkdownToDocxPages(pages) {
                     // Salta i div center per numeri di pagina (verranno messi nel footer)
                     continue;
                 }
-                else if (trimmedLine.startsWith('|')) {
+                else if (trimmedLine.startsWith("|")) {
                     // Inizia una tabella - sempliciamo per ora
                     // Per ora tratta le tabelle come testo normale
                     pageParagraphs.push(new docx_1.Paragraph({
                         children: parseMarkdownFormatting(trimmedLine, 20, "Arial"),
-                        spacing: { before: 100, after: 100 }
+                        spacing: { before: 100, after: 100, line: 480, lineRule: "auto" },
                     }));
                 }
-                else if (trimmedLine.startsWith('-')) {
+                else if (trimmedLine.startsWith("-")) {
                     // Liste
                     pageParagraphs.push(new docx_1.Paragraph({
                         children: parseMarkdownFormatting(trimmedLine, 22, "Arial"),
-                        spacing: { before: 100, after: 100 },
-                        indent: { left: 720 }
+                        spacing: { before: 100, after: 100, line: 480, lineRule: "auto" },
+                        indent: { left: 720 },
                     }));
                 }
                 else {
                     // Testo normale
                     pageParagraphs.push(new docx_1.Paragraph({
                         children: parseMarkdownFormatting(trimmedLine, 22, "Arial"),
-                        spacing: { before: 100, after: 100 }
+                        spacing: { before: 100, after: 100, line: 480, lineRule: "auto" },
                     }));
                 }
             }
@@ -304,20 +307,20 @@ function convertMarkdownToDocxPages(pages) {
                                 text: page.pageNumber.toString(),
                                 size: 20,
                                 color: "666666",
-                                font: "Arial"
-                            })
+                                font: "Arial",
+                            }),
                         ],
-                        alignment: docx_1.AlignmentType.CENTER
-                    })
-                ]
+                        alignment: docx_1.AlignmentType.CENTER,
+                    }),
+                ],
             });
             // Crea la sezione per questa pagina con i suoi paragrafi e footer
             sections.push({
                 properties: {},
                 children: pageParagraphs,
                 footers: {
-                    default: footer
-                }
+                    default: footer,
+                },
             });
         }
         return sections;
@@ -327,35 +330,35 @@ function convertMarkdownToDocxPages(pages) {
 function createDocxFromMarkdown() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            console.log('Inizio conversione da Markdown a DOCX...');
+            console.log("Inizio conversione da Markdown a DOCX...");
             // Leggi il file markdown
-            const markdownPath = 'translations/it/final_book.md';
+            const markdownPath = "translations/it/final_book.md";
             if (!fs.existsSync(markdownPath)) {
                 throw new Error(`File markdown non trovato: ${markdownPath}`);
             }
-            const markdownContent = fs.readFileSync(markdownPath, 'utf-8');
-            console.log('File markdown letto correttamente');
+            const markdownContent = fs.readFileSync(markdownPath, "utf-8");
+            console.log("File markdown letto correttamente");
             // Dividi in pagine
             const pages = splitIntoPages(markdownContent);
             console.log(`Trovate ${pages.length} pagine`);
             // Converti in sezioni DOCX con footer
             const sections = yield convertMarkdownToDocxPages(pages);
-            console.log('Contenuto convertito in sezioni DOCX con footer');
+            console.log("Contenuto convertito in sezioni DOCX con footer");
             // Crea il documento
             const doc = new docx_1.Document({
-                sections: sections
+                sections: sections,
             });
             // Genera il buffer DOCX
             const buffer = yield docx_1.Packer.toBuffer(doc);
-            console.log('Documento DOCX generato');
+            console.log("Documento DOCX generato");
             // Salva il file
-            const outputPath = 'translations/it/final_book.docx';
+            const outputPath = "translations/it/final_book.docx";
             fs.writeFileSync(outputPath, buffer);
             console.log(`File DOCX salvato in: ${outputPath}`);
-            console.log('Conversione completata con successo!');
+            console.log("Conversione completata con successo!");
         }
         catch (error) {
-            console.error('Errore durante la conversione:', error);
+            console.error("Errore durante la conversione:", error);
             process.exit(1);
         }
     });
