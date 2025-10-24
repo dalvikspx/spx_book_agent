@@ -17,6 +17,7 @@ import {
 	TableRow,
 	TableCell,
 	WidthType,
+	ExternalHyperlink,
 } from "docx";
 import sharp from "sharp";
 
@@ -196,8 +197,8 @@ async function getTableImage(pageNumber: number): Promise<string> {
 	}
 }
 
-// Funzione per parsare la formattazione markdown e convertirla in TextRun array
-function parseMarkdownFormatting(
+// Funzione helper per processare grassetto e corsivo in un testo
+function processTextFormatting(
 	text: string,
 	baseSize: number,
 	baseFont: string
@@ -205,7 +206,6 @@ function parseMarkdownFormatting(
 	const textRuns: TextRun[] = [];
 
 	// Regex per trovare pattern di formattazione (grassetto e corsivo)
-	// Pattern complesso che gestisce anche formattazioni combinate
 	const formatRegex = /(\*\*[^*]+\*\*|_[^_]+_)/g;
 
 	let lastIndex = 0;
@@ -282,6 +282,60 @@ function parseMarkdownFormatting(
 	}
 
 	return textRuns;
+}
+
+// Funzione per parsare la formattazione markdown e convertirla in TextRun/ExternalHyperlink array
+function parseMarkdownFormatting(
+	text: string,
+	baseSize: number,
+	baseFont: string
+): (TextRun | ExternalHyperlink)[] {
+	const result: (TextRun | ExternalHyperlink)[] = [];
+
+	// Regex per trovare link markdown [testo](url)
+	const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+
+	let lastIndex = 0;
+	let match;
+
+	while ((match = linkRegex.exec(text)) !== null) {
+		// Processa testo prima del link
+		if (match.index > lastIndex) {
+			const textBefore = text.substring(lastIndex, match.index);
+			result.push(...processTextFormatting(textBefore, baseSize, baseFont));
+		}
+
+		const linkText = match[1];
+		const url = match[2];
+
+		// Se è un URL placeholder, aggiungi solo il testo senza hyperlink
+		if (url === "https://example.com/placeholder") {
+			result.push(...processTextFormatting(linkText, baseSize, baseFont));
+		} else {
+			// Crea un hyperlink con il testo formattato
+			result.push(
+				new ExternalHyperlink({
+					children: processTextFormatting(linkText, baseSize, baseFont),
+					link: url,
+				})
+			);
+		}
+
+		lastIndex = match.index + match[0].length;
+	}
+
+	// Processa testo rimanente dopo l'ultimo link
+	if (lastIndex < text.length) {
+		const remainingText = text.substring(lastIndex);
+		result.push(...processTextFormatting(remainingText, baseSize, baseFont));
+	}
+
+	// Se non ci sono link, processa solo la formattazione
+	if (result.length === 0) {
+		return processTextFormatting(text, baseSize, baseFont);
+	}
+
+	return result;
 }
 
 // Funzione per parsare una tabella markdown in oggetto Table DOCX
