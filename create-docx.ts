@@ -295,6 +295,9 @@ async function convertMarkdownToDocxPages(pages: PageContent[]) {
 			// Salta i div di chiusura </div>
 			if (trimmedLine === "</div>") continue;
 
+			// Salta il numero di pagina standalone solo se corrisponde al numero di pagina corrente (sarà nel footer)
+			if (trimmedLine === page.pageNumber.toString()) continue;
+
 			// Gestisci headings
 			if (trimmedLine.startsWith("# ")) {
 				// Se c'erano righe di tabella accumulate, crea la tabella

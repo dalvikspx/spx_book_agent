@@ -199,7 +199,7 @@ function parseMarkdownTable(tableLines) {
         .map((cell) => cell.trim());
     const numColumns = firstRowCells.length;
     // Larghezza totale utilizzabile per A4 con margini (circa 9000 DXA = 450 pt = 6.25 pollici)
-    const totalWidth = 90000;
+    const totalWidth = 9000;
     const columnWidth = Math.floor(totalWidth / numColumns);
     const tableRows = rows.map((line, index) => {
         const cells = line
@@ -259,6 +259,9 @@ function convertMarkdownToDocxPages(pages) {
                     continue;
                 // Salta i div di chiusura </div>
                 if (trimmedLine === "</div>")
+                    continue;
+                // Salta il numero di pagina standalone solo se corrisponde al numero di pagina corrente (sarà nel footer)
+                if (trimmedLine === page.pageNumber.toString())
                     continue;
                 // Gestisci headings
                 if (trimmedLine.startsWith("# ")) {
