@@ -46,6 +46,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.createDocxFromMarkdown = createDocxFromMarkdown;
+exports.processAllTranslations = processAllTranslations;
 const fs = __importStar(require("fs"));
 const path = __importStar(require("path"));
 const readline = __importStar(require("readline/promises"));
@@ -79,11 +80,11 @@ function splitIntoPages(markdownContent) {
     return pages;
 }
 // Funzione per processare le immagini
-function processImage(imagePath) {
+function processImage(imagePath, langCode) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             // Risolvi il percorso relativo rispetto al file markdown
-            const fullPath = path.resolve("translations/it", imagePath);
+            const fullPath = path.resolve(`translations/${langCode}`, imagePath);
             if (!fs.existsSync(fullPath)) {
                 console.warn(`Immagine non trovata: ${fullPath}`);
                 throw new Error(`Immagine non trovata: ${fullPath}`);
@@ -332,7 +333,7 @@ function parseMarkdownTable(tableLines) {
     });
 }
 // Funzione per convertire il contenuto markdown in sezioni DOCX con footer
-function convertMarkdownToDocxPages(pages) {
+function convertMarkdownToDocxPages(pages, langCode) {
     return __awaiter(this, void 0, void 0, function* () {
         const sections = [];
         for (const page of pages) {
@@ -565,7 +566,7 @@ function convertMarkdownToDocxPages(pages) {
                         const srcMatch = imgTag.match(/src="([^"]+)"/);
                         if (srcMatch) {
                             const imagePath = srcMatch[1];
-                            const { buffer: imageBuffer, metadata } = yield processImage(imagePath);
+                            const { buffer: imageBuffer, metadata } = yield processImage(imagePath, langCode);
                             const dimensions = calculateImageDimensions(imgTag, metadata.width, metadata.height);
                             pageParagraphs.push(new docx_1.Paragraph({
                                 children: [
@@ -757,15 +758,18 @@ function convertMarkdownToDocxPages(pages) {
         return sections;
     });
 }
-// Funzione principale
-function createDocxFromMarkdown() {
+// Funzione per convertire un singolo file markdown in DOCX
+function createDocxFromMarkdown(langCode) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            console.log("Inizio conversione da Markdown a DOCX...");
+            console.log(`\n${"=".repeat(60)}`);
+            console.log(`Conversione per lingua: ${langCode.toUpperCase()}`);
+            console.log("=".repeat(60));
             // Leggi il file markdown
-            const markdownPath = "translations/it/final_book.md";
+            const markdownPath = `translations/${langCode}/final_book.md`;
             if (!fs.existsSync(markdownPath)) {
-                throw new Error(`File markdown non trovato: ${markdownPath}`);
+                console.warn(`File markdown non trovato: ${markdownPath} - Salto`);
+                return;
             }
             const markdownContent = fs.readFileSync(markdownPath, "utf-8");
             console.log("File markdown letto correttamente");
@@ -773,7 +777,7 @@ function createDocxFromMarkdown() {
             const pages = splitIntoPages(markdownContent);
             console.log(`Trovate ${pages.length} pagine`);
             // Converti in sezioni DOCX con footer
-            const sections = yield convertMarkdownToDocxPages(pages);
+            const sections = yield convertMarkdownToDocxPages(pages, langCode);
             console.log("Contenuto convertito in sezioni DOCX con footer");
             // Crea il documento
             const doc = new docx_1.Document({
@@ -783,19 +787,64 @@ function createDocxFromMarkdown() {
             const buffer = yield docx_1.Packer.toBuffer(doc);
             console.log("Documento DOCX generato");
             // Salva il file
-            const outputPath = "translations/it/final_book.docx";
+            const outputPath = `translations/${langCode}/final_book.docx`;
             fs.writeFileSync(outputPath, buffer);
             console.log(`File DOCX salvato in: ${outputPath}`);
-            console.log("Conversione completata con successo!");
+            console.log(`✓ Conversione completata con successo per ${langCode}!`);
         }
         catch (error) {
-            console.error("Errore durante la conversione:", error);
+            console.error(`✗ Errore durante la conversione per ${langCode}:`, error);
+            throw error;
+        }
+    });
+}
+// Funzione per processare tutte le directory di traduzioni
+function processAllTranslations() {
+    return __awaiter(this, void 0, void 0, function* () {
+        try {
+            console.log("Inizio conversione di tutti i file markdown in DOCX...\n");
+            // Leggi tutte le directory in translations/
+            const translationsDir = "translations";
+            if (!fs.existsSync(translationsDir)) {
+                throw new Error(`Directory translations non trovata: ${translationsDir}`);
+            }
+            const entries = fs.readdirSync(translationsDir, { withFileTypes: true });
+            const languageDirs = entries
+                .filter((entry) => entry.isDirectory())
+                .map((entry) => entry.name)
+                .filter((name) => !name.startsWith(".")); // Escludi directory nascoste
+            console.log(`Trovate ${languageDirs.length} directory di traduzioni:`);
+            languageDirs.forEach((dir) => console.log(`  - ${dir}`));
+            // Processa ogni directory
+            let successCount = 0;
+            let errorCount = 0;
+            for (const langCode of languageDirs) {
+                try {
+                    yield createDocxFromMarkdown(langCode);
+                    successCount++;
+                }
+                catch (error) {
+                    console.error(`Errore per lingua ${langCode}:`, error);
+                    errorCount++;
+                }
+            }
+            // Riepilogo finale
+            console.log(`\n${"=".repeat(60)}`);
+            console.log("RIEPILOGO");
+            console.log("=".repeat(60));
+            console.log(`✓ Conversioni riuscite: ${successCount}`);
+            console.log(`✗ Conversioni fallite: ${errorCount}`);
+            console.log(`Totale directory processate: ${languageDirs.length}`);
+            console.log("=".repeat(60));
+        }
+        catch (error) {
+            console.error("Errore durante il processing delle traduzioni:", error);
             process.exit(1);
         }
     });
 }
 // Esegui la funzione principale
 if (require.main === module) {
-    createDocxFromMarkdown();
+    processAllTranslations();
 }
 //# sourceMappingURL=create-docx.js.map
