@@ -198,7 +198,9 @@ function parseMarkdownTable(tableLines) {
         .filter((cell) => cell.trim())
         .map((cell) => cell.trim());
     const numColumns = firstRowCells.length;
-    const columnWidth = Math.floor(100 / numColumns); // Larghezza in percentuale per colonna
+    // Larghezza totale utilizzabile per A4 con margini (circa 9000 DXA = 450 pt = 6.25 pollici)
+    const totalWidth = 90000;
+    const columnWidth = Math.floor(totalWidth / numColumns);
     const tableRows = rows.map((line, index) => {
         const cells = line
             .split("|")
@@ -214,13 +216,13 @@ function parseMarkdownTable(tableLines) {
                 ],
                 width: {
                     size: columnWidth,
-                    type: docx_1.WidthType.PERCENTAGE,
+                    type: docx_1.WidthType.DXA,
                 },
                 margins: {
-                    top: 100,
-                    bottom: 100,
-                    left: 100,
-                    right: 100,
+                    top: 150,
+                    bottom: 150,
+                    left: 200,
+                    right: 200,
                 },
                 // Header con sfondo grigio chiaro
                 shading: index === 0
@@ -234,7 +236,7 @@ function parseMarkdownTable(tableLines) {
     });
     return new docx_1.Table({
         rows: tableRows,
-        width: { size: 100, type: docx_1.WidthType.PERCENTAGE },
+        width: { size: totalWidth, type: docx_1.WidthType.DXA },
     });
 }
 // Funzione per convertire il contenuto markdown in sezioni DOCX con footer

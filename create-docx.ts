@@ -218,7 +218,10 @@ function parseMarkdownTable(tableLines: string[]): Table {
 		.filter((cell) => cell.trim())
 		.map((cell) => cell.trim());
 	const numColumns = firstRowCells.length;
-	const columnWidth = Math.floor(100 / numColumns); // Larghezza in percentuale per colonna
+
+	// Larghezza totale utilizzabile per A4 con margini (circa 9000 DXA = 450 pt = 6.25 pollici)
+	const totalWidth = 9000;
+	const columnWidth = Math.floor(totalWidth / numColumns);
 
 	const tableRows = rows.map((line, index) => {
 		const cells = line
@@ -241,13 +244,13 @@ function parseMarkdownTable(tableLines: string[]): Table {
 						],
 						width: {
 							size: columnWidth,
-							type: WidthType.PERCENTAGE,
+							type: WidthType.DXA,
 						},
 						margins: {
-							top: 100,
-							bottom: 100,
-							left: 100,
-							right: 100,
+							top: 150,
+							bottom: 150,
+							left: 200,
+							right: 200,
 						},
 						// Header con sfondo grigio chiaro
 						shading:
@@ -264,7 +267,7 @@ function parseMarkdownTable(tableLines: string[]): Table {
 
 	return new Table({
 		rows: tableRows,
-		width: { size: 100, type: WidthType.PERCENTAGE },
+		width: { size: totalWidth, type: WidthType.DXA },
 	});
 }
 
