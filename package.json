@@ -7,6 +7,7 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "build:start": "npm run build && npm run start",
+    "create-docx": "npm run build && node dist/create-docx.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -20,6 +21,7 @@
   },
   "dependencies": {
     "@openai/agents": "^0.0.17",
+    "docx": "^9.5.1",
     "dotenv": "^17.2.1",
     "image-size": "^2.0.2",
     "jimp": "^1.6.0",

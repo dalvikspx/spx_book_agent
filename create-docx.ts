@@ -1,0 +1,1039 @@
+import * as fs from "fs";
+import * as path from "path";
+import * as readline from "readline/promises";
+import MarkdownIt from "markdown-it";
+import {
+	Document,
+	Packer,
+	Paragraph,
+	TextRun,
+	ImageRun,
+	HeadingLevel,
+	AlignmentType,
+	PageBreak,
+	BorderStyle,
+	Footer,
+	Table,
+	TableRow,
+	TableCell,
+	WidthType,
+	ExternalHyperlink,
+} from "docx";
+import sharp from "sharp";
+
+// Configurazione markdown-it
+const md = new MarkdownIt();
+
+interface PageContent {
+	pageNumber: number;
+	content: string;
+	images: string[];
+}
+
+// Funzione per dividere il markdown in pagine
+function splitIntoPages(markdownContent: string): PageContent[] {
+	const pages: PageContent[] = [];
+	const sections = markdownContent.split(/<!-- page:\s*(\d+)\s*-->/);
+
+	for (let i = 1; i < sections.length; i += 2) {
+		if (sections[i]) {
+			const pageNumber = parseInt(sections[i]);
+			const content = sections[i + 1] || "";
+
+			// Estrai i percorsi delle immagini dal contenuto
+			const imageRegex = /<img[^>]+src="([^"]+)"[^>]*>/g;
+			const images: string[] = [];
+			let match;
+
+			while ((match = imageRegex.exec(content)) !== null) {
+				images.push(match[1]);
+			}
+
+			pages.push({
+				pageNumber,
+				content: content.trim(),
+				images,
+			});
+		}
+	}
+
+	return pages;
+}
+
+// Funzione per processare le immagini
+async function processImage(
+	imagePath: string,
+	langCode: string
+): Promise<{
+	buffer: Buffer;
+	metadata: { width: number; height: number };
+}> {
+	try {
+		// Risolvi il percorso relativo rispetto al file markdown
+		const fullPath = path.resolve(`translations/${langCode}`, imagePath);
+
+		if (!fs.existsSync(fullPath)) {
+			console.warn(`Immagine non trovata: ${fullPath}`);
+			throw new Error(`Immagine non trovata: ${fullPath}`);
+		}
+
+		// Usa sharp per convertire l'immagine in buffer e ottenere le dimensioni
+		const image = sharp(fullPath);
+		const metadata = await image.metadata();
+		const imageBuffer = await image.png().toBuffer();
+
+		return {
+			buffer: imageBuffer,
+			metadata: {
+				width: metadata.width || 300,
+				height: metadata.height || 200,
+			},
+		};
+	} catch (error) {
+		console.error(`Errore nel processare l'immagine ${imagePath}:`, error);
+		throw error;
+	}
+}
+
+// Larghezza massima per le immagini (in pixel) - circa 6 pollici per A4 con margini
+const MAX_IMAGE_WIDTH = 550;
+
+// Funzione per calcolare le dimensioni dell'immagine rispettando i limiti della pagina
+function calculateImageDimensions(
+	imgTag: string,
+	actualWidth: number,
+	actualHeight: number
+): {
+	width: number;
+	height: number;
+} {
+	// Prova a estrarre dimensioni dal tag HTML
+	const widthMatch = imgTag.match(/width="(\d+)"/);
+	const heightMatch = imgTag.match(/height="(\d+)"/);
+
+	let width = widthMatch ? parseInt(widthMatch[1]) : actualWidth;
+	let height = heightMatch ? parseInt(heightMatch[1]) : actualHeight;
+
+	// Se l'immagine è troppo larga, ridimensiona proporzionalmente
+	if (width > MAX_IMAGE_WIDTH) {
+		const ratio = MAX_IMAGE_WIDTH / width;
+		width = MAX_IMAGE_WIDTH;
+		height = Math.round(height * ratio);
+	}
+
+	return { width, height };
+}
+
+// Funzione per ottenere l'immagine di una tabella dalla directory extracted_images
+async function getTableImage(pageNumber: number): Promise<string> {
+	// Formatta il numero di pagina con padding (es: 18 -> "018")
+	const pageStr = pageNumber.toString().padStart(3, "0");
+	const dirPath = path.resolve("extracted_images", `page-${pageStr}`);
+
+	// Verifica se la directory esiste
+	if (!fs.existsSync(dirPath)) {
+		throw new Error(
+			`Directory non trovata per le immagini della pagina ${pageNumber}: ${dirPath}\n` +
+				`Assicurati di aver estratto le immagini delle tabelle in extracted_images/page-${pageStr}/`
+		);
+	}
+
+	// Lista tutti i file nella directory
+	const files = fs.readdirSync(dirPath);
+
+	// Filtra solo i file immagine
+	const imageExtensions = [".png", ".jpg", ".jpeg"];
+	const imageFiles = files.filter((file) =>
+		imageExtensions.includes(path.extname(file).toLowerCase())
+	);
+
+	// Caso: nessuna immagine trovata
+	if (imageFiles.length === 0) {
+		throw new Error(
+			`Nessuna immagine trovata nella directory ${dirPath}\n` +
+				`Aggiungi l'immagine della tabella per la pagina ${pageNumber} in questa directory.`
+		);
+	}
+
+	// Caso: esattamente un'immagine trovata
+	if (imageFiles.length === 1) {
+		console.log(
+			`Trovata 1 immagine per la tabella della pagina ${pageNumber}: ${imageFiles[0]}`
+		);
+		return path.join(dirPath, imageFiles[0]);
+	}
+
+	// Caso: multiple immagini trovate - chiedi all'utente
+	console.log(
+		`\nTrovate ${imageFiles.length} immagini nella directory page-${pageStr}:`
+	);
+	imageFiles.forEach((file, index) => {
+		console.log(`  ${index + 1}. ${file}`);
+	});
+
+	// Crea interfaccia readline per input utente
+	const rl = readline.createInterface({
+		input: process.stdin,
+		output: process.stdout,
+	});
+
+	try {
+		const answer = await rl.question(
+			`\nInserisci il nome del file immagine da utilizzare per la tabella: `
+		);
+		rl.close();
+
+		const selectedFile = answer.trim();
+
+		// Verifica che il file selezionato sia nella lista
+		if (!imageFiles.includes(selectedFile)) {
+			throw new Error(
+				`File "${selectedFile}" non trovato. File disponibili: ${imageFiles.join(", ")}`
+			);
+		}
+
+		console.log(`Utilizzo immagine: ${selectedFile}\n`);
+		return path.join(dirPath, selectedFile);
+	} catch (error) {
+		rl.close();
+		throw error;
+	}
+}
+
+// Funzione helper per processare grassetto e corsivo in un testo
+function processTextFormatting(
+	text: string,
+	baseSize: number,
+	baseFont: string
+): TextRun[] {
+	const textRuns: TextRun[] = [];
+
+	// Regex per trovare pattern di formattazione (grassetto e corsivo)
+	const formatRegex = /(\*\*[^*]+\*\*|_[^_]+_)/g;
+
+	let lastIndex = 0;
+	let match;
+
+	while ((match = formatRegex.exec(text)) !== null) {
+		// Aggiungi testo normale prima della formattazione
+		if (match.index > lastIndex) {
+			const normalText = text.substring(lastIndex, match.index);
+			if (normalText.trim()) {
+				textRuns.push(
+					new TextRun({
+						text: normalText,
+						size: baseSize,
+						font: baseFont,
+					})
+				);
+			}
+		}
+
+		const formattedText = match[0];
+
+		// Gestisci grassetto **testo**
+		if (formattedText.startsWith("**") && formattedText.endsWith("**")) {
+			const boldText = formattedText.slice(2, -2);
+			textRuns.push(
+				new TextRun({
+					text: boldText,
+					bold: true,
+					size: baseSize,
+					font: baseFont,
+				})
+			);
+		}
+		// Gestisci corsivo _testo_
+		else if (formattedText.startsWith("_") && formattedText.endsWith("_")) {
+			const italicText = formattedText.slice(1, -1);
+			textRuns.push(
+				new TextRun({
+					text: italicText,
+					italics: true,
+					size: baseSize,
+					font: baseFont,
+				})
+			);
+		}
+
+		lastIndex = match.index + match[0].length;
+	}
+
+	// Aggiungi testo rimanente dopo l'ultima formattazione
+	if (lastIndex < text.length) {
+		const remainingText = text.substring(lastIndex);
+		if (remainingText.trim()) {
+			textRuns.push(
+				new TextRun({
+					text: remainingText,
+					size: baseSize,
+					font: baseFont,
+				})
+			);
+		}
+	}
+
+	// Se non ci sono formattazioni, restituisci un solo TextRun con il testo originale
+	if (textRuns.length === 0) {
+		return [
+			new TextRun({
+				text: text,
+				size: baseSize,
+				font: baseFont,
+			}),
+		];
+	}
+
+	return textRuns;
+}
+
+// Funzione per parsare la formattazione markdown e convertirla in TextRun/ExternalHyperlink array
+function parseMarkdownFormatting(
+	text: string,
+	baseSize: number,
+	baseFont: string
+): (TextRun | ExternalHyperlink)[] {
+	const result: (TextRun | ExternalHyperlink)[] = [];
+
+	// Regex per trovare link markdown [testo](url)
+	const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+
+	let lastIndex = 0;
+	let match;
+
+	while ((match = linkRegex.exec(text)) !== null) {
+		// Processa testo prima del link
+		if (match.index > lastIndex) {
+			const textBefore = text.substring(lastIndex, match.index);
+			result.push(...processTextFormatting(textBefore, baseSize, baseFont));
+		}
+
+		const linkText = match[1];
+		const url = match[2];
+
+		// Se è un URL placeholder, aggiungi solo il testo senza hyperlink
+		if (url === "https://example.com/placeholder") {
+			result.push(...processTextFormatting(linkText, baseSize, baseFont));
+		} else {
+			// Crea un hyperlink con il testo formattato
+			result.push(
+				new ExternalHyperlink({
+					children: processTextFormatting(linkText, baseSize, baseFont),
+					link: url,
+				})
+			);
+		}
+
+		lastIndex = match.index + match[0].length;
+	}
+
+	// Processa testo rimanente dopo l'ultimo link
+	if (lastIndex < text.length) {
+		const remainingText = text.substring(lastIndex);
+		result.push(...processTextFormatting(remainingText, baseSize, baseFont));
+	}
+
+	// Se non ci sono link, processa solo la formattazione
+	if (result.length === 0) {
+		return processTextFormatting(text, baseSize, baseFont);
+	}
+
+	return result;
+}
+
+// Funzione per parsare una tabella markdown in oggetto Table DOCX
+function parseMarkdownTable(tableLines: string[]): Table {
+	// Filtra la riga separatore (|---|---|)
+	const rows = tableLines.filter((line) => !line.match(/^\|[\s:-]+\|/));
+
+	// Calcola il numero di colonne dalla prima riga
+	const firstRowCells = rows[0]
+		.split("|")
+		.filter((cell) => cell.trim())
+		.map((cell) => cell.trim());
+	const numColumns = firstRowCells.length;
+
+	// Larghezza totale utilizzabile per A4 con margini (circa 9000 DXA = 450 pt = 6.25 pollici)
+	const totalWidth = 9000;
+	const columnWidth = Math.floor(totalWidth / numColumns);
+
+	const tableRows = rows.map((line, index) => {
+		const cells = line
+			.split("|")
+			.filter((cell) => cell.trim())
+			.map((cell) => cell.trim());
+
+		return new TableRow({
+			children: cells.map(
+				(cellText) =>
+					new TableCell({
+						children: [
+							new Paragraph({
+								children: parseMarkdownFormatting(
+									cellText,
+									index === 0 ? 26 : 24, // Header più grande
+									"Arial"
+								),
+							}),
+						],
+						width: {
+							size: columnWidth,
+							type: WidthType.DXA,
+						},
+						margins: {
+							top: 150,
+							bottom: 150,
+							left: 200,
+							right: 200,
+						},
+						// Header con sfondo grigio chiaro
+						shading:
+							index === 0
+								? {
+										fill: "E0E0E0",
+										color: "auto",
+								  }
+								: undefined,
+					})
+			),
+		});
+	});
+
+	return new Table({
+		rows: tableRows,
+		width: { size: totalWidth, type: WidthType.DXA },
+	});
+}
+
+// Funzione per convertire il contenuto markdown in sezioni DOCX con footer
+async function convertMarkdownToDocxPages(
+	pages: PageContent[],
+	langCode: string
+) {
+	const sections: any[] = [];
+
+	for (const page of pages) {
+		// Array per i paragrafi di questa pagina specifica
+		const pageParagraphs: Paragraph[] = [];
+
+		// Processa il contenuto della pagina
+		const lines = page.content.split("\n");
+		let tableLines: string[] = [];
+
+		for (const line of lines) {
+			const trimmedLine = line.trim();
+
+			// Salta le linee vuote
+			if (!trimmedLine) continue;
+
+			// Salta i separatori "---"
+			if (trimmedLine === "---") continue;
+
+			// Salta i div di chiusura </div>
+			if (trimmedLine === "</div>") continue;
+
+			// Salta il numero di pagina standalone solo se corrisponde al numero di pagina corrente (sarà nel footer)
+			if (trimmedLine === page.pageNumber.toString()) continue;
+
+			// Gestisci headings
+			if (trimmedLine.startsWith("# ")) {
+				// Se c'erano righe di tabella accumulate, carica l'immagine della tabella
+				if (tableLines.length > 0) {
+					try {
+						const tableImagePath = await getTableImage(page.pageNumber);
+						const image = sharp(tableImagePath);
+						const metadata = await image.metadata();
+						const imageBuffer = await image.png().toBuffer();
+
+						const dimensions = calculateImageDimensions(
+							"",
+							metadata.width || 300,
+							metadata.height || 200
+						);
+
+						pageParagraphs.push(
+							new Paragraph({
+								children: [
+									new ImageRun({
+										data: imageBuffer,
+										transformation: {
+											width: dimensions.width,
+											height: dimensions.height,
+										},
+										type: "png",
+									}),
+								],
+								alignment: AlignmentType.CENTER,
+								spacing: {
+									before: 200,
+									after: 200,
+									line: 480,
+									lineRule: "auto",
+								},
+							})
+						);
+						tableLines = [];
+					} catch (error) {
+						console.error(
+							`Errore nel caricare l'immagine della tabella per la pagina ${page.pageNumber}:`,
+							error
+						);
+						throw error;
+					}
+				}
+				const titleText = trimmedLine.substring(2);
+				pageParagraphs.push(
+					new Paragraph({
+						children: parseMarkdownFormatting(titleText, 36, "Arial"),
+						heading: HeadingLevel.TITLE,
+						spacing: { before: 400, after: 300, line: 480, lineRule: "auto" },
+					})
+				);
+			} else if (trimmedLine.startsWith("## ")) {
+				// Se c'erano righe di tabella accumulate, carica l'immagine della tabella
+				if (tableLines.length > 0) {
+					try {
+						const tableImagePath = await getTableImage(page.pageNumber);
+						const image = sharp(tableImagePath);
+						const metadata = await image.metadata();
+						const imageBuffer = await image.png().toBuffer();
+
+						const dimensions = calculateImageDimensions(
+							"",
+							metadata.width || 300,
+							metadata.height || 200
+						);
+
+						pageParagraphs.push(
+							new Paragraph({
+								children: [
+									new ImageRun({
+										data: imageBuffer,
+										transformation: {
+											width: dimensions.width,
+											height: dimensions.height,
+										},
+										type: "png",
+									}),
+								],
+								alignment: AlignmentType.CENTER,
+								spacing: {
+									before: 200,
+									after: 200,
+									line: 480,
+									lineRule: "auto",
+								},
+							})
+						);
+						tableLines = [];
+					} catch (error) {
+						console.error(
+							`Errore nel caricare l'immagine della tabella per la pagina ${page.pageNumber}:`,
+							error
+						);
+						throw error;
+					}
+				}
+				const headingText = trimmedLine.substring(3);
+				pageParagraphs.push(
+					new Paragraph({
+						children: parseMarkdownFormatting(headingText, 32, "Arial"),
+						heading: HeadingLevel.HEADING_1,
+						spacing: { before: 300, after: 200, line: 480, lineRule: "auto" },
+					})
+				);
+			} else if (trimmedLine.startsWith("### ")) {
+				// Se c'erano righe di tabella accumulate, carica l'immagine della tabella
+				if (tableLines.length > 0) {
+					try {
+						const tableImagePath = await getTableImage(page.pageNumber);
+						const image = sharp(tableImagePath);
+						const metadata = await image.metadata();
+						const imageBuffer = await image.png().toBuffer();
+
+						const dimensions = calculateImageDimensions(
+							"",
+							metadata.width || 300,
+							metadata.height || 200
+						);
+
+						pageParagraphs.push(
+							new Paragraph({
+								children: [
+									new ImageRun({
+										data: imageBuffer,
+										transformation: {
+											width: dimensions.width,
+											height: dimensions.height,
+										},
+										type: "png",
+									}),
+								],
+								alignment: AlignmentType.CENTER,
+								spacing: {
+									before: 200,
+									after: 200,
+									line: 480,
+									lineRule: "auto",
+								},
+							})
+						);
+						tableLines = [];
+					} catch (error) {
+						console.error(
+							`Errore nel caricare l'immagine della tabella per la pagina ${page.pageNumber}:`,
+							error
+						);
+						throw error;
+					}
+				}
+				const subHeadingText = trimmedLine.substring(4);
+				pageParagraphs.push(
+					new Paragraph({
+						children: parseMarkdownFormatting(subHeadingText, 28, "Arial"),
+						heading: HeadingLevel.HEADING_2,
+						spacing: { before: 200, after: 150, line: 480, lineRule: "auto" },
+					})
+				);
+			} else if (trimmedLine.startsWith("#### ")) {
+				// Se c'erano righe di tabella accumulate, carica l'immagine della tabella
+				if (tableLines.length > 0) {
+					try {
+						const tableImagePath = await getTableImage(page.pageNumber);
+						const image = sharp(tableImagePath);
+						const metadata = await image.metadata();
+						const imageBuffer = await image.png().toBuffer();
+
+						const dimensions = calculateImageDimensions(
+							"",
+							metadata.width || 300,
+							metadata.height || 200
+						);
+
+						pageParagraphs.push(
+							new Paragraph({
+								children: [
+									new ImageRun({
+										data: imageBuffer,
+										transformation: {
+											width: dimensions.width,
+											height: dimensions.height,
+										},
+										type: "png",
+									}),
+								],
+								alignment: AlignmentType.CENTER,
+								spacing: {
+									before: 200,
+									after: 200,
+									line: 480,
+									lineRule: "auto",
+								},
+							})
+						);
+						tableLines = [];
+					} catch (error) {
+						console.error(
+							`Errore nel caricare l'immagine della tabella per la pagina ${page.pageNumber}:`,
+							error
+						);
+						throw error;
+					}
+				}
+				const subSubHeadingText = trimmedLine.substring(5);
+				pageParagraphs.push(
+					new Paragraph({
+						children: parseMarkdownFormatting(subSubHeadingText, 26, "Arial"),
+						heading: HeadingLevel.HEADING_3,
+						spacing: { before: 200, after: 150, line: 480, lineRule: "auto" },
+					})
+				);
+			} else if (trimmedLine.match(/^<img[^>]+>$/)) {
+				// Se c'erano righe di tabella accumulate, carica l'immagine della tabella
+				if (tableLines.length > 0) {
+					try {
+						const tableImagePath = await getTableImage(page.pageNumber);
+						const image = sharp(tableImagePath);
+						const metadata = await image.metadata();
+						const imageBuffer = await image.png().toBuffer();
+
+						const dimensions = calculateImageDimensions(
+							"",
+							metadata.width || 300,
+							metadata.height || 200
+						);
+
+						pageParagraphs.push(
+							new Paragraph({
+								children: [
+									new ImageRun({
+										data: imageBuffer,
+										transformation: {
+											width: dimensions.width,
+											height: dimensions.height,
+										},
+										type: "png",
+									}),
+								],
+								alignment: AlignmentType.CENTER,
+								spacing: {
+									before: 200,
+									after: 200,
+									line: 480,
+									lineRule: "auto",
+								},
+							})
+						);
+						tableLines = [];
+					} catch (error) {
+						console.error(
+							`Errore nel caricare l'immagine della tabella per la pagina ${page.pageNumber}:`,
+							error
+						);
+						throw error;
+					}
+				}
+				// Gestisci immagini
+				try {
+					const imgTag = trimmedLine;
+					const srcMatch = imgTag.match(/src="([^"]+)"/);
+
+					if (srcMatch) {
+						const imagePath = srcMatch[1];
+						const { buffer: imageBuffer, metadata } = await processImage(
+							imagePath,
+							langCode
+						);
+						const dimensions = calculateImageDimensions(
+							imgTag,
+							metadata.width,
+							metadata.height
+						);
+
+						pageParagraphs.push(
+							new Paragraph({
+								children: [
+									new ImageRun({
+										data: imageBuffer,
+										transformation: {
+											width: dimensions.width,
+											height: dimensions.height,
+										},
+										type: "png",
+									}),
+								],
+								alignment: AlignmentType.CENTER,
+								spacing: {
+									before: 200,
+									after: 200,
+									line: 480,
+									lineRule: "auto",
+								},
+							})
+						);
+					}
+				} catch (error) {
+					// In caso di errore con l'immagine, aggiungi un placeholder
+					pageParagraphs.push(
+						new Paragraph({
+							children: [
+								new TextRun({
+									text: `[Immagine non disponibile: ${trimmedLine}]`,
+									italics: true,
+									color: "999999",
+									font: "Arial",
+								}),
+							],
+							alignment: AlignmentType.CENTER,
+							spacing: { before: 200, after: 200, line: 480, lineRule: "auto" },
+						})
+					);
+				}
+			} else if (trimmedLine.match(/^<div align="center">/)) {
+				// Salta i div center per numeri di pagina (verranno messi nel footer)
+				continue;
+			} else if (trimmedLine.startsWith("|")) {
+				// Accumula righe di tabella
+				tableLines.push(trimmedLine);
+			} else if (trimmedLine.startsWith("-")) {
+				// Se c'erano righe di tabella accumulate, carica l'immagine della tabella
+				if (tableLines.length > 0) {
+					try {
+						const tableImagePath = await getTableImage(page.pageNumber);
+						const image = sharp(tableImagePath);
+						const metadata = await image.metadata();
+						const imageBuffer = await image.png().toBuffer();
+
+						const dimensions = calculateImageDimensions(
+							"",
+							metadata.width || 300,
+							metadata.height || 200
+						);
+
+						pageParagraphs.push(
+							new Paragraph({
+								children: [
+									new ImageRun({
+										data: imageBuffer,
+										transformation: {
+											width: dimensions.width,
+											height: dimensions.height,
+										},
+										type: "png",
+									}),
+								],
+								alignment: AlignmentType.CENTER,
+								spacing: {
+									before: 200,
+									after: 200,
+									line: 480,
+									lineRule: "auto",
+								},
+							})
+						);
+						tableLines = [];
+					} catch (error) {
+						console.error(
+							`Errore nel caricare l'immagine della tabella per la pagina ${page.pageNumber}:`,
+							error
+						);
+						throw error;
+					}
+				}
+				// Liste
+				pageParagraphs.push(
+					new Paragraph({
+						children: parseMarkdownFormatting(trimmedLine, 26, "Arial"),
+						spacing: { before: 100, after: 100, line: 480, lineRule: "auto" },
+						indent: { left: 720 },
+					})
+				);
+			} else {
+				// Se c'erano righe di tabella accumulate, carica l'immagine della tabella
+				if (tableLines.length > 0) {
+					try {
+						const tableImagePath = await getTableImage(page.pageNumber);
+						const image = sharp(tableImagePath);
+						const metadata = await image.metadata();
+						const imageBuffer = await image.png().toBuffer();
+
+						const dimensions = calculateImageDimensions(
+							"",
+							metadata.width || 300,
+							metadata.height || 200
+						);
+
+						pageParagraphs.push(
+							new Paragraph({
+								children: [
+									new ImageRun({
+										data: imageBuffer,
+										transformation: {
+											width: dimensions.width,
+											height: dimensions.height,
+										},
+										type: "png",
+									}),
+								],
+								alignment: AlignmentType.CENTER,
+								spacing: {
+									before: 200,
+									after: 200,
+									line: 480,
+									lineRule: "auto",
+								},
+							})
+						);
+						tableLines = [];
+					} catch (error) {
+						console.error(
+							`Errore nel caricare l'immagine della tabella per la pagina ${page.pageNumber}:`,
+							error
+						);
+						throw error;
+					}
+				}
+				// Testo normale
+				pageParagraphs.push(
+					new Paragraph({
+						children: parseMarkdownFormatting(trimmedLine, 26, "Arial"),
+						spacing: { before: 100, after: 100, line: 480, lineRule: "auto" },
+					})
+				);
+			}
+		}
+
+		// Se ci sono righe di tabella alla fine della pagina, carica l'immagine della tabella
+		if (tableLines.length > 0) {
+			try {
+				const tableImagePath = await getTableImage(page.pageNumber);
+				const image = sharp(tableImagePath);
+				const metadata = await image.metadata();
+				const imageBuffer = await image.png().toBuffer();
+
+				const dimensions = calculateImageDimensions(
+					"",
+					metadata.width || 300,
+					metadata.height || 200
+				);
+
+				pageParagraphs.push(
+					new Paragraph({
+						children: [
+							new ImageRun({
+								data: imageBuffer,
+								transformation: {
+									width: dimensions.width,
+									height: dimensions.height,
+								},
+								type: "png",
+							}),
+						],
+						alignment: AlignmentType.CENTER,
+						spacing: {
+							before: 200,
+							after: 200,
+							line: 480,
+							lineRule: "auto",
+						},
+					})
+				);
+			} catch (error) {
+				console.error(
+					`Errore nel caricare l'immagine della tabella per la pagina ${page.pageNumber}:`,
+					error
+				);
+				throw error;
+			}
+		}
+
+		// Crea il footer con il numero di pagina per questa pagina
+		const footer = new Footer({
+			children: [
+				new Paragraph({
+					children: [
+						new TextRun({
+							text: page.pageNumber.toString(),
+							size: 24,
+							color: "666666",
+							font: "Arial",
+						}),
+					],
+					alignment: AlignmentType.CENTER,
+				}),
+			],
+		});
+
+		// Crea la sezione per questa pagina con i suoi paragrafi e footer
+		sections.push({
+			properties: {},
+			children: pageParagraphs,
+			footers: {
+				default: footer,
+			},
+		});
+	}
+
+	return sections;
+}
+
+// Funzione per convertire un singolo file markdown in DOCX
+async function createDocxFromMarkdown(langCode: string) {
+	try {
+		console.log(`\n${"=".repeat(60)}`);
+		console.log(`Conversione per lingua: ${langCode.toUpperCase()}`);
+		console.log("=".repeat(60));
+
+		// Leggi il file markdown
+		const markdownPath = `translations/${langCode}/final_book.md`;
+		if (!fs.existsSync(markdownPath)) {
+			console.warn(`File markdown non trovato: ${markdownPath} - Salto`);
+			return;
+		}
+
+		const markdownContent = fs.readFileSync(markdownPath, "utf-8");
+		console.log("File markdown letto correttamente");
+
+		// Dividi in pagine
+		const pages = splitIntoPages(markdownContent);
+		console.log(`Trovate ${pages.length} pagine`);
+
+		// Converti in sezioni DOCX con footer
+		const sections = await convertMarkdownToDocxPages(pages, langCode);
+		console.log("Contenuto convertito in sezioni DOCX con footer");
+
+		// Crea il documento
+		const doc = new Document({
+			sections: sections,
+		});
+
+		// Genera il buffer DOCX
+		const buffer = await Packer.toBuffer(doc);
+		console.log("Documento DOCX generato");
+
+		// Salva il file
+		const outputPath = `translations/${langCode}/final_book.docx`;
+		fs.writeFileSync(outputPath, buffer);
+		console.log(`File DOCX salvato in: ${outputPath}`);
+
+		console.log(`✓ Conversione completata con successo per ${langCode}!`);
+	} catch (error) {
+		console.error(`✗ Errore durante la conversione per ${langCode}:`, error);
+		throw error;
+	}
+}
+
+// Funzione per processare tutte le directory di traduzioni
+async function processAllTranslations() {
+	try {
+		console.log("Inizio conversione di tutti i file markdown in DOCX...\n");
+
+		// Leggi tutte le directory in translations/
+		const translationsDir = "translations";
+		if (!fs.existsSync(translationsDir)) {
+			throw new Error(`Directory translations non trovata: ${translationsDir}`);
+		}
+
+		const entries = fs.readdirSync(translationsDir, { withFileTypes: true });
+		const languageDirs = entries
+			.filter((entry) => entry.isDirectory())
+			.map((entry) => entry.name)
+			.filter((name) => !name.startsWith(".")); // Escludi directory nascoste
+
+		console.log(`Trovate ${languageDirs.length} directory di traduzioni:`);
+		languageDirs.forEach((dir) => console.log(`  - ${dir}`));
+
+		// Processa ogni directory
+		let successCount = 0;
+		let errorCount = 0;
+
+		for (const langCode of languageDirs) {
+			try {
+				await createDocxFromMarkdown(langCode);
+				successCount++;
+			} catch (error) {
+				console.error(`Errore per lingua ${langCode}:`, error);
+				errorCount++;
+			}
+		}
+
+		// Riepilogo finale
+		console.log(`\n${"=".repeat(60)}`);
+		console.log("RIEPILOGO");
+		console.log("=".repeat(60));
+		console.log(`✓ Conversioni riuscite: ${successCount}`);
+		console.log(`✗ Conversioni fallite: ${errorCount}`);
+		console.log(`Totale directory processate: ${languageDirs.length}`);
+		console.log("=".repeat(60));
+	} catch (error) {
+		console.error("Errore durante il processing delle traduzioni:", error);
+		process.exit(1);
+	}
+}
+
+// Esegui la funzione principale
+if (require.main === module) {
+	processAllTranslations();
+}
+
+export { createDocxFromMarkdown, processAllTranslations };
